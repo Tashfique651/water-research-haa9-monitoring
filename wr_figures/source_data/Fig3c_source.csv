@@ -1,0 +1,6 @@
+source_panel,source_input_path,class,system_equivalents,fraction
+c,wr_results/playbook_extension/mechanism_systems.parquet,Already detected,160.5,0.20871261378413525
+c,wr_results/playbook_extension/mechanism_systems.parquet,Panel only,116.58333333333331,0.15160381447767662
+c,wr_results/playbook_extension/mechanism_systems.parquet,Design only,238.33333333333334,0.30992631122670133
+c,wr_results/playbook_extension/mechanism_systems.parquet,Either alone suffices,45.166666666666664,0.05873428695275249
+c,wr_results/playbook_extension/mechanism_systems.parquet,Both required,208.41666666666666,0.2710229735587343

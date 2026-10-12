@@ -1,0 +1,21 @@
+Policy and information,Target %,HAA5 sensitivity / follow-up %,HAA9 sensitivity / follow-up %,Gain pp (pointwise 95%),Simultaneous 95% pp
+"Training cutoff, Totals",5,16.67 / 4.89,18.10 / 5.05,1.43 (-0.49 to 3.41),-2.32 to 5.18
+"Training cutoff, Totals",10,28.79 / 10.05,32.62 / 9.90,3.83 (1.06 to 6.61),0.08 to 7.58
+"Training cutoff, Totals",15,39.29 / 14.92,42.86 / 14.98,3.57 (0.75 to 6.41),-0.18 to 7.32
+"Training cutoff, Totals",20,50.24 / 20.04,52.62 / 19.95,2.38 (-0.69 to 5.49),-1.37 to 6.13
+"Training cutoff, Totals",30,64.05 / 30.12,69.05 / 29.82,5.00 (2.07 to 8.10),1.25 to 8.75
+"Training cutoff, Species",5,17.86 / 5.01,20.71 / 5.08,2.86 (0.00 to 5.78),-1.39 to 7.11
+"Training cutoff, Species",10,31.19 / 10.05,33.33 / 9.90,2.14 (-1.03 to 5.28),-2.11 to 6.39
+"Training cutoff, Species",15,41.90 / 14.76,44.76 / 15.21,2.86 (-0.25 to 6.18),-1.39 to 7.11
+"Training cutoff, Species",20,52.14 / 19.76,52.62 / 20.41,0.48 (-2.70 to 3.71),-3.78 to 4.73
+"Training cutoff, Species",30,65.71 / 30.08,66.19 / 29.89,0.48 (-2.93 to 4.03),-3.78 to 4.73
+"Exact capacity, Totals",5,17.14 / 4.89,17.62 / 4.89,0.48 (-1.99 to 2.93),-3.26 to 4.21
+"Exact capacity, Totals",10,28.57 / 9.90,32.38 / 9.90,3.81 (1.18 to 6.54),0.07 to 7.54
+"Exact capacity, Totals",15,40.24 / 14.87,42.38 / 14.87,2.14 (-0.68 to 4.93),-1.59 to 5.88
+"Exact capacity, Totals",20,50.71 / 19.92,53.10 / 19.92,2.38 (-0.51 to 5.35),-1.35 to 6.12
+"Exact capacity, Totals",30,64.76 / 29.93,69.05 / 29.93,4.29 (1.21 to 7.49),0.55 to 8.02
+"Exact capacity, Species",5,17.38 / 4.89,19.29 / 4.89,1.90 (-1.19 to 4.93),-2.36 to 6.17
+"Exact capacity, Species",10,30.00 / 9.90,33.33 / 9.90,3.33 (0.23 to 6.46),-0.93 to 7.60
+"Exact capacity, Species",15,41.90 / 14.87,43.33 / 14.87,1.43 (-1.97 to 4.84),-2.84 to 5.70
+"Exact capacity, Species",20,52.38 / 19.92,52.14 / 19.92,-0.24 (-3.54 to 3.07),-4.50 to 4.03
+"Exact capacity, Species",30,65.24 / 29.93,67.38 / 29.93,2.14 (-1.23 to 5.61),-2.12 to 6.41

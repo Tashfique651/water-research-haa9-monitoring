@@ -1,0 +1,12 @@
+analysis,status,recommendation,qualification
+A1 interaction scales and inference,implemented,KEEP IN MAIN TEXT,Report additive and multiplicative scales together. Wild sign-flip p-values are secondary and require sign exchangeability.
+A2 operational round policies,implemented,KEEP WARM-SEASON RESULT IN MAIN; MOVE TOC AND ORACLE TO SI,"Warm season is prespecified; TOC has partial, non-hydraulic event-code linkage; HAA9 oracle is nonprospective."
+A3 mechanism and heterogeneity,implemented,KEEP CONCISE BROMIDE/TOC AND COMPOSITION RESULT IN MAIN; FULL MODELS IN SI,Bromide and TOC models are complete-case associations; composition predictors are descriptive.
+A4 equivalence and cost-ratio frontier,implemented,KEEP FOUR-SAMPLE EQUIVALENCE IN MAIN; KEEP COST-RATIO FRONTIER AS SCENARIO SENSITIVITY,"Uniform physical-sample selection and hypothetical relative costs, not observed dollars."
+A5 LRAA and OEL analogues plus panel candidates,implemented,KEEP ONE COMPACT MAIN-TEXT PANEL; PUT FULL WINDOWS AND DISCLAIMERS IN SI,Research analogues only; consecutive-quarter support is incomplete; HAA5+BCAA uses frozen species data.
+A6 population weighting,implemented as sensitivity,KEEP IN SI AND MENTION DIRECTION IN MAIN,EPA SYR4 population coverage is incomplete for UCMR4 systems.
+A7 map,data implemented,DROP FROM MAIN UNLESS SPACE ALLOWS; USE IN SI,State-level values are supplied for plotting; small state counts require visual suppression or annotation.
+A8 fixed-B60 cohort threshold sensitivity,implemented,KEEP FIXED-COHORT CURVE IN MAIN ROBUSTNESS FIGURE,Reported beside threshold-specific cohorts to distinguish estimand drift.
+A9 negative controls,implemented,KEEP NESTED NULL IN SI; USE SAME-SIZE PANEL ENUMERATION AS SI SENSITIVITY,"Duplicate-panel null is exact; same-size species enumeration is a sensitivity, not a formal exchangeability test."
+Highest-temperature round policy,not implemented,DROP,No co-located temperature variable exists; calendar season is used without fabricated climate data.
+National population-representative inference,not supportable,DROP NATIONAL CLAIM,The available population join covers only a subset of eligible systems.

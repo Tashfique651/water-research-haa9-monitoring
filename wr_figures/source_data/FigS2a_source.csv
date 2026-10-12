@@ -1,0 +1,15 @@
+source_panel,source_input_path,source,round_count,systems
+a,wr_results/core/support_systems.csv,Groundwater,1,106
+a,wr_results/core/support_systems.csv,Groundwater,2,1848
+a,wr_results/core/support_systems.csv,Groundwater under influence,3,6
+a,wr_results/core/support_systems.csv,Groundwater under influence,4,50
+a,wr_results/core/support_systems.csv,Mixed,1,2
+a,wr_results/core/support_systems.csv,Mixed,2,14
+a,wr_results/core/support_systems.csv,Mixed,3,68
+a,wr_results/core/support_systems.csv,Mixed,4,574
+a,wr_results/core/support_systems.csv,Multiple types,3,8
+a,wr_results/core/support_systems.csv,Multiple types,4,73
+a,wr_results/core/support_systems.csv,Surface water,1,4
+a,wr_results/core/support_systems.csv,Surface water,2,34
+a,wr_results/core/support_systems.csv,Surface water,3,121
+a,wr_results/core/support_systems.csv,Surface water,4,1996

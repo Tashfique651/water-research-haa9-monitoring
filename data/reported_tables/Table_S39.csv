@@ -1,0 +1,5 @@
+Rule,Triads / plants / utilities,"Mean, µg/L","Pointwise 95%, µg/L","Censoring range, µg/L"
+primary,213 / 95 / 72,3.73,2.34 to 5.43,-6.07 to 13.23
+all matched,416 / 130 / 84,3.20,1.84 to 4.63,-6.53 to 12.70
+pH matched,185 / 91 / 71,3.65,2.24 to 5.32,-6.10 to 13.13
+unflagged,212 / 95 / 72,3.79,2.45 to 5.43,-6.01 to 13.30

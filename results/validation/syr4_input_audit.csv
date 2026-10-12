@@ -1,0 +1,3 @@
+analyte,raw_rows,missing_sample_id_rows,systems,nonmissing_sample_keys,consistent_duplicate_keys_collapsed,conflicting_duplicate_keys_excluded,rows_in_conflicting_keys
+HAA5,1005235,252528,43577,752451,2,246,500
+TTHM,1089557,314544,46297,774767,0,215,461

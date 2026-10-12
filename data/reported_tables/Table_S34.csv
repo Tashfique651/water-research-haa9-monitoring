@@ -1,0 +1,13 @@
+Analysis,Support and target,Uncertainty / status,Boundary
+Primary panel × round comparison,769 B60-reference-positive systems,Paired PWS bootstrap; p₁₁ fixed at one,Within-record decomposition
+Complete sample budgets,1–16 samples; 32 paired contrasts,"10,000 PWS resamples; standardized simultaneous band",Retrospective curve; not a field threshold
+Four-sample detection exchange,769 reference-positive systems,Expected gain and loss; pointwise intervals,Not realized field transitions
+Equal-count allocation,668 common positive systems,Nine disjoint margin × rule contrasts,"Equal samples, not equal visits or cost"
+Earlier site targeting,420 later-positive systems,Paired history rules; pointwise intervals,Within-system allocation; historical costs excluded
+Calibrated system screening,"2,636 systems, including later negatives",Five-target bands conditional on fitted rules,Between-system priority; retraining uncertainty omitted
+Exact-capacity screening,Identical held-out slots,Added after cutoff results were inspected,Batch-ranking sensitivity
+Matched averaging,"2,487 systems; 11,135 windows",End-window and any-window OEL kept separate,"Research analogs, not compliance"
+Component-MRL interaction bounds,Mandatory and optional reference membership,Deterministic sharp extrema,Quantified concentrations and support fixed
+Source models / error envelopes,Explicit complete cases and assumed intervals,Descriptive / exploratory,No causal or laboratory-precision inference
+Processed-record verification,Primary and specified bound/allocation outputs,Release records: 33 file comparisons; 76 tests,Does not certify every historical fitted extension
+Other archives,Panel- and period-specific support,Component checks only,No full independent HAA5–HAA9 allocation replication

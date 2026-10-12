@@ -1,0 +1,4 @@
+analysis,spearman_rho,cluster_bootstrap_ci_low,cluster_bootstrap_ci_high,n_pairs,n_systems,bootstrap_method,bootstrap_reps
+both_detected,0.618521159754343,0.6092403406610833,0.627846702293163,436150,19511,whole-system resampling of fixed global midranks,10000
+finite_interval_midpoints,0.7156362701549485,0.708727837086926,0.7224526757201354,510772,25671,whole-system resampling of fixed global midranks,10000
+system_median_detected,0.7869302906317077,0.7811288140450355,0.792760578938958,19511,19511,whole-system resampling of system medians,10000

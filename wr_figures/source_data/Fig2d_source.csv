@@ -1,0 +1,6 @@
+source_panel,source_input_path,quantile,fraction,HAA9_positive_events
+d,data/processed/ucmr4/paired_haa_events.parquet,0.1,0.06291834002677373,61193
+d,data/processed/ucmr4/paired_haa_events.parquet,0.25,0.13357712574505454,61193
+d,data/processed/ucmr4/paired_haa_events.parquet,0.5,0.253012048192771,61193
+d,data/processed/ucmr4/paired_haa_events.parquet,0.75,0.4002389486260454,61193
+d,data/processed/ucmr4/paired_haa_events.parquet,0.9,0.5022817192231207,61193

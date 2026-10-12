@@ -1,0 +1,5 @@
+source_panel,source_input_path,endpoint,panel,supported_systems,positive_systems,positive_fraction,HAA9_benchmark_positive_systems,capture_among_HAA9_positive_systems,additional_positive_systems_vs_HAA5
+c,wr_results/playbook_extension/regulation_shaped_endpoint_summary.csv,single_sample_maximum,HAA5,4904,444,0.0905383360522022,769,0.577373211963589,0
+c,wr_results/playbook_extension/regulation_shaped_endpoint_summary.csv,single_sample_maximum,HAA5_plus_BCAA,4904,580,0.1182707993474714,769,0.7542262678803641,136
+c,wr_results/playbook_extension/regulation_shaped_endpoint_summary.csv,single_sample_maximum,HAA6Br,4904,23,0.0046900489396411,769,0.0299089726918075,9
+c,wr_results/playbook_extension/regulation_shaped_endpoint_summary.csv,single_sample_maximum,HAA9,4904,769,0.156810766721044,769,1.0,325

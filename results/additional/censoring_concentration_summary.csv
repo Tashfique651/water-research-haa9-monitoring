@@ -1,0 +1,33 @@
+cohort_id,cohort_label,scope_role,analyte,censoring_summary,threshold_ug_l,n_pairs,n_systems,mean_ug_l,median_ug_l,q25_ug_l,q75_ug_l,p95_ug_l,median_scaled_to_threshold,p95_scaled_to_threshold
+SYR3_primary,SYR3 2006 to 2011,primary replication,HAA5,detected_only,60.0,195832,11539,27.296483431614853,23.0,12.2,36.7,64.4,0.38333333333333336,1.0733333333333335
+SYR3_primary,SYR3 2006 to 2011,primary replication,HAA5,lower_bound,60.0,237383,16999,22.518566802930287,18.7,4.2,33.0,60.8,0.31166666666666665,1.0133333333333332
+SYR3_primary,SYR3 2006 to 2011,primary replication,HAA5,midpoint_limit_over_2,60.0,220298,15961,24.56471100989342,20.3,8.0,34.5,62.0,0.3383333333333333,1.0333333333333334
+SYR3_primary,SYR3 2006 to 2011,primary replication,HAA5,upper_bound,60.0,220298,15961,24.864449376458253,20.4,8.6,34.5,62.0,0.33999999999999997,1.0333333333333334
+SYR3_primary,SYR3 2006 to 2011,primary replication,TTHM,detected_only,80.0,214467,13847,43.302841899639574,39.0,20.0,60.0,98.6,0.4875,1.2325
+SYR3_primary,SYR3 2006 to 2011,primary replication,TTHM,lower_bound,80.0,237383,16999,39.122559718640346,35.2,12.6,57.0,96.0,0.44000000000000006,1.2
+SYR3_primary,SYR3 2006 to 2011,primary replication,TTHM,midpoint_limit_over_2,80.0,226890,16451,41.024897254462516,37.0,16.23,58.2375,97.1,0.4625,1.2137499999999999
+SYR3_primary,SYR3 2006 to 2011,primary replication,TTHM,upper_bound,80.0,226890,16451,41.11793063793027,37.0,16.29,58.3,97.1,0.4625,1.2137499999999999
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,HAA5,detected_only,60.0,193066,11270,27.48822605419908,23.3,12.5,37.0,64.8,0.38833333333333336,1.0799999999999998
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,HAA5,lower_bound,60.0,231203,16641,22.954035420734158,19.1,5.0,33.6,61.0,0.31833333333333336,1.0166666666666666
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,HAA5,midpoint_limit_over_2,60.0,214133,15603,25.07490992634251,21.0,8.8,35.0,62.7,0.35,1.0450000000000002
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,HAA5,upper_bound,60.0,214133,15603,25.365961916822727,21.0,9.46,35.0,62.7,0.35,1.0450000000000002
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,TTHM,detected_only,80.0,209614,13484,43.65876940323642,39.5,20.8,60.0,98.9,0.49375,1.23625
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,TTHM,lower_bound,80.0,231203,16641,39.582052523929185,36.0,13.91,57.3,96.3,0.45,1.2037499999999999
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,TTHM,midpoint_limit_over_2,80.0,220719,16094,41.55482646403346,37.7,17.5,58.7,97.6,0.47125000000000006,1.22
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,TTHM,upper_bound,80.0,220719,16094,41.6474802574314,37.7,17.5,58.705,97.6,0.47125000000000006,1.22
+CA2025_primary_DS,California 2025 distribution,primary external validation,HAA5,detected_only,60.0,5908,880,17.778876100203114,12.7,6.8,24.0,46.92999999999993,0.21166666666666664,0.7821666666666655
+CA2025_primary_DS,California 2025 distribution,primary external validation,HAA5,lower_bound,60.0,8767,1526,11.981019733089997,7.0,0.0,17.4,42.0,0.11666666666666667,0.7
+CA2025_primary_DS,California 2025 distribution,primary external validation,HAA5,midpoint_limit_over_2,60.0,8767,1526,12.614816927113038,7.0,3.0,17.4,42.0,0.11666666666666667,0.7
+CA2025_primary_DS,California 2025 distribution,primary external validation,HAA5,upper_bound,60.0,8767,1526,13.248614121136079,7.0,4.8,17.4,42.0,0.11666666666666667,0.7
+CA2025_primary_DS,California 2025 distribution,primary external validation,TTHM,detected_only,80.0,7757,1226,30.353723088823,27.0,14.0,43.0,67.002,0.3375,0.837525
+CA2025_primary_DS,California 2025 distribution,primary external validation,TTHM,lower_bound,80.0,8767,1526,26.856830158549105,24.0,8.0,40.35,66.0,0.3,0.825
+CA2025_primary_DS,California 2025 distribution,primary external validation,TTHM,midpoint_limit_over_2,80.0,8767,1526,26.979106878065476,24.0,8.0,40.35,66.0,0.3,0.825
+CA2025_primary_DS,California 2025 distribution,primary external validation,TTHM,upper_bound,80.0,8767,1526,27.101383597581844,24.0,8.0,40.35,66.0,0.3,0.825
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,HAA5,detected_only,60.0,6152,900,17.956129713914173,13.0,6.8,24.35,47.48999999999997,0.21666666666666667,0.7914999999999994
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,HAA5,lower_bound,60.0,9190,1573,12.0202513601741,6.9,0.0,17.5,42.0,0.115,0.7
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,HAA5,midpoint_limit_over_2,60.0,9190,1573,12.647890097932535,6.9,3.0,17.5,42.0,0.115,0.7
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,HAA5,upper_bound,60.0,9190,1573,13.275528835690968,6.9,4.5,17.5,42.0,0.115,0.7
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,TTHM,detected_only,80.0,8054,1253,30.194173081698533,27.0,14.0,42.9675,67.0,0.3375,0.8375
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,TTHM,lower_bound,80.0,9190,1573,26.46179216539717,23.405,7.5,40.0,65.62099999999984,0.2925625,0.820262499999998
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,TTHM,midpoint_limit_over_2,80.0,9190,1573,26.585323177366703,23.405,7.5,40.0,65.62099999999984,0.2925625,0.820262499999998
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,TTHM,upper_bound,80.0,9190,1573,26.708854189336236,23.405,7.5,40.0,65.62099999999984,0.2925625,0.820262499999998

@@ -1,0 +1,3 @@
+source_panel,source_input_path,cohort,estimand,systems,estimate,ci_lower,ci_upper
+d,wr_results/haa9_revision/oracle_interaction_summary.csv,reference_positive,interaction,769,0.2122886866059818,0.1833550065019505,0.2406832466406588
+d,wr_results/haa9_revision/oracle_interaction_summary.csv,all_eligible,interaction,4904,0.0332891517128874,0.0282592441544317,0.0383020663404023

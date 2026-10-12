@@ -1,0 +1,12 @@
+{
+  "source_rows": 100542,
+  "duplicate_member_rows": 34,
+  "duplicate_resolution": "kept the row with the largest adjusted population, then largest retail population",
+  "reference_positive_systems": 769,
+  "adjusted_population_available_positive_systems": 587,
+  "positive_system_coverage_fraction": 0.7633289986996099,
+  "eligible_systems": 4904,
+  "adjusted_population_available_eligible_systems": 3612,
+  "eligible_system_coverage_fraction": 0.736541598694943,
+  "interpretation": "Secondary complete-case sensitivity using EPA SYR4 system populations, not a population-complete UCMR4 estimate"
+}

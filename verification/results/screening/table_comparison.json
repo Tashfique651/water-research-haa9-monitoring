@@ -1,0 +1,182 @@
+[
+  {
+    "table": "S52",
+    "row": "HAA5 maximum / AUROC",
+    "max_absolute_rounding_error": 2.0342548603946575e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA5 maximum / Average precision",
+    "max_absolute_rounding_error": 2.3263183192179238e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA9 maximum / AUROC",
+    "max_absolute_rounding_error": 4.49931236030654e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA9 maximum / Average precision",
+    "max_absolute_rounding_error": 2.4041900728688503e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA5 logistic / AUROC",
+    "max_absolute_rounding_error": 3.66304361790748e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA5 logistic / Average precision",
+    "max_absolute_rounding_error": 4.36697987564183e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA5 logistic / Brier score",
+    "max_absolute_rounding_error": 2.6342462256287447e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA5 logistic / Log loss",
+    "max_absolute_rounding_error": 4.609394622545615e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA9 logistic / AUROC",
+    "max_absolute_rounding_error": 4.526013029648723e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA9 logistic / Average precision",
+    "max_absolute_rounding_error": 4.661710952003073e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA9 logistic / Brier score",
+    "max_absolute_rounding_error": 4.820411909990663e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "HAA9 logistic / Log loss",
+    "max_absolute_rounding_error": 4.913254791555355e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Five-species logistic / AUROC",
+    "max_absolute_rounding_error": 4.484270242399724e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Five-species logistic / Average precision",
+    "max_absolute_rounding_error": 3.7981990680113764e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Five-species logistic / Brier score",
+    "max_absolute_rounding_error": 4.804445741760088e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Five-species logistic / Log loss",
+    "max_absolute_rounding_error": 2.7728094439460893e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Nine-species logistic / AUROC",
+    "max_absolute_rounding_error": 4.408163843028223e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Nine-species logistic / Average precision",
+    "max_absolute_rounding_error": 4.898248167917174e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Nine-species logistic / Brier score",
+    "max_absolute_rounding_error": 4.479985347449755e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S52",
+    "row": "Nine-species logistic / Log loss",
+    "max_absolute_rounding_error": 4.535832619650959e-05,
+    "within_4dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Scalar totals / 5%",
+    "max_absolute_rounding_error_points": 0.0022571546100995654,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Scalar totals / 10%",
+    "max_absolute_rounding_error_points": 0.003685726038680004,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Scalar totals / 15%",
+    "max_absolute_rounding_error_points": 0.003209535562490151,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Scalar totals / 20%",
+    "max_absolute_rounding_error_points": 0.0048857025327597725,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Scalar totals / 30%",
+    "max_absolute_rounding_error_points": 0.004161916514850095,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Species models / 5%",
+    "max_absolute_rounding_error_points": 0.004274975191330022,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Species models / 10%",
+    "max_absolute_rounding_error_points": 0.004296453380099763,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Species models / 15%",
+    "max_absolute_rounding_error_points": 0.004296453380099763,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Species models / 20%",
+    "max_absolute_rounding_error_points": 0.003344072427719169,
+    "within_2dp_rounding": true
+  },
+  {
+    "table": "S53",
+    "row": "Species models / 30%",
+    "max_absolute_rounding_error_points": 0.003820262903909466,
+    "within_2dp_rounding": true
+  }
+]

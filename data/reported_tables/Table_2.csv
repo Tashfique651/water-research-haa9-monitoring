@@ -1,0 +1,7 @@
+Quantity,Estimate,95% bootstrap interval,Meaning
+"HAA5, one round (p₀₀)",20.87%,19.27% to 22.48%,Restricted panel and sampling
+"HAA9, one round (p₁₀)",41.91%,40.39% to 43.47%,Broader panel at one round
+"HAA5, complete record (p₀₁)",57.74%,54.10% to 60.99%,Panel-specific observed ceiling
+"HAA9, complete record (p₁₁)",100%,Fixed by definition,Reference condition
+Additive interaction,21.23 percentage points,18.44 to 24.24 percentage points,Departure from additivity
+Multiplicative interaction ratio,0.863,0.830 to 0.898,Departure from multiplicativity

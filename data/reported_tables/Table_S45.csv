@@ -1,0 +1,5 @@
+Support,Family,Rounds / PWSs,Slope,Pointwise cluster 95%,Equal partial R² to zero
+Primary,Di-HAA,2410 / 782,4.82,3.46 to 6.19,32.06%
+Primary,Tri-HAA,2355 / 763,4.77,3.44 to 6.09,27.16%
+Broader,Di-HAA,2426 / 787,4.81,3.46 to 6.17,32.00%
+Broader,Tri-HAA,2371 / 768,4.76,3.44 to 6.08,27.18%

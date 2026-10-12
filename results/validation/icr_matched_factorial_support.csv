@@ -1,0 +1,4 @@
+cohort,cohort_rule,paired_nonnegative_events_available,systems_with_any_paired_event,eligible_systems,reference_positive_systems,reference_positive_fraction,min_grid_periods_eligible,median_grid_periods_eligible,max_grid_periods_eligible,event_monotonicity_violations_HAA5_gt_HAA9,unknown_four_cell_outcomes,weighting
+monthly_available_periods,at least two observed months with paired nonnegative panels,1304,85,78,26,0.3333333333333333,2,4.0,6,0,0,equal weight per system; M0 uniform over that system's observed paired grid
+quarterly_available_quarters,at least two observed quarters with paired nonnegative panels,1304,85,78,26,0.3333333333333333,2,4.0,6,0,0,equal weight per system; M0 uniform over that system's observed paired grid
+quarterly_complete_six_quarters,paired nonnegative panels in every ICR quarter 1–6,1304,85,8,2,0.25,6,6.0,6,0,0,equal weight per system; M0 uniform over that system's observed paired grid

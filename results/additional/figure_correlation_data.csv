@@ -1,0 +1,4 @@
+cohort_id,cohort_label,scope_role,analysis,spearman_rho,ci_low,ci_high,n_pairs,n_systems,bootstrap_reps,bootstrap_method
+SYR3_primary,SYR3 2006 to 2011,primary replication,both_detected,0.5923100310940376,0.5789330629249815,0.6053690983055463,193329,10893,10000,whole-system resampling of fixed global midranks
+SYR4_reference,SYR4 2012 to 2019,,,0.618521159754343,0.6092403406610833,0.627846702293163,436150,19511,10000,
+CA2025_primary_DS,California 2025 distribution,primary external validation,both_detected,0.6131922144384965,0.5631768885872223,0.6594931356476663,5885,865,10000,whole-system resampling of fixed global midranks

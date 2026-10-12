@@ -1,0 +1,52 @@
+{
+  "definitions": {
+    "calendar_seasons": {
+      "Autumn": [
+        9,
+        10,
+        11
+      ],
+      "Spring": [
+        3,
+        4,
+        5
+      ],
+      "Summer": [
+        6,
+        7,
+        8
+      ],
+      "Winter": [
+        12,
+        1,
+        2
+      ]
+    },
+    "primary_censor_substitution": "one-half reporting level",
+    "primary_duplicate_resolution": "median record-level value at an event-analyte key",
+    "primary_pair_key": "PWS ID + sampling point ID + sample date + nonmissing sample time",
+    "primary_record_scope": "2023-2025; analyte 2456 or 2950; RT; DS; UG/L; valid quantified or censored value",
+    "reference_levels_ug_l": {
+      "HAA5": 60.0,
+      "TTHM": 80.0
+    }
+  },
+  "limitations": [
+    "The California archive validates HAA5/TTHM co-occurrence only; it contains no HAA9 total.",
+    "Public-archive separation does not establish statistical independence from every national data product.",
+    "Concentration-level reference comparisons are not regulatory compliance determinations.",
+    "The observational analysis does not support causal claims."
+  ],
+  "run_config": {
+    "bootstrap_replicates": 10000,
+    "input_path": "data/raw/additional/california/sdwis4/SDWIS4.tab",
+    "output_dir": "wr_results/california",
+    "primary_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "seed": 20260914
+  },
+  "source_sha256": "9aa519a26257efaaf3a7a91e87ce45917b61cd4a26b7b5eec7802770cc8cb0df"
+}

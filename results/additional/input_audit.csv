@@ -1,0 +1,5 @@
+dataset,analyte,raw_rows,raw_systems,missing_exact_key_rows,detected_rows,nondetect_rows,invalid_or_missing_detect_flag_rows,nonmissing_exact_keys,consistent_duplicate_keys_collapsed,conflicting_duplicate_keys_excluded,rows_in_conflicting_keys,maximum_key_multiplicity
+SYR3,HAA5,475592,33518,64786,397499,78093,0,410758,27,21,42,2
+SYR3,TTHM,532002,36691,94886,457821,74181,0,437054,26,36,72,2
+California CLIP 2025,HAA5,11631,1913,0,7779,3852,0,11631,0,0,0,1
+California CLIP 2025,TTHM,20093,2174,0,13032,7061,0,20093,0,0,0,1

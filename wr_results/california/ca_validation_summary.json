@@ -1,0 +1,171 @@
+{
+  "analysis_scope": {
+    "analytes": {
+      "2456": {
+        "reference_level_ug_l": 60.0,
+        "short_name": "HAA5"
+      },
+      "2950": {
+        "reference_level_ug_l": 80.0,
+        "short_name": "TTHM"
+      }
+    },
+    "facility_type": "DS",
+    "sample_type": "RT",
+    "units": "UG/L",
+    "years": [
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "concordance": {
+    "bootstrap_replicates": 10000,
+    "bootstrap_unit": "public water system",
+    "primary_detected_pair_pws": 1407,
+    "primary_detected_pairs": 25528,
+    "primary_kendall_tau_b": 0.4327705487681262,
+    "primary_population": "exact event pairs with both HAA5 and TTHM quantified",
+    "primary_spearman_ci95": [
+      0.5629841704375989,
+      0.6398017014378828
+    ],
+    "primary_spearman_rho": 0.602518073399094,
+    "pws_median_spearman_rho": 0.6944386366456348
+  },
+  "interpretation_guardrails": [
+    "The California archive validates HAA5/TTHM co-occurrence only; it contains no HAA9 total.",
+    "Public-archive separation does not establish statistical independence from every national data product.",
+    "Concentration-level reference comparisons are not regulatory compliance determinations.",
+    "The observational analysis does not support causal claims."
+  ],
+  "pairing": {
+    "date_only_pair_pws": 2577,
+    "date_only_pairs": 39324,
+    "exact_pair_pws": 2538,
+    "exact_pairs": 37894
+  },
+  "records": {
+    "discordant_duplicate_keys": 323,
+    "duplicate_keys": 334,
+    "event_analyte_keys": 83917,
+    "primary_scope_rows": 84304,
+    "valid_haa5_rows": 40855,
+    "valid_rows": 84304,
+    "valid_tthm_rows": 43449
+  },
+  "reference_threshold_60_80": {
+    "fraction_haa5_high": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 0.018736475431466722
+    },
+    "fraction_tthm_high": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 0.023565736000422232
+    },
+    "high_set_jaccard": {
+      "ci95": [
+        0.11729995861212665,
+        0.1965751266340523
+      ],
+      "estimate": 0.15573179524152847
+    },
+    "n_both_high": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 216.0
+    },
+    "n_haa5_only_high": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 494.0
+    },
+    "n_neither_high": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 36507.0
+    },
+    "n_pairs": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 37894.0
+    },
+    "n_tthm_only_high": {
+      "ci95": [
+        null,
+        null
+      ],
+      "estimate": 677.0
+    },
+    "overall_agreement": {
+      "ci95": [
+        0.9637628169564608,
+        0.9738331269923357
+      ],
+      "estimate": 0.969098010239088
+    },
+    "p_haa5_high_given_tthm_high": {
+      "ci95": [
+        0.1828407052650845,
+        0.30186535162950257
+      ],
+      "estimate": 0.24188129899216126
+    },
+    "p_tthm_high_given_haa5_high": {
+      "ci95": [
+        0.2303661374310078,
+        0.3812823094084996
+      ],
+      "estimate": 0.30422535211267604
+    },
+    "phi": {
+      "ci95": [
+        0.19601110901084068,
+        0.3160735220762667
+      ],
+      "estimate": 0.25566368160733044
+    }
+  },
+  "runtime_seconds": 229.84996628761292,
+  "software": {
+    "duckdb": "1.5.5",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python": "3.12.14",
+    "scipy": "1.18.1"
+  },
+  "source": {
+    "bytes": 2193602550,
+    "header_column_count": 29,
+    "line_shape_audit": {
+      "data_rows": 7185454,
+      "expected_columns": 29,
+      "malformed_rows_any_analyte": 14,
+      "malformed_target_row_counts": {
+        "2456": 0,
+        "2950": 0
+      },
+      "target_row_counts": {
+        "2456": 48839,
+        "2950": 82327
+      }
+    },
+    "path": "data/raw/additional/california/sdwis4/SDWIS4.tab",
+    "sha256": "9aa519a26257efaaf3a7a91e87ce45917b61cd4a26b7b5eec7802770cc8cb0df"
+  }
+}

@@ -1,0 +1,52 @@
+source_panel,source_input_path,state_profile,tile_x,tile_y,systems,additive_interaction,HAA5_invisible_fraction,both_required_probability,adjusted_population_covered,support_class
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,WA,0,0,6.0,0.0416666666666666,0.1666666666666666,0.0833333333333333,168240.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MT,2,0,3.0,0.25,0.3333333333333333,0.25,182238.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,ND,3,0,1.0,0.0,0.0,0.0,23023.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MN,4,0,2.0,0.5,1.0,0.5,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,WI,5,0,,,,,,no supported systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MI,6,0,6.0,0.4583333333333333,0.6666666666666666,0.5,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,VT,8,0,2.0,0.0,0.0,0.0,20799.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NH,9,0,3.0,0.5,0.6666666666666666,0.5,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,ME,10,0,,,,,,no supported systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,OR,0,1,4.0,0.1875,0.25,0.1875,82553.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,ID,1,1,1.0,0.0,0.0,0.0,234576.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,WY,2,1,3.0,0.1666666666666666,0.3333333333333333,0.25,41765.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,SD,3,1,2.0,0.75,1.0,0.75,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,IA,4,1,1.0,-0.25,0.0,0.0,89986.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,IL,5,1,6.0,0.0416666666666666,0.1666666666666666,0.0833333333333333,150458.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,IN,6,1,5.0,0.45,0.6,0.45,1002899.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,OH,7,1,27.0,0.2777777777777778,0.5185185185185185,0.3703703703703703,1369649.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,PA,8,1,43.0,0.2209302325581395,0.3720930232558139,0.2693798449612403,1967423.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NY,9,1,28.0,0.1398809523809523,0.2857142857142857,0.1755952380952381,10018495.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MA,10,1,27.0,0.2253086419753086,0.4444444444444444,0.2901234567901234,0.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,CA,0,2,22.0,0.2916666666666667,0.5454545454545454,0.3371212121212121,3852130.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NV,1,2,1.0,0.75,1.0,0.75,1515554.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,UT,2,2,4.0,0.125,0.25,0.125,97622.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,CO,3,2,8.0,0.21875,0.375,0.25,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NE,4,2,2.0,0.625,1.0,0.625,38433.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MO,5,2,10.0,0.425,0.6,0.425,199028.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,KY,6,2,56.0,0.1354166666666666,0.3035714285714285,0.2113095238095238,2148355.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,WV,7,2,9.0,0.2777777777777778,0.4444444444444444,0.2777777777777778,374914.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,VA,8,2,27.0,0.3611111111111111,0.5185185185185185,0.3703703703703703,2998437.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MD,9,2,10.0,0.175,0.3,0.225,4234168.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NJ,10,2,20.0,0.2833333333333333,0.4,0.2833333333333333,1288466.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,CT,11,2,9.0,0.0462962962962963,0.2222222222222222,0.1666666666666666,1242325.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,RI,12,2,1.0,0.75,1.0,0.75,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,AZ,1,3,5.0,0.5166666666666667,0.8,0.5666666666666667,1129328.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NM,2,3,1.0,0.75,1.0,0.75,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,KS,3,3,8.0,0.1875,0.625,0.25,222113.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,OK,4,3,36.0,0.0763888888888889,0.3888888888888889,0.2152777777777778,1299425.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,AR,5,3,11.0,0.0454545454545454,0.1818181818181818,0.1363636363636363,262649.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,TN,6,3,50.0,0.2066666666666666,0.38,0.2616666666666666,1779117.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,NC,7,3,43.0,0.2131782945736434,0.4186046511627907,0.2771317829457364,2452445.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,SC,8,3,11.0,0.2954545454545454,0.4545454545454545,0.3409090909090909,720901.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,DE,9,3,2.0,-0.25,0.0,0.0,212376.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,DC,10,3,3.0,0.4722222222222222,0.6666666666666666,0.4722222222222221,15690.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,TX,3,4,74.0,0.2657657657657657,0.4324324324324324,0.3006756756756756,6242115.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,LA,5,4,15.0,0.05,0.2666666666666666,0.1333333333333333,936428.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,MS,6,4,6.0,0.0,0.1666666666666666,0.0833333333333333,0.0,fewer than 10 systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,AL,7,4,32.0,0.1119791666666666,0.28125,0.1875,1105196.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,GA,8,4,28.0,0.2142857142857142,0.4285714285714285,0.2678571428571428,0.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,FL,9,4,34.0,0.2794117647058823,0.5294117647058824,0.2794117647058823,0.0,10 or more systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,AK,0,6,,,,,,no supported systems
+c,wr_results/playbook_extension/state_map_values.csv; state_map_coverage.json,HI,1,6,1.0,0.0,0.0,0.0,29868.0,fewer than 10 systems

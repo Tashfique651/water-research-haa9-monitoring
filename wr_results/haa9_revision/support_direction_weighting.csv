@@ -1,0 +1,11 @@
+weighting,estimand,estimate,ci_lower,ci_upper,direction_rows,unique_PWS,PWS_with_two_directions,bootstrap_unit
+equal_PWS,y00,0.11666666666666667,0.10098039215686275,0.1326797385620915,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_PWS,y10,0.22124183006535947,0.1980392156862745,0.24477124183006535,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_PWS,y01,0.19738562091503267,0.1718954248366013,0.22287581699346407,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_PWS,y11,0.33464052287581697,0.3006535947712418,0.3686274509803922,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_PWS,interaction,0.032679738562091505,0.02254084967320262,0.043137254901960784,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_direction_row,y00,0.17482859941234083,0.1537279959039908,0.19554924242424243,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_direction_row,y10,0.331537708129285,0.30430376840984413,0.35851914615701913,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_direction_row,y01,0.2957884427032321,0.26305220883534136,0.32820019249278154,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_direction_row,y11,0.5014691478942214,0.4623115577889447,0.5386819484240688,1021,765,256,PWS_cluster_preserving_all_direction_rows
+equal_direction_row,interaction,0.04897159647404505,0.03375718522306744,0.06400443787121424,1021,765,256,PWS_cluster_preserving_all_direction_rows

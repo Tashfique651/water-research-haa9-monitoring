@@ -1,0 +1,70 @@
+dataset,metric,count,analyte,audit_field,category
+SYR3,conflict_resolved_exact_key_pairs,237383,,,
+SYR3,same_date_primary_pairs,237383,,,
+SYR3,date_mismatch_excluded,0,,,
+SYR3,facility_mismatch,0,,,
+SYR3,sampling_point_mismatch,0,,,
+SYR3,sample_type_mismatch,0,,,
+SYR3,primary_systems,16999,,,
+SYR3,,397499,HAA5,detect_flag,1
+SYR3,,78093,HAA5,detect_flag,0
+SYR3,,208915,HAA5,detected_result_unit,UG/L     
+SYR3,,188584,HAA5,detected_result_unit,UG/L
+SYR3,,32685,HAA5,nondetect_limit_unit,MG/L
+SYR3,,29669,HAA5,nondetect_limit_unit,UG/L
+SYR3,,15737,HAA5,nondetect_limit_unit,<BLANK>
+SYR3,,1,HAA5,nondetect_limit_unit,NTU
+SYR3,,1,HAA5,nondetect_limit_unit,MFL
+SYR3,,415864,HAA5,sample_type,RT
+SYR3,,51297,HAA5,sample_type,<blank>
+SYR3,,8381,HAA5,sample_type,MR
+SYR3,,50,HAA5,sample_type,CO
+SYR3,,457821,TTHM,detect_flag,1
+SYR3,,74181,TTHM,detect_flag,0
+SYR3,,234190,TTHM,detected_result_unit,UG/L     
+SYR3,,223631,TTHM,detected_result_unit,UG/L
+SYR3,,43495,TTHM,nondetect_limit_unit,UG/L
+SYR3,,18585,TTHM,nondetect_limit_unit,MG/L
+SYR3,,12101,TTHM,nondetect_limit_unit,<BLANK>
+SYR3,,442441,TTHM,sample_type,RT
+SYR3,,80981,TTHM,sample_type,<blank>
+SYR3,,8523,TTHM,sample_type,MR
+SYR3,,57,TTHM,sample_type,CO
+California CLIP 2025,conflict_resolved_exact_event_pairs,9190,,,
+California CLIP 2025,primary_routine_distribution_pairs,8767,,,
+California CLIP 2025,nonprimary_exact_pairs,423,,,
+California CLIP 2025,sample_type_mismatch,0,,,
+California CLIP 2025,facility_type_mismatch,0,,,
+California CLIP 2025,facility_water_type_mismatch,0,,,
+California CLIP 2025,unit_mismatch,0,,,
+California CLIP 2025,primary_systems,1526,,,
+California CLIP 2025,,7779,HAA5,censor_flag,N
+California CLIP 2025,,3852,HAA5,censor_flag,Y
+California CLIP 2025,,10994,HAA5,facility_type,DS
+California CLIP 2025,,439,HAA5,facility_type,TP
+California CLIP 2025,,118,HAA5,facility_type,WL
+California CLIP 2025,,35,HAA5,facility_type,IN
+California CLIP 2025,,20,HAA5,facility_type,CC
+California CLIP 2025,,19,HAA5,facility_type,SS
+California CLIP 2025,,3,HAA5,facility_type,ST
+California CLIP 2025,,3,HAA5,facility_type,CH
+California CLIP 2025,,3852,HAA5,nondetect_reporting_level_support,positive_recognized_limit
+California CLIP 2025,,11631,HAA5,result_unit,UG/L
+California CLIP 2025,,11629,HAA5,sample_type,RT
+California CLIP 2025,,2,HAA5,sample_type,SP
+California CLIP 2025,,13032,TTHM,censor_flag,N
+California CLIP 2025,,7061,TTHM,censor_flag,Y
+California CLIP 2025,,12368,TTHM,facility_type,DS
+California CLIP 2025,,3797,TTHM,facility_type,TP
+California CLIP 2025,,3601,TTHM,facility_type,WL
+California CLIP 2025,,131,TTHM,facility_type,IN
+California CLIP 2025,,73,TTHM,facility_type,CC
+California CLIP 2025,,58,TTHM,facility_type,CH
+California CLIP 2025,,36,TTHM,facility_type,SS
+California CLIP 2025,,20,TTHM,facility_type,ST
+California CLIP 2025,,5,TTHM,facility_type,RS
+California CLIP 2025,,4,TTHM,facility_type,SP
+California CLIP 2025,,7061,TTHM,nondetect_reporting_level_support,positive_recognized_limit
+California CLIP 2025,,20093,TTHM,result_unit,UG/L
+California CLIP 2025,,20091,TTHM,sample_type,RT
+California CLIP 2025,,2,TTHM,sample_type,SP

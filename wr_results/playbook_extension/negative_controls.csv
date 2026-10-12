@@ -1,0 +1,2 @@
+control,reference_cohort,p00,p10,p01,p11,additive_interaction,multiplicative_interaction_ratio,relative_excess_risk_due_to_interaction,attributable_proportion_due_to_interaction,synergy_index
+duplicate_HAA5_scope_for_A0_and_A1,HAA9_full_grid_positive_at_60_ug_l,0.2087126137841353,0.2087126137841353,0.577373211963589,0.577373211963589,0.0,1.0,0.0,0.0,1.0

@@ -1,0 +1,28 @@
+Analysis,Interpretation supported,Limit of application
+UCMR4 complete record,Recovery of observed HAA9 > B60 among 769 reference-positive systems,Does not estimate unsampled conditions or national prevalence
+Primary p₁₁,Fixed at one by reference-cohort definition,Does not provide independent sensitivity validation
+Additive interaction,Both-required probability minus either-alone probability,Fixed-record reporting contrast; not a causal effect on water chemistry or health
+Relative interaction measures,Alternative scales for the same four cells,Scale choice depends on the decision objective
+Individual result above B60,Recorded concentration above the common benchmark,Does not establish a compliance violation
+HAA5 LRAA and OEL arithmetic,"Regulatory context (eCFR, 2026a; eCFR, 2026c; eCFR, 2026d)",Does not create an HAA9 regulatory threshold
+HAA9 quarterly analogs,Panel comparison with complete consecutive-quarter support,Different windows represent different supported cohorts
+May–September rule,Retrospective selection from observed rounds,Future schedules and other climates require validation
+TOC selection and source models,Association under PWS/event-code linkage,Treatment and hydraulic conditions remain unresolved
+Highest-HAA9 selector,Outcome-informed upper bound within the record,Requires outcomes unavailable when scheduling future monitoring
+Up-to-four-sample comparison,Similar equal-system mean capture under exact resampling,Equivalence and future system-specific performance are unestablished
+Cost-ratio crossing,Equal expected assay-budget scenario,"No measured prices, collection costs or utility"
+Population weights and state rates,Complete-case and geographic descriptions with explicit support,Incomplete linkage and concentrated weights limit representation
+Species mass fractions,Composition under specified event or system weights,Mass fractions are not health-risk fractions
+CHO-cell index,Sensitivity to coefficients and nondetect handling,Does not measure human exposure or health risk
+Five-species enumeration,Exact comparison of measured panel subsets,Does not assume species exchangeability
+Duplicate-panel control,Algebraic check that identical panels give zero interaction,Does not validate other model assumptions
+Strict-date chronological analysis,Conditional recurrence across separated observed periods,Remains retrospective and conditional on reference positivity
+Group-only and alternating splits,Sensitivity to separate administrative observation sets,Administrative blocks may overlap in collection time
+"SYR4, SYR3 and California",Quarter-capture and HAA5–TTHM pairing checks,Do not reproduce the HAA5–HAA9 factorial
+ICR,Historical HAA5–HAA9 chemistry and bounded threshold states,Sparse HAA9-positive support limits precision
+System-level substitution,Expected new and lost detections from exact four-sample replay,Not realized field transitions or evidence of equivalence
+Matched-window averaging,Same eligible systems and four-quarter site windows,Endpoint-specific positive groups still differ
+Species-MRL scenarios,"Definite, possible and uncertain B60 status",Endpoint interactions are not sharp bounds or full analytical-error intervals
+Constrained four-sample allocation,Comparison of sample arrangements on 668 common reference-positive systems,Retrospective site and round support; collection visits and costs are not matched
+Sharp component-MRL bounds,Exact interaction extrema over the stated independent component intervals,Not confidence intervals; quantified concentrations and observation support are fixed
+Margin-stratified exchange,Paired capture changes within observed concentration-margin groups,Exploratory pointwise strata; margin is not a health-risk classification

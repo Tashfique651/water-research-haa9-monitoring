@@ -1,0 +1,19 @@
+dataset,check,observed,expected,status,note
+SYR3,paired collection dates agree,0,0 mismatches,PASS,primary cohort requires matching dates
+SYR3,paired facilities agree,0,0 mismatches,PASS,exact sample IDs map to the same facility
+SYR3,paired sampling points agree,0,0 mismatches,PASS,exact sample IDs map to the same sampling point
+SYR3,paired sample types agree,0,0 mismatches,PASS,sample purpose is preserved
+California CLIP 2025,paired sample types agree,0,0 mismatches,PASS,strict state event key
+California CLIP 2025,paired facility types agree,0,0 mismatches,PASS,strict state event key
+California CLIP 2025,paired units agree,0,0 mismatches,PASS,all paired group results are normalized before analysis
+SYR3,HAA5 detected rows have normalized numeric values,0,0 missing,PASS,detected concentrations without recognized units are not used
+SYR3,HAA5 nondetects with finite positive limit,24466,out of 41551 paired nondetects,PASS,unsupported nondetects remain interval-indeterminate
+SYR3,TTHM detected rows have normalized numeric values,0,0 missing,PASS,detected concentrations without recognized units are not used
+SYR3,TTHM nondetects with finite positive limit,12423,out of 22916 paired nondetects,PASS,unsupported nondetects remain interval-indeterminate
+California CLIP 2025,HAA5 detected rows have normalized numeric values,0,0 missing,PASS,detected concentrations without recognized units are not used
+California CLIP 2025,HAA5 nondetects with finite positive limit,3038,out of 3038 paired nondetects,PASS,unsupported nondetects remain interval-indeterminate
+California CLIP 2025,TTHM detected rows have normalized numeric values,0,0 missing,PASS,detected concentrations without recognized units are not used
+California CLIP 2025,TTHM nondetects with finite positive limit,1136,out of 1136 paired nondetects,PASS,unsupported nondetects remain interval-indeterminate
+California CLIP 2025,HAA5 complete component panels,11585,out of 11631 reported group events,PASS,component completeness is a QA descriptor and does not replace reported group values
+California CLIP 2025,TTHM complete component panels,19601,out of 20093 reported group events,PASS,component completeness is a QA descriptor and does not replace reported group values
+All,conflicting duplicate keys excluded,57,documented exclusion count,PASS,no conflicting key is resolved by first-row selection

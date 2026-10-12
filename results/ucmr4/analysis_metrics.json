@@ -1,0 +1,208 @@
+{
+  "analysis_scope": "Observed-grid UCMR4 HAA chemical-signal replay; not compliance, causality, exposure, or continuous duration",
+  "composition_f_extra": {
+    "event_weighted": {
+      "max": 1.0,
+      "mean": 0.27296150443653033,
+      "median": 0.2529362049263078,
+      "min": 0.0,
+      "n": 61520.0,
+      "p05": 0.021829783985955257,
+      "p25": 0.1336967893776801,
+      "p75": 0.4002090547478264,
+      "p95": 0.5625,
+      "sd": 0.17236721121529855
+    },
+    "system_weighted": {
+      "max": 1.0,
+      "mean": 0.28967122109057586,
+      "median": 0.2866981236417343,
+      "min": 0.0,
+      "n": 4840.0,
+      "p05": 0.03921508288426392,
+      "p25": 0.1560605773962263,
+      "p75": 0.41267361869608365,
+      "p95": 0.5562950383516306,
+      "sd": 0.1638382661653003
+    }
+  },
+  "input_manifest": {
+    "additional": {
+      "bytes": 13444075,
+      "path": "data/interim/extracted/UCMR4_HAA_AddtlDataElem.txt",
+      "sha256": "791a46f42a9095f8913879f08ea6a15f703c67963a095e1b0d3fd7a4915d55d0"
+    },
+    "all": {
+      "bytes": 154354167,
+      "path": "data/interim/extracted/UCMR4_All.txt",
+      "sha256": "b15a23d3e0b3d371ba3391dc6cfa280e79db3a159d9b1eb40c7f41b82a071d37"
+    },
+    "indicators": {
+      "bytes": 7979708,
+      "path": "data/interim/extracted/UCMR4_HAA_Indicators.txt",
+      "sha256": "caef205848939e6efc8db4dea61c22aea49e0d19f8d957942ed9fc99c07448a0"
+    },
+    "zipcodes": {
+      "bytes": 328504,
+      "path": "data/interim/extracted/UCMR4_ZIPCodes.txt",
+      "sha256": "8fbf103cdb71e9d30c7c28b59944720080ac3ac51b59dca2c3306651bad2e448"
+    }
+  },
+  "parameters": {
+    "M1": "all complete observed site-round events in the PWS finite grid",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260913,
+    "holdout": "lowest round(20% of PWS) salted SHA-256 digests using salt UCMR4-HAA-PWS-HOLDOUT-v1",
+    "positive_operator": "strictly greater than threshold",
+    "primary_M0": "one SampleEventCode round selected uniformly within PWS; exact enumeration",
+    "primary_threshold_ug_l": 60.0,
+    "system_weighting": "equal PWS weight; candidate-unit outcomes averaged within PWS first",
+    "threshold_grid_ug_l": [
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      50.0,
+      55.0,
+      60.0,
+      65.0,
+      70.0,
+      75.0,
+      80.0,
+      85.0,
+      90.0,
+      95.0,
+      100.0
+    ]
+  },
+  "primary_B60_holdout": {
+    "attribution_sum_error": 0.0,
+    "cat_already_detected": 0.2138364779874214,
+    "cat_both_required": 0.2683438155136268,
+    "cat_design_only": 0.29559748427672955,
+    "cat_either_change": 0.06289308176100629,
+    "cat_panel_only": 0.15932914046121593,
+    "combined_gain": 0.7861635220125787,
+    "design": "one_round",
+    "design_attribution": 0.46121593291404617,
+    "design_gain_at_HAA5": 0.3584905660377358,
+    "interaction": 0.20545073375262057,
+    "interaction_category_identity_error": 5.551115123125783e-17,
+    "n_eligible_systems": 983,
+    "n_reference_positive_systems": 159,
+    "panel_gain_at_M0": 0.22222222222222218,
+    "population": "reference_positive",
+    "reference_positive_fraction": 0.1617497456765005,
+    "repair_category_sum": 1.0,
+    "scope_attribution": 0.3249475890985325,
+    "split": "holdout",
+    "threshold_ug_l": 60.0,
+    "y00": 0.2138364779874214,
+    "y01": 0.5723270440251572,
+    "y10": 0.43605870020964366,
+    "y11": 1.0
+  },
+  "primary_B60_overall": {
+    "attribution_sum_error": -1.1102230246251565e-16,
+    "cat_already_detected": 0.20871261378413525,
+    "cat_both_required": 0.2710229735587343,
+    "cat_design_only": 0.30992631122670133,
+    "cat_either_change": 0.05873428695275249,
+    "cat_panel_only": 0.15160381447767662,
+    "combined_gain": 0.7912873862158648,
+    "design": "one_round",
+    "design_attribution": 0.47480494148244473,
+    "design_gain_at_HAA5": 0.36866059817945385,
+    "interaction": 0.2122886866059818,
+    "interaction_category_identity_error": 0.0,
+    "n_eligible_systems": 4904,
+    "n_reference_positive_systems": 769,
+    "panel_gain_at_M0": 0.21033810143042914,
+    "population": "reference_positive",
+    "reference_positive_fraction": 0.15681076672104405,
+    "repair_category_sum": 1.0,
+    "scope_attribution": 0.31648244473342,
+    "split": "all",
+    "threshold_ug_l": 60.0,
+    "y00": 0.20871261378413525,
+    "y01": 0.577373211963589,
+    "y10": 0.4190507152145644,
+    "y11": 1.0
+  },
+  "qa": {
+    "four_cell_order_violations": 0,
+    "identity_and_denominator_flags": {
+      "HAA5_le_HAA9": 0,
+      "HAA6Br_le_HAA9": 0,
+      "HAA9_le_HAA5_plus_HAA6Br": 0,
+      "HAA9_nonpositive_fraction_denominator": 1912,
+      "nonnegative_HAA5": 0,
+      "nonnegative_HAA6Br": 0,
+      "nonnegative_HAA9": 0
+    },
+    "indicators": {
+      "indicator_left_censored_rows": 21822,
+      "indicator_missing_mrl_rows": 0,
+      "indicator_rows": 49454,
+      "indicator_system_round_analytes": 19420,
+      "indicator_systems": 3444,
+      "indicator_unknown_sign_rows": 0,
+      "indicator_unparsed_dates": 0
+    },
+    "nested_identity_violation_count": 0,
+    "pairing": {
+      "complete_triplet_events": 63432,
+      "distinct_exact_events": 63495,
+      "duplicate_event_panel_row_members": 0,
+      "finite_grid_eligible_systems": 4904,
+      "haa_total_rows": 190359,
+      "incomplete_triplet_events": 63,
+      "metadata_conflicts": {
+        "FacilityName": 0,
+        "FacilityWaterType": 0,
+        "MonitoringRequirement": 0,
+        "PWSName": 0,
+        "Region": 0,
+        "SamplePointName": 0,
+        "SamplePointType": 0,
+        "Size": 0,
+        "State": 0
+      },
+      "missing_numeric_result_rows": 0,
+      "non_equals_sign_rows": 0,
+      "sample_id_conflicts_within_weak_event_key": 0,
+      "systems_with_any_haa_total": 4924,
+      "systems_with_incomplete_grid": 20,
+      "unparsed_collection_dates": 0
+    },
+    "residual_join": {
+      "additional_data_rows": 257656,
+      "complete_triplet_event_residual_join_fraction": 0.9130092067095472,
+      "complete_triplet_events": 63432,
+      "complete_triplet_events_with_exact_residual_join": 57914,
+      "residual_conflicting_site_round_keys": 30,
+      "residual_missing_response_rows": 0,
+      "residual_rows": 57994,
+      "residual_unique_site_round_keys": 57962,
+      "systems_with_any_exact_residual_join": 4526
+    },
+    "zipcodes": {
+      "duplicate_source_row_members": 0,
+      "haa_systems_with_zip": 4687,
+      "haa_systems_without_zip": 237,
+      "invalid_zip_rows": 0,
+      "zip_rows_unique": 19323,
+      "zip_systems": 5591
+    }
+  },
+  "split_counts_all_paired_systems": {
+    "development": 3939,
+    "holdout": 985
+  },
+  "split_counts_finite_grid_systems": {
+    "development": 3921,
+    "holdout": 983
+  }
+}

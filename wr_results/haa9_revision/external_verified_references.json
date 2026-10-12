@@ -1,0 +1,58 @@
+{
+  "haa9ukdata2026": {
+    "authors": "P. Grundy, E. H. Goslan, P. Jarvis, and B. Jefferson",
+    "title": "Data relating to Evaluation of the implications and efficacy of proposed changes to haloacetic acid drinking water regulation",
+    "year": 2026,
+    "publisher": "Cranfield University",
+    "doi_or_url": "https://doi.org/10.57996/cran.ceres-2807",
+    "formatted_ieee": "P. Grundy, E. H. Goslan, P. Jarvis, and B. Jefferson, \"Data relating to Evaluation of the implications and efficacy of proposed changes to haloacetic acid drinking water regulation,\" Cranfield University, dataset, 2026, doi: 10.57996/cran.ceres-2807.",
+    "verification_basis": "Repository README, released CSV schema and DataCite metadata inspected 2026-09-19.",
+    "supported_claims": "Public version 2 releases 30 overlapping group means for nine species, not row-level repeated records; README collection January 2020 to May 2025; CC BY 4.0."
+  },
+  "haa9ukdwi2011": {
+    "authors": "M. Harman, P. Rumsby, and R. Kanda",
+    "title": "Evaluation of Haloacetic Acid Concentrations in Treated Drinking Water",
+    "year": 2011,
+    "publisher": "WRc plc, report UC8493, project WD0901 (DWI70/2/253), May 2011",
+    "doi_or_url": "https://dwi-production-files.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/10/27111117/DWI70_2_253.pdf",
+    "formatted_ieee": "M. Harman, P. Rumsby, and R. Kanda, Evaluation of Haloacetic Acid Concentrations in Treated Drinking Water, WRc plc, Rep. UC8493, Project WD0901 (DWI70/2/253), May 2011. [Online]. Available: https://dwi-production-files.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/10/27111117/DWI70_2_253.pdf. Accessed: Sept. 19, 2026.",
+    "verification_basis": "Full official report read; all four numeric table pages visually checked against digitized CSV.",
+    "supported_claims": "Tables 6.2-6.5 provide 70 observed nine-species samples across 20 UK sites; report describes method based on EPA557, delayed analysis, stability tests and caution. Recomputed no B60 positives even under species censoring upper bounds."
+  },
+  "haa9weck2007": {
+    "authors": "Weck Laboratories, Inc.",
+    "title": "Fee schedule, April 2, 2007",
+    "year": 2007,
+    "doi_or_url": "https://cityclerk.lacity.org/onlinedocs/2009/09-0613_rpt_bwp_3-18-09.pdf",
+    "formatted_ieee": "Weck Laboratories, Inc., \"Fee schedule,\" Apr. 2, 2007, p. 9, reproduced in Los Angeles City Council file 09-0613, Mar. 2009, PDF p. 122. [Online]. Available: https://cityclerk.lacity.org/onlinedocs/2009/09-0613_rpt_bwp_3-18-09.pdf. Accessed: Sept. 19, 2026.",
+    "verification_basis": "Original municipal-archive PDF downloaded and price page rendered/visually checked.",
+    "supported_claims": "Historical same-laboratory EPA552.2 prices: five HAAs $150, nine HAAs $180. This is not a current laboratory tariff."
+  },
+  "haa9simplelab2026a": {
+    "authors": "SimpleLab",
+    "title": "Haloacetic Acids (HAA5) Water Test",
+    "year": 2026,
+    "doi_or_url": "https://gosimplelab.com/shop/products/haloacetic-acids-haa5-water-test",
+    "formatted_ieee": "SimpleLab, \"Haloacetic Acids (HAA5) Water Test.\" [Online]. Available: https://gosimplelab.com/shop/products/haloacetic-acids-haa5-water-test. Accessed: Sept. 19, 2026.",
+    "verification_basis": "Vendor product page read 2026-09-19.",
+    "supported_claims": "Advertised consumer package $187; EPA552.3 listed, method may vary; network laboratory not identified."
+  },
+  "haa9simplelab2026b": {
+    "authors": "SimpleLab",
+    "title": "Haloacetic Acids (HAA9) Water Test",
+    "year": 2026,
+    "doi_or_url": "https://gosimplelab.com/shop/products/haloacetic-acids-haa9-water-test",
+    "formatted_ieee": "SimpleLab, \"Haloacetic Acids (HAA9) Water Test.\" [Online]. Available: https://gosimplelab.com/shop/products/haloacetic-acids-haa9-water-test. Accessed: Sept. 19, 2026.",
+    "verification_basis": "Vendor product page read 2026-09-19.",
+    "supported_claims": "Advertised consumer package $370; EPA552.2 listed, method may vary; network laboratory not identified. Not matched same-method laboratory unit cost."
+  },
+  "haa9pace2018": {
+    "authors": "Pace Analytical",
+    "title": "UCMR4 price quotation to North Shore Water Commission",
+    "year": 2018,
+    "doi_or_url": "https://northshorewc.com/splash/materials/NSWC_packet_January2018Meeting_01102018_postmeeting.pdf",
+    "formatted_ieee": "Pace Analytical, \"UCMR4 price quotation to North Shore Water Commission,\" in North Shore Water Commission January 2018 Meeting Packet, Jan. 2018, quote p. 2, PDF p. 31. [Online]. Available: https://northshorewc.com/splash/materials/NSWC_packet_January2018Meeting_01102018_postmeeting.pdf. Accessed: Sept. 19, 2026.",
+    "verification_basis": "Original official meeting-packet PDF downloaded and quotation table visually checked.",
+    "supported_claims": "Combined HAA5/HAA6/HAA9 EPA552.3 quote $209 per sample for eight samples; no separately priced HAA5 comparator, therefore no panel price ratio."
+  }
+}

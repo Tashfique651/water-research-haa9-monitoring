@@ -1,0 +1,9 @@
+Quantity / stratum,PWSs,Estimate,95% interval
+"Four-sample HAA9, HAA5-negative stratum",325,46.15%,43.40–48.85%
+"Four-sample HAA9, HAA5-positive stratum",444,66.47%,64.07–68.83%
+"Newly detected probability, all reference-positive PWSs",769,19.50%,17.52–21.51%
+"Lost-detection probability, all reference-positive PWSs",769,19.36%,17.60–21.20%
+Expected status discordance,769,38.87%,37.02–40.71%
+Expected new detections,769,149.99 systems,n/a
+Expected lost detections,769,148.89 systems,n/a
+Higher / lower / unchanged capture probability,769,325 / 421 / 23,Exact counts

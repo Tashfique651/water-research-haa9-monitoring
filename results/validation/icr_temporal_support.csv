@@ -1,0 +1,9 @@
+scope,analyte,time_scale,scoped_dbp_events,numeric_analyte_events,minus999_events,systems_with_numeric_data,full_six_quarter_systems,full_window_positive_systems,min_supported_grid,median_supported_grid,max_supported_grid,threshold_definition
+primary_distribution,HAA5,monthly,8084,5928,783,259,151,42,6,6.0,11,>60 µg/L; -999 and null are not numeric support
+primary_distribution,HAA5,quarterly,8084,5928,783,259,151,42,6,6.0,6,>60 µg/L; -999 and null are not numeric support
+primary_distribution,HAA9,monthly,8084,1310,210,85,8,2,6,6.0,6,>60 µg/L; -999 and null are not numeric support
+primary_distribution,HAA9,quarterly,8084,1310,210,85,8,2,6,6.0,6,>60 µg/L; -999 and null are not numeric support
+all_ds_sensitivity,HAA5,monthly,13282,9699,1347,261,166,53,6,6.0,11,>60 µg/L; -999 and null are not numeric support
+all_ds_sensitivity,HAA5,quarterly,13282,9699,1347,261,166,53,6,6.0,6,>60 µg/L; -999 and null are not numeric support
+all_ds_sensitivity,HAA9,monthly,13282,2122,372,85,10,3,6,6.0,6,>60 µg/L; -999 and null are not numeric support
+all_ds_sensitivity,HAA9,quarterly,13282,2122,372,85,10,3,6,6.0,6,>60 µg/L; -999 and null are not numeric support

@@ -1,0 +1,10 @@
+analysis,n_pairs,n_pws,spearman_rho,kendall_tau_b,ci95_low,ci95_high,ci_method
+"Exact time, both analytes quantified (primary)",25528,1407,0.602518073399094,0.4327705487681262,0.5629841704375989,0.6398017014378828,"PWS-cluster percentile bootstrap, 10000 replicates"
+"Exact time, half-limit substitution",37894,2538,0.7676373258770196,0.585514856105455,,,
+"Exact time, zero substitution",37894,2538,0.7511186788200711,0.5768908765896313,,,
+"Exact time, full-limit substitution",37894,2538,0.748001028461516,0.5636029952360674,,,
+"Exact time, minimum duplicate value",37894,2538,0.7674928177212009,0.5854013517577223,,,
+"Exact time, maximum duplicate value",37894,2538,0.7677923814053741,0.5856987566612668,,,
+"Exact time, duplicate conflicts excluded",37746,2537,0.7674881659976248,0.5854570485889276,,,
+"Same date, clock time ignored",39324,2577,0.7690333595632975,0.587152068117356,,,
+PWS-level medians,1407,1407,0.6944386366456348,0.5068657103365354,,,Point estimate; one row per PWS

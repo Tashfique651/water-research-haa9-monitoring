@@ -1,0 +1,5 @@
+source_panel,source_input_path,decision_constraint,vector_glyph,boundary
+b,evidence-constrained synthesis of the completed analyses,Endpoint,endpoint,"Observed HAA9 signal, not health risk"
+b,evidence-constrained synthesis of the completed analyses,Calibrated comparators,comparator,Compare HAA5 and broader chemistry
+b,evidence-constrained synthesis of the completed analyses,Actual resources,resources,"Sample, date, assay and follow-up costs"
+b,evidence-constrained synthesis of the completed analyses,Independent validation needed,validation,"Strict chronology, then independent data; question mark denotes unresolved independent validation"

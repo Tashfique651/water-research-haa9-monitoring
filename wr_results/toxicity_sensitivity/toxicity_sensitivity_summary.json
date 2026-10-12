@@ -1,0 +1,116 @@
+{
+  "events": 63432,
+  "systems": 4924,
+  "coefficient_sources": [
+    "Peterson_public_R_supporting_table",
+    "Peterson_public_dimension_table"
+  ],
+  "summary": [
+    {
+      "coefficient_source": "Peterson_public_R_supporting_table",
+      "nondetect_substitution": "lower",
+      "events": 63432,
+      "systems": 4924,
+      "system_equal_mean_additional_four_weighted_fraction": 0.412291090153792,
+      "cluster_bootstrap_ci_lower": 0.4066836944086776,
+      "cluster_bootstrap_ci_upper": 0.41786072632160537,
+      "event_median_additional_four_weighted_fraction": 0.40265046054271014,
+      "event_q25_additional_four_weighted_fraction": 0.1852868383476236,
+      "event_q75_additional_four_weighted_fraction": 0.6275432395441327,
+      "event_mean_mass_fraction_additional_four": 0.27296150443653033,
+      "interpretation": "in-vitro CHO-cell cytotoxicity-weighted composition sensitivity; not health risk"
+    },
+    {
+      "coefficient_source": "Peterson_public_R_supporting_table",
+      "nondetect_substitution": "mid",
+      "events": 63432,
+      "systems": 4924,
+      "system_equal_mean_additional_four_weighted_fraction": 0.2928608814613253,
+      "cluster_bootstrap_ci_lower": 0.2910545864088725,
+      "cluster_bootstrap_ci_upper": 0.29462022255244563,
+      "event_median_additional_four_weighted_fraction": 0.28666262912443496,
+      "event_q25_additional_four_weighted_fraction": 0.2501287606936959,
+      "event_q75_additional_four_weighted_fraction": 0.34790535554241636,
+      "event_mean_mass_fraction_additional_four": 0.27296150443653033,
+      "interpretation": "in-vitro CHO-cell cytotoxicity-weighted composition sensitivity; not health risk"
+    },
+    {
+      "coefficient_source": "Peterson_public_R_supporting_table",
+      "nondetect_substitution": "upper",
+      "events": 63432,
+      "systems": 4924,
+      "system_equal_mean_additional_four_weighted_fraction": 0.28080049316101485,
+      "cluster_bootstrap_ci_lower": 0.27962510256486417,
+      "cluster_bootstrap_ci_upper": 0.2819413453092493,
+      "event_median_additional_four_weighted_fraction": 0.2771454177858657,
+      "event_q25_additional_four_weighted_fraction": 0.2603534884268446,
+      "event_q75_additional_four_weighted_fraction": 0.3121133803311179,
+      "event_mean_mass_fraction_additional_four": 0.27296150443653033,
+      "interpretation": "in-vitro CHO-cell cytotoxicity-weighted composition sensitivity; not health risk"
+    },
+    {
+      "coefficient_source": "Peterson_public_dimension_table",
+      "nondetect_substitution": "lower",
+      "events": 63432,
+      "systems": 4924,
+      "system_equal_mean_additional_four_weighted_fraction": 0.47889187552038404,
+      "cluster_bootstrap_ci_lower": 0.47296640794623035,
+      "cluster_bootstrap_ci_upper": 0.4850168003624767,
+      "event_median_additional_four_weighted_fraction": 0.567849619047851,
+      "event_q25_additional_four_weighted_fraction": 0.20876957816548058,
+      "event_q75_additional_four_weighted_fraction": 0.7344598716119994,
+      "event_mean_mass_fraction_additional_four": 0.27296150443653033,
+      "interpretation": "in-vitro CHO-cell cytotoxicity-weighted composition sensitivity; not health risk"
+    },
+    {
+      "coefficient_source": "Peterson_public_dimension_table",
+      "nondetect_substitution": "mid",
+      "events": 63432,
+      "systems": 4924,
+      "system_equal_mean_additional_four_weighted_fraction": 0.18843510994119242,
+      "cluster_bootstrap_ci_lower": 0.18610167845471687,
+      "cluster_bootstrap_ci_upper": 0.1907740779673344,
+      "event_median_additional_four_weighted_fraction": 0.18840871283898278,
+      "event_q25_additional_four_weighted_fraction": 0.12433902735601156,
+      "event_q75_additional_four_weighted_fraction": 0.26653122942257484,
+      "event_mean_mass_fraction_additional_four": 0.27296150443653033,
+      "interpretation": "in-vitro CHO-cell cytotoxicity-weighted composition sensitivity; not health risk"
+    },
+    {
+      "coefficient_source": "Peterson_public_dimension_table",
+      "nondetect_substitution": "upper",
+      "events": 63432,
+      "systems": 4924,
+      "system_equal_mean_additional_four_weighted_fraction": 0.14806973431760412,
+      "cluster_bootstrap_ci_lower": 0.14641992101226126,
+      "cluster_bootstrap_ci_upper": 0.14964022384728298,
+      "event_median_additional_four_weighted_fraction": 0.1463847080724025,
+      "event_q25_additional_four_weighted_fraction": 0.10382316157485486,
+      "event_q75_additional_four_weighted_fraction": 0.19725121541851576,
+      "event_mean_mass_fraction_additional_four": 0.27296150443653033,
+      "interpretation": "in-vitro CHO-cell cytotoxicity-weighted composition sensitivity; not health risk"
+    }
+  ],
+  "comparison": [
+    {
+      "metric": "HAA9_in_vitro_cytotoxicity_units",
+      "coefficient_source_1": "Peterson_public_R_supporting_table",
+      "coefficient_source_2": "Peterson_public_dimension_table",
+      "paired_events": 63432,
+      "spearman_rank_correlation": 0.9778493941643451,
+      "median_source_1": 0.0002587759200365122,
+      "median_source_2": 0.00020231622318477277
+    },
+    {
+      "metric": "additional_four_weighted_fraction",
+      "coefficient_source_1": "Peterson_public_R_supporting_table",
+      "coefficient_source_2": "Peterson_public_dimension_table",
+      "paired_events": 63432,
+      "spearman_rank_correlation": 0.8498646145650903,
+      "median_source_1": 0.28666262912443496,
+      "median_source_2": 0.18840871283898278
+    }
+  ],
+  "bootstrap_replicates": 10000,
+  "seed": 20260914
+}

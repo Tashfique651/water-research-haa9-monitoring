@@ -1,0 +1,12 @@
+source_panel,source_input_path,budget_HAA5_sample_equivalents,max_incremental_HAA9_cost_ratio,reference_positive_systems
+c,wr_results/core/resource_break_even.csv,2,1.0,769
+c,wr_results/core/resource_break_even.csv,3,0.5,769
+c,wr_results/core/resource_break_even.csv,4,1.0,769
+c,wr_results/core/resource_break_even.csv,5,1.5,769
+c,wr_results/core/resource_break_even.csv,6,1.0,769
+c,wr_results/core/resource_break_even.csv,7,1.3,769
+c,wr_results/core/resource_break_even.csv,8,1.65,769
+c,wr_results/core/resource_break_even.csv,9,2.0,769
+c,wr_results/core/resource_break_even.csv,10,2.3,769
+c,wr_results/core/resource_break_even.csv,11,2.65,769
+c,wr_results/core/resource_break_even.csv,12,2.0,769

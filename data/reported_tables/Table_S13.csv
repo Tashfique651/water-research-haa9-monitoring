@@ -1,0 +1,14 @@
+Analysis,Support,p₀₀,p₁₀,p₀₁,p₁₁,"Interaction, points (95% interval)"
+"Strict dates: late reference, early evaluation","420 positive / 2,636 eligible PWSs",0.1726,0.3131,0.2810,0.4643,4.29 (2.02–6.55)
+"Strict dates: early reference, late evaluation","435 positive / 2,636 eligible PWSs",0.1563,0.2920,0.2667,0.4483,4.60 (2.64–6.55)
+"Group-only split: late reference, early evaluation","424 positive / 2,693 eligible PWSs",0.1710,0.3113,0.2783,0.4623,4.36 (2.12–6.60)
+"Group-only split: early reference, late evaluation","442 positive / 2,693 eligible PWSs",0.1538,0.2885,0.2624,0.4434,4.64 (2.60–6.67)
+"Alternating folds, pooled directions","1,021 direction rows; 765 PWSs",0.1748,0.3315,0.2958,0.5015,4.90 (3.39–6.40)
+"Alternating folds, reference fold 0",536 PWSs,0.1604,0.3200,0.2668,0.4776,5.13 (3.36–6.90)
+"Alternating folds, reference fold 1",485 PWSs,0.1907,0.3443,0.3278,0.5278,4.64 (2.47–6.80)
+Leave one represented state or jurisdiction code out,53 exclusions,n/a,n/a,n/a,n/a,Range 20.66–21.90
+"HAA5-positive systems, recurrent HAA9 signal",444 PWSs,n/a,n/a,n/a,n/a,50.45% had at least two positive rounds
+"HAA5-negative systems, recurrent HAA9 signal",325 PWSs,n/a,n/a,n/a,n/a,21.85% had at least two positive rounds
+HAA5-positive HAA9 margin,444 PWSs,n/a,n/a,n/a,n/a,Median 26.64 µg/L; IQR 14.97–44.89
+HAA5-negative HAA9 margin,325 PWSs,n/a,n/a,n/a,n/a,Median 5.18 µg/L; IQR 2.46–9.79
+Whole-jurisdiction cluster bootstrap,53 clusters; 769 PWSs,n/a,n/a,n/a,n/a,21.23 (18.09–24.36)

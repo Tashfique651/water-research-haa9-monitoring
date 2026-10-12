@@ -1,0 +1,11 @@
+# HAA9 chemistry revision protocol
+
+Frozen 19 September 2026 before computing this revision. This is an exploratory retrospective extension of an already examined archive, not a preregistered or independent confirmation.
+
+Use the existing eligible 4,904-system matched UCMR4 cohort. Retain official totals for the primary results. Summarize absolute HAA5, Extra4 and HAA9 concentrations and Extra4 fraction by system; associate each with source-side bromide and TOC separately using Spearman correlation. These are descriptive, not hydraulic or causal associations.
+
+Construct three exhaustive system states at B60: neither panel positive, both panels positive, and HAA9 positive with HAA5 negative. Across all eligible systems with both source indicators, fit two transparent binomial models against the common neither-positive group, adjusting for log2 round and site counts, source profile and size. Repeat the previous conditional environmental regression under lower, midpoint and upper nondetect substitutions. Use each substitution's median and IQR with explicit units, and retain all outcomes, coefficients and failed-fit diagnostics. Source units are micrograms per litre; transforms are log2(1 + x/(1 microgram per litre)). This scaling is descriptive and not dimensionless addition of a physical constant.
+
+Use species-reported censoring intervals coherently: shared five species must have identical realizations in HAA5 and HAA9. Count system discordance as definite when the minimum HAA9 maximum exceeds60 and the maximum HAA5 maximum is at most60. Count possible discordance when one can hold every HAA5 event at or below60 and make an HAA9 event exceed60 with permitted shared components. Apply detection uncertainty only as declared sensitivity envelopes of0%,5%,10%,20% to quantified species, not as measured laboratory precision or a probability distribution. Do not treat all-low and all-high interaction endpoints as mathematical bounds.
+
+Preserve original data and outputs. Export event- and system-level interval results, all uncertainty scenarios, full-cohort chemical summaries, correlation support and regression details. Do not select a nondetect or measurement assumption to produce a preferred result.

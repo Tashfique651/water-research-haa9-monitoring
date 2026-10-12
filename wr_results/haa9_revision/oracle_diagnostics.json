@@ -1,0 +1,8 @@
+{
+  "reference_positive_systems": 769,
+  "archive_HAA5_mismatches": 0,
+  "archive_HAA9_mismatches": 0,
+  "shared_HAA9_oracle_misses_full_HAA5_signal": 0,
+  "HAA9_oracle_tie_systems": 0,
+  "interpretation": "The shared HAA9-maximizing selector is empirically audited; equality with full HAA5 is not an algebraic identity."
+}

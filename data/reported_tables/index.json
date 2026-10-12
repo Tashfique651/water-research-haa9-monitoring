@@ -1,0 +1,380 @@
+[
+  {
+    "table": "1",
+    "caption": "Table 1. Sources and analytical roles.",
+    "file": "Table_1.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "6b2496b215f0b19ebcc1a9c78e727de2de2831460b6c2aa4b0b479b888b257ce"
+  },
+  {
+    "table": "2",
+    "caption": "Table 2. Conditional capture at B60 (769 reference-positive systems).",
+    "file": "Table_2.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "42c42dd4b873f0196aabfda74de967e6c4c50b5073c6bfca52a459d5888f0482"
+  },
+  {
+    "table": "3",
+    "caption": "Table 3. Baseline-preserving augmentation on strictly later dates.",
+    "file": "Table_3.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "868d09420267b060f59fcfe6bf61745b8d052233151e97819a9be7cb91827208"
+  },
+  {
+    "table": "S1",
+    "caption": "Table S1. Source versions and integrity checks.",
+    "file": "Table_S1.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "834eda4cd029fdf14b489029cb3d86c6e8d04f899d4f34114b0c51bf9ac3cfca"
+  },
+  {
+    "table": "S2",
+    "caption": "Table S2. Cohort construction and chemical checks.",
+    "file": "Table_S2.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "239aa3b793a3bdec2c5a2f9be6a818c2a5e5c0a06856c5d107a171a6ec5ae459"
+  },
+  {
+    "table": "S3",
+    "caption": "Table S3. Conditional capture and recovery classes.",
+    "file": "Table_S3.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "ec16518457e8b30e4405e2d5b51892a0112b51e7e7fea52a3236ca9de13d61d3"
+  },
+  {
+    "table": "S4",
+    "caption": "Table S4. Round content and sampling-unit sensitivity.",
+    "file": "Table_S4.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "43f1f0e85ccc7283c818f616e37488fe24caf850d9171a971daf4c20668eb09f"
+  },
+  {
+    "table": "S5",
+    "caption": "Table S5. Matched site and round support.",
+    "file": "Table_S5.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "04929f5a8d8b32e88bdf986734a069ac92daf13b09f5f2d16341d9417d4d83b5"
+  },
+  {
+    "table": "S6",
+    "caption": "Table S6. Cohort and benchmark sensitivity.",
+    "file": "Table_S6.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "4f6a188dd9d4ec1a63eafcf91222f1c3df213f6f04344f492c61c819367e7455"
+  },
+  {
+    "table": "S7",
+    "caption": "Table S7. Internal screening performance.",
+    "file": "Table_S7.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "3231586ee78d1c6f08f33927b153de613be0e275b668ac2c06c20273b4d80e6a"
+  },
+  {
+    "table": "S8",
+    "caption": "Table S8. Threshold and continuous contrasts.",
+    "file": "Table_S8.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "3589f7eadf708d598ed142c5c9dc756ac473b7d0546204472bd00a2a3a2bfe1d"
+  },
+  {
+    "table": "S9",
+    "caption": "Table S9. Relative-scale and sign-flip diagnostics.",
+    "file": "Table_S9.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "cd429e5721d9ef1679fc5fc7519602af714e8a7f606c596dcd4be3ac3b9d588f"
+  },
+  {
+    "table": "S10",
+    "caption": "Table S10. Retrospective round selection.",
+    "file": "Table_S10.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "2f0a4fbdeba62169a7a6b201b4ee0da1cbe890a7a65819eb1abc9102a8f2eaca"
+  },
+  {
+    "table": "S11",
+    "caption": "Table S11. Sample budgets and relative assay costs.",
+    "file": "Table_S11.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "17bbadd3210adeb4879b4e68a14495eda56e94a14bc4a54b32e2f942d3f32502"
+  },
+  {
+    "table": "S12",
+    "caption": "Table S12. Quarterly research endpoints.",
+    "file": "Table_S12.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "253a7955789937eb268f8d43115ecaf0c83428b15a8bfb887413ca9bc1e781ab"
+  },
+  {
+    "table": "S13",
+    "caption": "Table S13. Separate-date and influence checks.",
+    "file": "Table_S13.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "49ce62bab36b9a69e4575b97e7f4c8310641526718b03c01efc65558699a3ded"
+  },
+  {
+    "table": "S14",
+    "caption": "Table S14. Strata and adjusted associations.",
+    "file": "Table_S14.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "4fdcd33a1793cd86126db36596c41fb26fa5091aa0aa583257a9d7f4f63403ad"
+  },
+  {
+    "table": "S15",
+    "caption": "Table S15. Population weights and coverage.",
+    "file": "Table_S15.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "a72f1a106499a2fda84dfeed034a63aa82611e7d2f4e102d5e3e955c1b9ed6c9"
+  },
+  {
+    "table": "S16",
+    "caption": "Table S16. Species contributions and panel controls.",
+    "file": "Table_S16.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "b680f165b544dbb8c14829fa70e93bde66f9631244b2b45d783ec3ab5f8f4eb3"
+  },
+  {
+    "table": "S17",
+    "caption": "Table S17. Archive-specific checks.",
+    "file": "Table_S17.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "7475b14e7f3ee310fb26c9a3d88250fb593444e6e929904d894293a5b8a9384c"
+  },
+  {
+    "table": "S18",
+    "caption": "Table S18. Interpretation and scope of application.",
+    "file": "Table_S18.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "64bf4b7aa6fe5e7f5365ad22119ed1810b8963c8108c7b70cc38bbf54b18e120"
+  },
+  {
+    "table": "S19",
+    "caption": "Table S19. Four-sample HAA9 detection exchange.",
+    "file": "Table_S19.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "7a5490e254911df71df45ac03a6f0675dc7e67e51b72c5971a6dbef87af451ff"
+  },
+  {
+    "table": "S20",
+    "caption": "Table S20. Endpoints on identical four-quarter site windows.",
+    "file": "Table_S20.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "3d7fa45336bc62f4945f8bcdfc6b75c48ccca5dadd3d1be44c2d6305881f72c1"
+  },
+  {
+    "table": "S21",
+    "caption": "Table S21. B60 classification under species-MRL bounds.",
+    "file": "Table_S21.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "c80310250c5c3dd0195b98b454966f6f0a07fbef8e78511fb24bfb5bb0d1fefe"
+  },
+  {
+    "table": "S22",
+    "caption": "Table S22. Equal-four-sample allocation on 668 common reference-positive systems.",
+    "file": "Table_S22.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "ee69b5fc18c9048f88f11de4cf0afc47ca52e2be190014e568763fa4e5dda430"
+  },
+  {
+    "table": "S23",
+    "caption": "Table S23. Sharp censoring-only interaction bounds.",
+    "file": "Table_S23.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "7135eb2ef91714e27dfb9ace8139031857cca7c2e9ae3dcb1d7106714d6e63d9"
+  },
+  {
+    "table": "S24",
+    "caption": "Table S24. Detection substitution by recurrence and concentration margin.",
+    "file": "Table_S24.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "bcf13aab2c5d100fac818e19dd99b33b4f3991f6165287f6f2d869f8b5d35909"
+  },
+  {
+    "table": "S25",
+    "caption": "Table S25. Equal-four-sample substitutions by disjoint HAA9 concentration margin.",
+    "file": "Table_S25.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "68f04a587a9203bfdf4cdc2cad72467fb904b495523553d4a39a9c087f0c8c9b"
+  },
+  {
+    "table": "S26",
+    "caption": "Table S26. Two-sample capture on strictly later dates in 420 later-positive systems.",
+    "file": "Table_S26.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "56387472818a844cbf83a4ebdb96683f72967f349c9d50b896ef95e7513297c7"
+  },
+  {
+    "table": "S27",
+    "caption": "Table S27. Paired HAA9 capture differences between history-based site rules.",
+    "file": "Table_S27.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "bd00111491f6437c637671e4738612970f9ac5084d2739d2fbff5bdb422faaa8"
+  },
+  {
+    "table": "S28",
+    "caption": "Table S28. Complete paired sample-budget family.",
+    "file": "Table_S28.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "177b50dd5a472100e0ffac941241c571f706c748f98bec83b92abd871d5736ed"
+  },
+  {
+    "table": "S29",
+    "caption": "Table S29. Achieved sample counts and expected observed-date and site coverage.",
+    "file": "Table_S29.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "5ab26f4cfdd1460db3e85f81e6d71af570f77c2ce0ede606fee9ce55808d264e"
+  },
+  {
+    "table": "S30",
+    "caption": "Table S30. All declared workload comparisons: scalar totals and species models under training cutoffs and exact-capacity ranking.",
+    "file": "Table_S30.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "a966ddf9993b5cbc9938f0f7042333d3512053b1d6325870d2258765ebd2bbc2"
+  },
+  {
+    "table": "S31",
+    "caption": "Table S31. Forward score accuracy, probability performance and direct B60 operating characteristics.",
+    "file": "Table_S31.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "d02af2377bf460e76e8b6c80300a0c69ad188dbc84647346f83f210092878773"
+  },
+  {
+    "table": "S32",
+    "caption": "Table S32. Species-consistent feasibility of HAA9-positive/HAA5-negative discordance under censoring and assumed quantified-value envelopes.",
+    "file": "Table_S32.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "f634606ea99613e45ecc2c71cb2a201537f321918965db8fa81fb4416a5e42e1"
+  },
+  {
+    "table": "S33",
+    "caption": "Table S33. Source-indicator odds ratios under lower, midpoint and upper nondetect realizations.",
+    "file": "Table_S33.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "658e0e60e28693a2b2258cc788e748b1fe98326c3cb5afdca151e7c80cea1131"
+  },
+  {
+    "table": "S34",
+    "caption": "Table S34. Analytical sequence, inferential families and verification scope.",
+    "file": "Table_S34.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "decc40528028785f4d38382c88fc23fbecdf9e83fb9de3f1e39a66615913abfc"
+  },
+  {
+    "table": "S35",
+    "caption": "Table S35. Primary within-system bromination slopes per doubling of source bromide.",
+    "file": "Table_S35.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "1bb7b749cc5390e4e52e53dff2da6797d98a07c30bf2fb102dca487da3cea70e"
+  },
+  {
+    "table": "S36",
+    "caption": "Table S36. Censoring-only coefficient bounds and leave-one-PWS-out slopes.",
+    "file": "Table_S36.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "aa029ea7f2b94498d9c62ae8b76b618e95a6179c2b3d0b230fa9ae405bdf9c1c"
+  },
+  {
+    "table": "S37",
+    "caption": "Table S37. All implemented bromination model variants.",
+    "file": "Table_S37.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "4c747353bc9276bb9fb33292785578423caaaee333427f8296ae4a085c19b834"
+  },
+  {
+    "table": "S38",
+    "caption": "Table S38. Primary utility-weighted incubation contrasts in 213 triads.",
+    "file": "Table_S38.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "de045add3af201cc8b979b7db727689c6649b2879a5416ea4defe70448144227"
+  },
+  {
+    "table": "S39",
+    "caption": "Table S39. HAA9 SDS−FINISH sensitivity under alternative support rules.",
+    "file": "Table_S39.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "4b7a6e597f7ba623a1c4753d65030fd9ebec1e50da74784016b43137bbcf3557"
+  },
+  {
+    "table": "S40",
+    "caption": "Table S40. Identification assumptions for fixed-record information interventions.",
+    "file": "Table_S40.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "38728311f83892122e0220bc0fe6e92b618e627826da56418f2f1f1a6cf7abd7"
+  },
+  {
+    "table": "S42",
+    "caption": "Table S42. Complete augmentation budget family.",
+    "file": "Table_S42.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "00052de4f413aec6c6d267267a949a289882f99e27fadea69a2adbcbe46bdee5"
+  },
+  {
+    "table": "S43",
+    "caption": "Table S43. Two-specimen augmentation on strictly later dates.",
+    "file": "Table_S43.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "0f07d6eb52740448cd009cfd66ae4a0a7c416510b51bb2bc9410af0cc05b4940"
+  },
+  {
+    "table": "S44",
+    "caption": "Table S44. Expected calendar advancement within the later observed record.",
+    "file": "Table_S44.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "cc671c7359a5faa8a1b2e8d7340a666a3cca5687c2032e17e0d83623dc6ef973"
+  },
+  {
+    "table": "S45",
+    "caption": "Table S45. Reconstructed coefficients and equal-strength confounding tipping points.",
+    "file": "Table_S45.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "30df899740bc2ded72bfa298cedcc5adf5f26f4df772418dd2e9c455f3908b4c"
+  },
+  {
+    "table": "S46",
+    "caption": "Table S46. Downward-adjusted primary di-HAA coefficient under equal hypothetical confounding strengths.",
+    "file": "Table_S46.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "7331f0177dcbe7831ebd15a251cb5dbaa24ad063b57f4650da2207153ea0e909"
+  },
+  {
+    "table": "S47",
+    "caption": "Table S47. Assumption-dependent prospective transfer scenarios for earlier-HAA5 augmentation.",
+    "file": "Table_S47.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "ae00572d81b76295146200f97675a7ba106541761501bfe5d6ef1fa7983066de"
+  },
+  {
+    "table": "S48",
+    "caption": "Table S48. Proposed identification targets and evaluation designs.",
+    "file": "Table_S48.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "16acbd6ea345eaeac4ebad23ceffa55163f860e14fa5b018f4ad38629b2a8abe"
+  },
+  {
+    "table": "S50",
+    "caption": "Table S50. Added HAA9 reporting yield with the complete HAA5 baseline retained.",
+    "file": "Table_S50.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "653b64f9169269e7729c208ac79aa2db4ac15a0ac68f7099f43ba5e2b5e0d6bb"
+  },
+  {
+    "table": "S52",
+    "caption": "Table S52. Screening accuracy under the additional fixed-fold design.",
+    "file": "Table_S52.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "09f375c1184b57981886446069297e6a8ec41843cdd5084369807ff603cc98a9"
+  },
+  {
+    "table": "S53",
+    "caption": "Table S53. Paired sensitivity gains on the additional fixed-fold design.",
+    "file": "Table_S53.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "c00ef5ca3f57f426f85338dad2eccdaf1355c12ee116cf207d6f94d3ee7bda40"
+  },
+  {
+    "table": "S54",
+    "caption": "Table S54. Earlier-HAA5 augmentation across common occurrence benchmarks.",
+    "file": "Table_S54.csv",
+    "provenance": "reported analytical table; not a regenerated output",
+    "sha256": "34b111cf06d69a6cd7425bda662f3f8f013621f74eed67af5229fe2aa537eab0"
+  }
+]

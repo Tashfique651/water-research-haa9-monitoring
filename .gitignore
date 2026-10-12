@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+~$*
+*.doc
+*.docx
+*.pptx
+*.xlsx
+*.zip
+*.enl
+*.Data/

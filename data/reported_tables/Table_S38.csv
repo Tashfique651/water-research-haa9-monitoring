@@ -1,0 +1,10 @@
+Panel,Contrast,"Mean, µg/L","Simultaneous 95%, µg/L","Censoring range, µg/L",Definite + / − pairs
+HAA5,SDS − FINISH,2.85,1.18 to 4.52,-0.80 to 6.37,59 / 12
+HAA5,DSE − FINISH,2.32,0.31 to 4.33,-1.34 to 5.85,69 / 17
+HAA5,DSE − SDS,-0.53,-2.36 to 1.30,-4.05 to 2.99,37 / 34
+Extra4,SDS − FINISH,0.88,0.23 to 1.52,-5.26 to 6.86,13 / 3
+Extra4,DSE − FINISH,1.20,0.06 to 2.34,-4.94 to 7.10,19 / 5
+Extra4,DSE − SDS,0.33,-0.52 to 1.17,-5.66 to 6.22,11 / 7
+HAA9,SDS − FINISH,3.73,1.68 to 5.78,-6.07 to 13.23,28 / 6
+HAA9,DSE − FINISH,3.52,0.76 to 6.29,-6.27 to 12.94,40 / 8
+HAA9,DSE − SDS,-0.20,-2.62 to 2.21,-9.71 to 9.21,21 / 15

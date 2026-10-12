@@ -1,0 +1,17 @@
+cohort_id,cohort_label,scope_role,haa5_status,tthm_status,n_pairs,n_systems,fraction_jointly_classifiable
+SYR3_primary,SYR3 2006 to 2011,primary replication,below,below,188977,15645,0.8647566489118298
+SYR3_primary,SYR3 2006 to 2011,primary replication,below,above,17392,2505,0.07958559844782458
+SYR3_primary,SYR3 2006 to 2011,primary replication,above,below,6414,1459,0.029350392619845147
+SYR3_primary,SYR3 2006 to 2011,primary replication,above,above,5749,1274,0.02630736002050043
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,below,below,183187,15290,0.8625882308623198
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,below,above,17045,2473,0.08026124340181477
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,above,below,6407,1455,0.03016918665153577
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,above,above,5730,1270,0.026981339084329634
+CA2025_primary_DS,California 2025 distribution,primary external validation,below,below,8503,1504,0.9698870765370138
+CA2025_primary_DS,California 2025 distribution,primary external validation,below,above,140,83,0.015968974563704802
+CA2025_primary_DS,California 2025 distribution,primary external validation,above,below,86,45,0.009809512946275807
+CA2025_primary_DS,California 2025 distribution,primary external validation,above,above,38,20,0.00433443595300559
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,below,below,8909,1552,0.9694232861806311
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,below,above,145,86,0.015778019586507073
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,above,below,96,47,0.01044613710554951
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,above,above,40,20,0.004352557127312296

@@ -1,0 +1,16 @@
+metric,value
+haa_total_rows,190359
+distinct_exact_events,63495
+complete_triplet_events,63432
+incomplete_triplet_events,63
+systems_with_any_haa_total,4924
+systems_with_incomplete_grid,20
+finite_grid_eligible_systems,4904
+duplicate_event_panel_row_members,0
+sample_id_conflicts_within_weak_event_key,0
+metadata_conflicts,"{""FacilityName"": 0, ""FacilityWaterType"": 0, ""MonitoringRequirement"": 0, ""PWSName"": 0, ""Region"": 0, ""SamplePointName"": 0, ""SamplePointType"": 0, ""Size"": 0, ""State"": 0}"
+non_equals_sign_rows,0
+missing_numeric_result_rows,0
+unparsed_collection_dates,0
+incomplete_pattern_HAA6Br+HAA9,52
+incomplete_pattern_HAA5+HAA9,11

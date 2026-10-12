@@ -1,0 +1,16 @@
+{
+  "bootstrap_replicates": 2000,
+  "seed": 2026101107,
+  "source_sha256": "05e993ece452938a2f7667caaa35c75b42ec073eb17d0d166a45ecbfce4f940e",
+  "fold_sizes": [
+    533,
+    533,
+    537,
+    510,
+    523
+  ],
+  "systems": 2636,
+  "positive_systems": 420,
+  "feature_route": "released early-feature CSV; see input reconstruction audit",
+  "complete": true
+}

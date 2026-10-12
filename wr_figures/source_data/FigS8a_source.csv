@@ -1,0 +1,8 @@
+source_panel,source_input_path,tolerance_ug_l,one_to_one_matches,matched_ucmr_events,matched_syr4_records,matched_systems,fraction_of_same_date_ucmr_events,primary_tolerance
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,0.0,1159,1159,1159,253,0.0979133226324237,False
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,0.001,1176,1176,1176,259,0.0993494973388527,False
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,0.01,1364,1364,1364,302,0.1152318999746557,False
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,0.05,1846,1846,1846,388,0.1559516769451719,True
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,0.1,2574,2574,2574,525,0.2174537467263664,False
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,0.5,4978,4978,4978,752,0.420545746388443,False
+a,wr_results/validation/ucmr4_syr4_overlap_tolerance_summary.csv,1.0,6380,6380,6380,833,0.538987919236293,False

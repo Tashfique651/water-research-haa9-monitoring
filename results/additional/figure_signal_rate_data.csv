@@ -1,0 +1,7 @@
+cohort_id,cohort_label,analyte,scope_role,metric,estimate,ci_low,ci_high,numerator,denominator,n_systems,bootstrap_reps,unit,definition
+SYR3_primary,SYR3 2006 to 2011,HAA5,primary replication,haa5_above_rate_classifiable,0.05526780485811949,0.051661482603924114,0.058999839799064424,12175.0,220291.0,16999,10000,proportion,HAA5 concentration interval definitely above 60 ug/L among classifiable HAA5 pairs
+SYR3_primary,SYR3 2006 to 2011,TTHM,primary replication,tthm_above_rate_classifiable,0.10271463895169715,0.09791490476815201,0.10748400142994857,23304.0,226881.0,16999,10000,proportion,TTHM concentration interval definitely above 80 ug/L among classifiable TTHM pairs
+SYR4_reference,SYR4 2012 to 2019,HAA5,,,0.029370044586509943,0.027735356506482955,0.031004946742237766,15032.0,511814.0,26540,10000,,
+SYR4_reference,SYR4 2012 to 2019,TTHM,,,0.06795195832900543,0.06524281797288149,0.0706601089731126,35327.0,519882.0,26540,10000,,
+CA2025_primary_DS,California 2025 distribution,HAA5,primary external validation,haa5_above_rate_classifiable,0.014143948899281396,0.009988568978223443,0.019111694644822697,124.0,8767.0,1526,10000,proportion,HAA5 concentration interval definitely above 60 ug/L among classifiable HAA5 pairs
+CA2025_primary_DS,California 2025 distribution,TTHM,primary external validation,tthm_above_rate_classifiable,0.02030341051671039,0.015177032611348723,0.026277979172931294,178.0,8767.0,1526,10000,proportion,TTHM concentration interval definitely above 80 ug/L among classifiable TTHM pairs

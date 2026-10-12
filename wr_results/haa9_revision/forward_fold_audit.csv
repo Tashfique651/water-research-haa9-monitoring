@@ -1,0 +1,6 @@
+outer_fold,training_PWS,evaluation_PWS,training_positive,evaluation_positive,PWS_overlap,transforms_fit_on
+0,2112,524,358,62,0,outer training PWS only
+1,2104,532,320,100,0,outer training PWS only
+2,2139,497,338,82,0,outer training PWS only
+3,2091,545,325,95,0,outer training PWS only
+4,2098,538,339,81,0,outer training PWS only

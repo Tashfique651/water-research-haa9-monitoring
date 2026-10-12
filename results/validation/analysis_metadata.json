@@ -1,0 +1,57 @@
+{
+  "analysis_name": "DBP cross-archive historical validation",
+  "bootstrap_reps": 10000,
+  "bootstrap_unit": "PWSID / ICRPWSID system cluster",
+  "capture_formula": "1 - combination(N-M,k)/combination(N,k), without replacement",
+  "holdout_rule": "20% of SYR4 systems by stable blake2b hash modulo 5",
+  "icr_all_ds_sensitivity_event_types": [
+    "ENT",
+    "DSE",
+    "AVG",
+    "AVG1",
+    "AVG2",
+    "MAX",
+    "SDS",
+    "NFC"
+  ],
+  "icr_factorial_rule": "same EVENT_ID paired nonnegative HAA5/HAA9; M0 uniform exact one-period enumeration; M1 complete finite paired grid; condition on HAA9/M1 >60",
+  "icr_full_window_rule": "numeric support in each SAMP_QTR 1 through 6",
+  "icr_minus999_rule": "below MRL analytical sentinel; never a numeric concentration; excluded from numeric support",
+  "icr_minus999_semantics": {
+    "TUXDBP_HAA5_rule_DBP011000071": "reported total is -999 when all five HAA5 components are below MRL",
+    "TUXDBP_HAA9_rule_DBP011000131": "reported total is -999 when all nine HAA9 components are below MRL",
+    "TUXDBP_components": "-999 denotes a below-MRL component; zero is used only inside the documented total calculation",
+    "TUXWQP_special_average_rules": "for TOC, TOX, and UV-254, -999 is used under the guide's initial/duplicate MRL-substitution averaging convention when the average equals the MRL",
+    "analysis_handling": "never treated as -999 or silently as zero; excluded from numeric summaries and threshold-support denominators unless a documented total is recomputed for identity QA",
+    "general_rule_GR012000140": "-999 is entered for an analytical result below the minimum reporting level"
+  },
+  "icr_primary_event_types": [
+    "AVG",
+    "AVG1",
+    "AVG2",
+    "MAX",
+    "NFC"
+  ],
+  "seed": 20260913,
+  "software": {
+    "duckdb": "1.5.5",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pyodbc": "5.3.0",
+    "python": "3.12.14"
+  },
+  "syr4_censoring_rule": "non-detect interval [0, positive reported DL]; unknown upper bound if DL missing/zero/negative/unrecognized unit",
+  "syr4_duplicate_rule": "collapse only identical analysis-critical signatures; exclude conflicting keys",
+  "syr4_pair_key": [
+    "PWSID",
+    "SAMPLE_ID"
+  ],
+  "syr4_primary_additional_rule": "same HAA5 and TTHM sample collection date",
+  "threshold_operator": "strictly greater than",
+  "thresholds_ug_l": {
+    "ICR_HAA5": 60.0,
+    "ICR_HAA9_comparison": 60.0,
+    "SYR4_HAA5": 60.0,
+    "SYR4_TTHM": 80.0
+  }
+}

@@ -1,0 +1,10 @@
+source_panel,source_input_path,species,HAA5_member,HAA9_member
+a,nested released panel definitions,MCAA,True,True
+a,nested released panel definitions,DCAA,True,True
+a,nested released panel definitions,TCAA,True,True
+a,nested released panel definitions,MBAA,True,True
+a,nested released panel definitions,DBAA,True,True
+a,nested released panel definitions,BCAA,False,True
+a,nested released panel definitions,BDCAA,False,True
+a,nested released panel definitions,CDBAA,False,True
+a,nested released panel definitions,TBAA,False,True

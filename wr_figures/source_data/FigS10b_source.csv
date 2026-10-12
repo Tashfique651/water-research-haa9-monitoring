@@ -1,0 +1,17 @@
+source_panel,source_input_path,weighting_scheme,label,cell,conditional_capture
+b,wr_results/playbook_extension/population_weighting_summary.csv,system_equal_complete_case,"Equal, linked subset",HAA5 one group,0.2139409426462237
+b,wr_results/playbook_extension/population_weighting_summary.csv,system_equal_complete_case,"Equal, linked subset",HAA9 one group,0.4003407155025553
+b,wr_results/playbook_extension/population_weighting_summary.csv,system_equal_complete_case,"Equal, linked subset",HAA5 full grid,0.6081771720613288
+b,wr_results/playbook_extension/population_weighting_summary.csv,system_equal_complete_case,"Equal, linked subset",HAA9 full grid,1.0
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population,Adjusted population,HAA5 one group,0.2609344596343571
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population,Adjusted population,HAA9 one group,0.4091790144622647
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population,Adjusted population,HAA5 full grid,0.6670853338160055
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population,Adjusted population,HAA9 full grid,1.0
+b,wr_results/playbook_extension/population_weighting_summary.csv,retail_population,Retail population,HAA5 one group,0.2608423749165556
+b,wr_results/playbook_extension/population_weighting_summary.csv,retail_population,Retail population,HAA9 one group,0.4069549699008205
+b,wr_results/playbook_extension/population_weighting_summary.csv,retail_population,Retail population,HAA5 full grid,0.6659379838966137
+b,wr_results/playbook_extension/population_weighting_summary.csv,retail_population,Retail population,HAA9 full grid,1.0
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population_capped_at_complete_case_p99,"Adjusted, 99th-pct cap",HAA5 one group,0.2146720306145182
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population_capped_at_complete_case_p99,"Adjusted, 99th-pct cap",HAA9 one group,0.3929563553267228
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population_capped_at_complete_case_p99,"Adjusted, 99th-pct cap",HAA5 full grid,0.5932676413078048
+b,wr_results/playbook_extension/population_weighting_summary.csv,adjusted_population_capped_at_complete_case_p99,"Adjusted, 99th-pct cap",HAA9 full grid,1.0

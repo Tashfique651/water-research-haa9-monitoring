@@ -1,0 +1,185 @@
+{
+  "stage": "wr_core_extensions.py",
+  "audit_date": "2026-09-19",
+  "python": "3.12.14",
+  "environment": "Bundled runtime plus project-owned shared dependency target; see pinned observed versions",
+  "n_csv_files": 29,
+  "all_csv_bytes_identical": true,
+  "boundary": "Only these 29 baseline CSVs tested for byte identity. Not a claim about full raw-source reruns, fresh installation or binary Parquet/DOCX byte identity.",
+  "files": [
+    {
+      "name": "chronological_disjoint_B60_summary.csv",
+      "before_sha256": "b437e8a7b0871735e2647f8ae2101730c9d3fa12b112b7f0a7bbf3ec80ce0f72",
+      "after_sha256": "b437e8a7b0871735e2647f8ae2101730c9d3fa12b112b7f0a7bbf3ec80ce0f72",
+      "identical": true
+    },
+    {
+      "name": "chronological_disjoint_B60_systems.csv",
+      "before_sha256": "a531a74bf86ec273f1e9030c1d8d204439908994fdd86ceb3c038679f2e992fc",
+      "after_sha256": "a531a74bf86ec273f1e9030c1d8d204439908994fdd86ceb3c038679f2e992fc",
+      "identical": true
+    },
+    {
+      "name": "chronological_disjoint_threshold_curve.csv",
+      "before_sha256": "df3857f2a17bb104d59ad548fc8a2d6287b7e1361d48448534a59c5afc1df39c",
+      "after_sha256": "df3857f2a17bb104d59ad548fc8a2d6287b7e1361d48448534a59c5afc1df39c",
+      "identical": true
+    },
+    {
+      "name": "cohort_operator_margin_sensitivity.csv",
+      "before_sha256": "24d2f2187aed897da343ad1414800578e04509129d6f87b075a6498fa40acf31",
+      "after_sha256": "24d2f2187aed897da343ad1414800578e04509129d6f87b075a6498fa40acf31",
+      "identical": true
+    },
+    {
+      "name": "continuous_interaction_summary.csv",
+      "before_sha256": "c1e1a45ef059e0b7392ab9708409603d2684ea9c8f6b535b61a6a81dba72c7f3",
+      "after_sha256": "c1e1a45ef059e0b7392ab9708409603d2684ea9c8f6b535b61a6a81dba72c7f3",
+      "identical": true
+    },
+    {
+      "name": "continuous_interaction_systems.csv",
+      "before_sha256": "2fc5fd3b407ef80253cce90b6c1437b02ee293297e976e0aa49ec4ca12c37ac8",
+      "after_sha256": "2fc5fd3b407ef80253cce90b6c1437b02ee293297e976e0aa49ec4ca12c37ac8",
+      "identical": true
+    },
+    {
+      "name": "disjoint_grid_summary.csv",
+      "before_sha256": "a71f0f9fb0b670a6e9d5ed2e3d95e303e13c24660291fead39fc4c0f8c080e40",
+      "after_sha256": "a71f0f9fb0b670a6e9d5ed2e3d95e303e13c24660291fead39fc4c0f8c080e40",
+      "identical": true
+    },
+    {
+      "name": "disjoint_grid_system_directions.csv",
+      "before_sha256": "be23e75c869bca2e50417543b3dc734f01033095122de047644b7a60c5486430",
+      "after_sha256": "be23e75c869bca2e50417543b3dc734f01033095122de047644b7a60c5486430",
+      "identical": true
+    },
+    {
+      "name": "fixed_support_factorial.csv",
+      "before_sha256": "ec4959d0f002e5e8debe5d871cda84ff0ce28591202cfc77e6699082cffc1b93",
+      "after_sha256": "ec4959d0f002e5e8debe5d871cda84ff0ce28591202cfc77e6699082cffc1b93",
+      "identical": true
+    },
+    {
+      "name": "joint_round_site_capture_surface.csv",
+      "before_sha256": "37f8eaeb3682f19b4b4a2f572e9467e7d2dd8f9754c39069c9de21c8980fbdc7",
+      "after_sha256": "37f8eaeb3682f19b4b4a2f572e9467e7d2dd8f9754c39069c9de21c8980fbdc7",
+      "identical": true
+    },
+    {
+      "name": "joint_round_site_grid_audit.csv",
+      "before_sha256": "981e8ba05730d81b32e879cb2b6e603adba53940ea01cddcf4c998f1d1ffd2b3",
+      "after_sha256": "981e8ba05730d81b32e879cb2b6e603adba53940ea01cddcf4c998f1d1ffd2b3",
+      "identical": true
+    },
+    {
+      "name": "joint_round_site_system_probabilities.csv",
+      "before_sha256": "5249829e60328d24344d588bd9ac9460520efdc36cc8a43e753ebd535afab45c",
+      "after_sha256": "5249829e60328d24344d588bd9ac9460520efdc36cc8a43e753ebd535afab45c",
+      "identical": true
+    },
+    {
+      "name": "leave_one_state_out.csv",
+      "before_sha256": "254385d3c18740b18cb15f3ea50ef359d90f628abfc43ba508853056a38de96e",
+      "after_sha256": "254385d3c18740b18cb15f3ea50ef359d90f628abfc43ba508853056a38de96e",
+      "identical": true
+    },
+    {
+      "name": "resource_break_even.csv",
+      "before_sha256": "aaab09189de90b1a20b26b4a25104d64b81902fd9097c0951da5e4b5c968a359",
+      "after_sha256": "aaab09189de90b1a20b26b4a25104d64b81902fd9097c0951da5e4b5c968a359",
+      "identical": true
+    },
+    {
+      "name": "resource_capture_curve.csv",
+      "before_sha256": "2a0c39a5f89505b617133996e48c1934bb5209a14ab0e6c9bea82b6be2bd4b16",
+      "after_sha256": "2a0c39a5f89505b617133996e48c1934bb5209a14ab0e6c9bea82b6be2bd4b16",
+      "identical": true
+    },
+    {
+      "name": "resource_scenario_surface.csv",
+      "before_sha256": "40878166d9eeb4f9bd53f93704316aa4bc9bddfbf68b019d3af0445de98d24da",
+      "after_sha256": "40878166d9eeb4f9bd53f93704316aa4bc9bddfbf68b019d3af0445de98d24da",
+      "identical": true
+    },
+    {
+      "name": "resource_unit_summary.csv",
+      "before_sha256": "776789ff82cbf3709b9e809dae94d2dc555f867ee53bdeefa342673e3982cb76",
+      "after_sha256": "776789ff82cbf3709b9e809dae94d2dc555f867ee53bdeefa342673e3982cb76",
+      "identical": true
+    },
+    {
+      "name": "resource_unit_systems.csv",
+      "before_sha256": "41289529a55fab2f18a55a7cb71aa77f2ce459dec4c83a4eeee42fc7f4c3331f",
+      "after_sha256": "41289529a55fab2f18a55a7cb71aa77f2ce459dec4c83a4eeee42fc7f4c3331f",
+      "identical": true
+    },
+    {
+      "name": "round_definition_sensitivity.csv",
+      "before_sha256": "6ae87e6914d81ff701b96ba9948969001bfd4ba125ddaf133961294032247ae5",
+      "after_sha256": "6ae87e6914d81ff701b96ba9948969001bfd4ba125ddaf133961294032247ae5",
+      "identical": true
+    },
+    {
+      "name": "round_semantics_audit.csv",
+      "before_sha256": "92cb68f1185c120d6fda9af3ac0bb3f726fd3598faf5c8e8281f4f6554168791",
+      "after_sha256": "92cb68f1185c120d6fda9af3ac0bb3f726fd3598faf5c8e8281f4f6554168791",
+      "identical": true
+    },
+    {
+      "name": "round_semantics_summary.csv",
+      "before_sha256": "eff970d9dcbfc2fb6260a1a6b2e14a40c0bc0ebd3a04c9322c79568eae220b7b",
+      "after_sha256": "eff970d9dcbfc2fb6260a1a6b2e14a40c0bc0ebd3a04c9322c79568eae220b7b",
+      "identical": true
+    },
+    {
+      "name": "screening_crossfit_folds.csv",
+      "before_sha256": "8ada6e0c4306bc547a2954bf0297bfbf771e8683d438c7a47325f4e31e870045",
+      "after_sha256": "8ada6e0c4306bc547a2954bf0297bfbf771e8683d438c7a47325f4e31e870045",
+      "identical": true
+    },
+    {
+      "name": "screening_curve.csv",
+      "before_sha256": "7ff9f3b9eff2354f5ccd0e49df25829df56fd5e78bac365bc01b73f025117a82",
+      "after_sha256": "7ff9f3b9eff2354f5ccd0e49df25829df56fd5e78bac365bc01b73f025117a82",
+      "identical": true
+    },
+    {
+      "name": "screening_operating_points.csv",
+      "before_sha256": "dcc0cf59c11ea934a82442cc62e4e6c2af17b3f50fcae302ddcf41919d07eebd",
+      "after_sha256": "dcc0cf59c11ea934a82442cc62e4e6c2af17b3f50fcae302ddcf41919d07eebd",
+      "identical": true
+    },
+    {
+      "name": "severity_persistence_summary.csv",
+      "before_sha256": "d88f58f2fdaf777f807bfd7f64fe9f8ab2cb73d891f1086e5b9d76f268f5caae",
+      "after_sha256": "d88f58f2fdaf777f807bfd7f64fe9f8ab2cb73d891f1086e5b9d76f268f5caae",
+      "identical": true
+    },
+    {
+      "name": "severity_persistence_systems.csv",
+      "before_sha256": "675e4dfffc9d0897e56642ac0070af93518af03ebce4a1302fcd012030d780f4",
+      "after_sha256": "675e4dfffc9d0897e56642ac0070af93518af03ebce4a1302fcd012030d780f4",
+      "identical": true
+    },
+    {
+      "name": "support_systems.csv",
+      "before_sha256": "f2d06eb4d5fb5b3776c3df34729b0583b8aad046fb4bad649794434a35842ec1",
+      "after_sha256": "f2d06eb4d5fb5b3776c3df34729b0583b8aad046fb4bad649794434a35842ec1",
+      "identical": true
+    },
+    {
+      "name": "threshold_factorial_with_intervals.csv",
+      "before_sha256": "fdaf0d9a9da0fca66a3525f8c3f7d6578a66a1c6e330b39caf29c83f7a1fa418",
+      "after_sha256": "fdaf0d9a9da0fca66a3525f8c3f7d6578a66a1c6e330b39caf29c83f7a1fa418",
+      "identical": true
+    },
+    {
+      "name": "threshold_interaction_simultaneous_band.csv",
+      "before_sha256": "08a6bed25622c3a814e50129e4505bbb28716e6190487e4e6a6fc16e15085622",
+      "after_sha256": "08a6bed25622c3a814e50129e4505bbb28716e6190487e4e6a6fc16e15085622",
+      "identical": true
+    }
+  ]
+}

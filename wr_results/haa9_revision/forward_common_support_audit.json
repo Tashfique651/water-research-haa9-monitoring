@@ -1,0 +1,59 @@
+{
+  "forward_cohort": {
+    "eligible_complete_grid_PWS": 4904,
+    "exact_four_round_PWS": 2693,
+    "strict_chronological_PWS": 2636,
+    "chronology_excluded_PWS": 57,
+    "later_HAA9_positive_PWS": 420,
+    "later_HAA9_negative_PWS": 2216,
+    "early_species_mapped_samples": 24211,
+    "species_dates_and_event_codes_match": true,
+    "species_sum_max_error_HAA5_ug_l": 0.4999999999999999,
+    "species_sum_max_error_HAA9_ug_l": 0.5,
+    "species_sum_nonmatching_early_samples_gt_1e_9": 2,
+    "species_censoring_rule": "detected concentration; zero for nondetects (released lower realization)",
+    "predictor_support": "all samples in first two administrative groups",
+    "outcome_support": "all samples in last two administrative groups",
+    "strict_separation": "latest early date strictly before earliest late date"
+  },
+  "forward_settings": {
+    "bootstraps": 5000,
+    "seed": 20260919,
+    "workloads": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3
+    ],
+    "CI_interpretation": "PWS percentile resampling of out-of-fold records conditional on frozen fits/cutoffs; no retraining uncertainty",
+    "simultaneous_band": "centered bootstrap sup absolute deviation across five declared sensitivity contrasts per comparator family",
+    "staged_strategy": "hypothetical same-sample retained-laboratory reporting only; retention feasibility and cost unverified",
+    "transforms": "log1p concentrations in ug/L, outer-training mean and SD",
+    "model": "fixed L2 penalized logistic regression C=1, lbfgs, max_iter=3000",
+    "exact_capacity_sensitivity": "post-protocol label-free top floor(q*n) out-of-fold scores within each evaluation fold; fixed allocation during bootstrap",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "scipy": "1.18.1",
+      "scikit_learn": "1.8.0"
+    }
+  },
+  "common_support": {
+    "common_support_PWS": 2487,
+    "qualifying_PWS_sites": 11135,
+    "qualifying_four_quarter_windows": 11135,
+    "maximum_HAA9_positive_PWS": 610,
+    "quarterly_input": "site arithmetic mean of eligible exact-matched samples",
+    "OEL_form": "maximum of the two three-quarter OEL-form values within each common four-quarter window",
+    "maximum": "physical-sample maximum using exactly the same site and four-quarter window support",
+    "legal_status": "all OEL-form/LRAA-form values are research analogues, not compliance determinations"
+  },
+  "self_tests": {
+    "tie_workload_fixture": true,
+    "operating_metric_fixture": true,
+    "rank_tie_fixture": true
+  },
+  "protocol_sha256": "b831e99fcb358cd1cb2cbe73ca4325bc86920cf84768cbf3600b592d817f1f81",
+  "postprotocol_capacity_sensitivity_sha256": "3c6897b221741433ab0aef03d56f3610b9655cef8a50131b8962e51ecada5733"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "completed_retrospective_extension",
+  "seed": 20260919,
+  "bootstrap_replicates": 10000,
+  "event_records": 63105,
+  "eligible_PWS": 4904,
+  "reference_positive_PWS": 769,
+  "simultaneous_family_size": 32,
+  "first_positive_mean_vs_full_HAA5": 4,
+  "first_positive_pointwise_lower_vs_full_HAA5": 5,
+  "first_positive_simultaneous_lower_vs_full_HAA5": 5,
+  "physical_sample_key": "PWSID,SampleID; one-to-one with released paired event records audited",
+  "budget_policy": "uniform_without_replacement_min_requested_available",
+  "scope": "finite_observed_grid_not_continuous_time_or_health_risk",
+  "protocol_sha256": "54b4ce174e668df5d904db5f09c78938a37bfefee3833b6d290953d048fc55d1"
+}

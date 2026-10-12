@@ -1,0 +1,4 @@
+Analysis,PWSs,Interaction (95% interval),Multiplicative ratio (95% interval),RERI (95% interval),AP (95% interval),S (95% interval),Two-sided sign-flip p
+"Primary complete grid, B60",769,0.2123 (0.1844–0.2424),0.863 (0.830–0.898),1.017 (0.835–1.235),0.212 (0.184–0.242),1.367 (1.310–1.432),<0.00001
+"Group-only split: late reference, early evaluation",424,0.0436 (0.0212–0.0660),0.912 (0.860–0.966),0.255 (0.118–0.425),0.094 (0.047–0.142),1.176 (1.086–1.275),0.00016
+"Group-only split: early reference, late evaluation",442,0.0464 (0.0271–0.0667),0.901 (0.852–0.953),0.301 (0.160–0.480),0.105 (0.061–0.150),1.191 (1.107–1.281),0.00002

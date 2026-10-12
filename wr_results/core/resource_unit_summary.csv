@@ -1,0 +1,7 @@
+resource_measure,reference_positive_systems,mean,median,p95,maximum
+expected_samples_in_one_selected_group,769,4.800498482878196,4.0,9.0,20.0
+expected_dates_in_one_selected_group,769,1.090268747290854,1.0,1.5,3.25
+expected_sites_in_one_selected_group,769,4.800498482878196,4.0,9.0,20.0
+full_grid_physical_samples,769,18.40182054616385,16.0,32.0,80.0
+full_grid_collection_dates,769,4.1261378413524055,4.0,6.0,13.0
+full_grid_sites,769,4.860858257477243,4.0,9.599999999999909,20.0

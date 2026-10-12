@@ -1,0 +1,48 @@
+{
+  "audit_date": "2026-09-19",
+  "dataset": "California CLIP 2025 frozen monitoring extract",
+  "package_path": "data/raw/additional/california/clip_sql_2025.csv",
+  "publisher_url": "https://data.ca.gov/dataset/d7193835-8161-4ff6-bcc3-da894965d53c/resource/84de0856-5b00-421f-83de-bd78d57c4b08/download/clip-sql-2025.csv",
+  "original_acquisition_manifest": "data/manifests/additional_dataset_manifest.csv",
+  "original_download": {
+    "bytes": 527513962,
+    "sha256": "1d924cd3b28b1fee0fd861d23750069391e36fda8a23d9d5c73ca63b4dd4ea70",
+    "encoding": "UTF-8 with three-byte BOM and CRLF line endings",
+    "original_local_file_hash_rechecked": true
+  },
+  "packaged_representation": {
+    "bytes": 525770070,
+    "sha256": "42d32597e0bd2208a76a1d50f0859c48be9078011d09ad4451122a6bbe593896",
+    "encoding": "UTF-8 without BOM and LF line endings",
+    "lf_count": 1743889,
+    "crlf_count": 0,
+    "source_baseline_archive_sha256": "622e83476a03a51a921042361014779c10c4040117a381cce3367fbe16acd2b0",
+    "matches_baseline_embedded_package_manifest": true
+  },
+  "transformation_provenance": {
+    "stage": "Prior release packaging, not scientific analysis",
+    "implementation": "Retired src/wr_build_release.py portable_transform: decode_text tries utf-8-sig, then CRLF and CR are replaced by LF before UTF-8 encoding",
+    "current_release_action": "Retain the baseline packaged bytes unchanged; record the encoding difference explicitly",
+    "original_acquisition_manifest_changed": false
+  },
+  "inverse_byte_proof": {
+    "operation": "Prefix UTF-8 BOM bytes EF BB BF and replace every LF byte with CR LF in the packaged representation",
+    "reconstructed_bytes": 527513962,
+    "reconstructed_sha256": "1d924cd3b28b1fee0fd861d23750069391e36fda8a23d9d5c73ca63b4dd4ea70",
+    "exact_match_to_original_download": true,
+    "byte_difference_accounted_for": "1743889 restored carriage-return bytes plus the three-byte UTF-8 BOM"
+  },
+  "analytical_content": {
+    "unchanged": true,
+    "basis": "The exact inverse-byte digest proves that the difference consists solely of BOM removal and newline encoding. Numeric observations, field and record order, delimiters and quotation content were not edited."
+  },
+  "reader_behavior": {
+    "inspection": "Read-only code review; the full raw-source pipeline was not rerun",
+    "analysis_reader": "src/additional_validation.py create_california_pairs uses DuckDB read_csv_auto with header=true, all_varchar=true and sample_size=200000",
+    "packaged_hash_enforced_by_reader": false,
+    "original_download_hash_enforced_by_reader": false,
+    "workflow": "src/run_workflow.py expects CLIP from the extracted full-data package. src/acquire_data.py verifies the seven EPA archives, and src/wr_acquire_california.py verifies SDWIS4.zip; neither checks or redownloads CLIP.",
+    "verification_instruction": "Use the packaged-representation digest for the distributed CLIP CSV, the original-download digest for a fresh publisher download, and the inverse proof to reconcile the two. The acquisition manifest intentionally retains the original source digest."
+  },
+  "limitations": "This encoding audit is not an end-to-end raw-source reproduction or a fresh remote acquisition. Public availability and source-specific redistribution terms must still be checked."
+}

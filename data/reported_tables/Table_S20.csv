@@ -1,0 +1,5 @@
+Endpoint,HAA5-positive,HAA9-positive,Endpoint-specific HAA5 capture (%),HAA5 capture in fixed reference (%),HAA9 capture in fixed reference (%)
+Sample maximum,365,610,59.84,59.84,100.00
+End-window OEL,69,161,42.86,11.31,26.39
+Any-window OEL,109,229,47.60,17.87,37.54
+LRAA-form,48,136,35.29,7.87,22.30

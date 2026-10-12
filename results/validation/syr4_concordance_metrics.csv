@@ -1,0 +1,4 @@
+metric,estimate,ci_low,ci_high,n_pairs,n_systems
+jointly_classifiable_pairs,510728.0,,,527296,25670
+threshold_status_agreement,0.9322241976159521,0.9297724220063339,0.9346446612547522,510728,25670
+cohen_kappa_descriptive,0.2823106155862931,,,510728,25670

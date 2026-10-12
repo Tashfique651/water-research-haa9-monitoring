@@ -1,0 +1,17 @@
+scope,analyte,time_scale,target_probability,minimum_k,descriptive_crossing_k,status,n_systems
+primary_distribution,HAA5,monthly,0.5,2.0,2,reached,42
+primary_distribution,HAA5,monthly,0.9,5.0,5,reached,42
+primary_distribution,HAA5,quarterly,0.5,2.0,2,reached,42
+primary_distribution,HAA5,quarterly,0.9,5.0,5,reached,42
+primary_distribution,HAA9,monthly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,2
+primary_distribution,HAA9,monthly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,2
+primary_distribution,HAA9,quarterly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,2
+primary_distribution,HAA9,quarterly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,2
+all_ds_sensitivity,HAA5,monthly,0.5,2.0,2,reached,53
+all_ds_sensitivity,HAA5,monthly,0.9,5.0,5,reached,53
+all_ds_sensitivity,HAA5,quarterly,0.5,2.0,2,reached,53
+all_ds_sensitivity,HAA5,quarterly,0.9,5.0,5,reached,53
+all_ds_sensitivity,HAA9,monthly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,3
+all_ds_sensitivity,HAA9,monthly,0.9,,2,insufficient support: fewer than 10 reference-positive systems,3
+all_ds_sensitivity,HAA9,quarterly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,3
+all_ds_sensitivity,HAA9,quarterly,0.9,,2,insufficient support: fewer than 10 reference-positive systems,3

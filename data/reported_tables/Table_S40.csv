@@ -1,0 +1,7 @@
+Assumption,Meaning in this analysis,Boundary
+Well-defined reporting intervention,"Panel membership, benchmark and subset law are explicit.",A new laboratory method with different measurement properties is a different intervention.
+Measurement invariance,Retained concentrations and reporting limits are unchanged by hiding analytes or samples.,The archive does not test laboratory-method substitution.
+Observed selection support,Every selected event exists in the common matched record.,"No inference for missing dates, sites or unmeasured species."
+No concentration feedback,Detection does not change the fixed concentration record being evaluated.,Operational response and future water quality require a dynamic design.
+Information ordering,History rules use earlier records and retain declared fallback behavior.,"Later-date evaluation remains retrospective, not an untouched trial."
+Target population,Equal-system means apply to the stated eligible archive or reference.,No national exposure or causal health effect is identified.

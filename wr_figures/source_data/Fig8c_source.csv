@@ -1,0 +1,5 @@
+source_panel,source_input_path,strategy,metric,estimate,ci_lower,ci_upper
+c,wr_results/haa9_revision/forward_score_metrics.csv,logistic_five_species,AUROC,0.7962405449544439,0.7743970287312354,0.8171389892615997
+c,wr_results/haa9_revision/forward_score_metrics.csv,logistic_five_species,average_precision,0.4156570150202546,0.3697348954671941,0.4660784746660745
+c,wr_results/haa9_revision/forward_score_metrics.csv,logistic_nine_species,AUROC,0.8050541516245487,0.7833654614267193,0.8254515755853404
+c,wr_results/haa9_revision/forward_score_metrics.csv,logistic_nine_species,average_precision,0.4391492218168555,0.3921749751716366,0.4910751079002897

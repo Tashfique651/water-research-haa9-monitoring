@@ -1,0 +1,4 @@
+comparison,syr3_primary_systems,comparison_systems,overlapping_systems,overlap_fraction_of_syr3
+SYR4 overall,16999,26540,14656,0.8621683628448732
+SYR4 development,16999,21167,11687,0.6875110300605918
+SYR4 holdout,16999,5373,2969,0.17465733278428142

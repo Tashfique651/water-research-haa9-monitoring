@@ -1,0 +1,8 @@
+metric,count
+conflict_resolved_exact_key_pairs,527319
+same_date_primary_pairs,527296
+date_mismatch_excluded,23
+facility_mismatch,0
+sampling_point_id_mismatch_retained,124
+sample_type_mismatch,2
+primary_systems,26540

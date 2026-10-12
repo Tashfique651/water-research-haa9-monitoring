@@ -1,0 +1,11 @@
+Cohort or sampling allocation,Eligible PWSs,B60-positive PWSs,HAA5 capture,HAA9 capture,Interaction or panel gain
+All panel-complete observed grids,"4,904",769,0.5774 full-grid,1.0000 full-grid,0.2123 interaction
+Source-aligned minimum rounds,"4,541",714,0.5812 full-grid,1.0000 full-grid,0.2160 interaction
+At least four event-code groups,"2,693",670,0.5970 full-grid,1.0000 full-grid,0.2108 interaction
+Four groups with a repeated site,"2,690",668,0.5973 full-grid,1.0000 full-grid,0.2118 interaction
+Rectangular-grid audit,"4,659",697,n/a,n/a,245 nonrectangular systems; 661 missing cells
+1 round by 1 site,"4,659",697,0.1102,0.2206,0.1104 gain
+2 rounds by 2 sites,"4,659",697,0.2781,0.5342,0.2561 gain
+3 rounds by 4 sites,"4,659",697,0.4661,0.8291,0.3630 gain
+4 rounds by 4 sites,"4,659",697,0.5558,0.9559,0.4001 gain
+4 rounds by 8 sites,"4,659",697,0.5830,0.9951,0.4121 gain

@@ -1,0 +1,1049 @@
+{
+  "icr": {
+    "all_ds_dbp_events": 13282,
+    "all_ds_sensitivity_event_types": [
+      "ENT",
+      "DSE",
+      "AVG",
+      "AVG1",
+      "AVG2",
+      "MAX",
+      "SDS",
+      "NFC"
+    ],
+    "capture_targets": [
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 2,
+        "minimum_k": 2.0,
+        "n_systems": 42,
+        "scope": "primary_distribution",
+        "status": "reached",
+        "target_probability": 0.5,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 5,
+        "minimum_k": 5.0,
+        "n_systems": 42,
+        "scope": "primary_distribution",
+        "status": "reached",
+        "target_probability": 0.9,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 2,
+        "minimum_k": 2.0,
+        "n_systems": 42,
+        "scope": "primary_distribution",
+        "status": "reached",
+        "target_probability": 0.5,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 5,
+        "minimum_k": 5.0,
+        "n_systems": 42,
+        "scope": "primary_distribution",
+        "status": "reached",
+        "target_probability": 0.9,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 1,
+        "minimum_k": null,
+        "n_systems": 2,
+        "scope": "primary_distribution",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.5,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 3,
+        "minimum_k": null,
+        "n_systems": 2,
+        "scope": "primary_distribution",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.9,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 1,
+        "minimum_k": null,
+        "n_systems": 2,
+        "scope": "primary_distribution",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.5,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 3,
+        "minimum_k": null,
+        "n_systems": 2,
+        "scope": "primary_distribution",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.9,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 2,
+        "minimum_k": 2.0,
+        "n_systems": 53,
+        "scope": "all_ds_sensitivity",
+        "status": "reached",
+        "target_probability": 0.5,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 5,
+        "minimum_k": 5.0,
+        "n_systems": 53,
+        "scope": "all_ds_sensitivity",
+        "status": "reached",
+        "target_probability": 0.9,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 2,
+        "minimum_k": 2.0,
+        "n_systems": 53,
+        "scope": "all_ds_sensitivity",
+        "status": "reached",
+        "target_probability": 0.5,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA5",
+        "descriptive_crossing_k": 5,
+        "minimum_k": 5.0,
+        "n_systems": 53,
+        "scope": "all_ds_sensitivity",
+        "status": "reached",
+        "target_probability": 0.9,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 1,
+        "minimum_k": null,
+        "n_systems": 3,
+        "scope": "all_ds_sensitivity",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.5,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 2,
+        "minimum_k": null,
+        "n_systems": 3,
+        "scope": "all_ds_sensitivity",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.9,
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 1,
+        "minimum_k": null,
+        "n_systems": 3,
+        "scope": "all_ds_sensitivity",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.5,
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA9",
+        "descriptive_crossing_k": 2,
+        "minimum_k": null,
+        "n_systems": 3,
+        "scope": "all_ds_sensitivity",
+        "status": "insufficient support: fewer than 10 reference-positive systems",
+        "target_probability": 0.9,
+        "time_scale": "quarterly"
+      }
+    ],
+    "dbp_events_with_sample_match": 18214,
+    "dbp_events_without_sample_match": 0,
+    "identity_audit": [
+      {
+        "component_identity_supported": 15207,
+        "identity_matches": 15207,
+        "identity_mismatches": 0,
+        "max_absolute_numeric_difference_ug_l": 2.842170943040401e-14,
+        "n_events": 18214,
+        "reported_minus999": 1837,
+        "reported_numeric": 13370,
+        "reported_present": 15207,
+        "scope": "all_dbp",
+        "tolerance_ug_l": 1e-09,
+        "total": "HAA5"
+      },
+      {
+        "component_identity_supported": 6711,
+        "identity_matches": 6711,
+        "identity_mismatches": 0,
+        "max_absolute_numeric_difference_ug_l": 2.842170943040401e-14,
+        "n_events": 8084,
+        "reported_minus999": 783,
+        "reported_numeric": 5928,
+        "reported_present": 6711,
+        "scope": "primary_distribution",
+        "tolerance_ug_l": 1e-09,
+        "total": "HAA5"
+      },
+      {
+        "component_identity_supported": 11046,
+        "identity_matches": 11046,
+        "identity_mismatches": 0,
+        "max_absolute_numeric_difference_ug_l": 2.842170943040401e-14,
+        "n_events": 13282,
+        "reported_minus999": 1347,
+        "reported_numeric": 9699,
+        "reported_present": 11046,
+        "scope": "all_ds_sensitivity",
+        "tolerance_ug_l": 1e-09,
+        "total": "HAA5"
+      },
+      {
+        "component_identity_supported": 3461,
+        "identity_matches": 3461,
+        "identity_mismatches": 0,
+        "max_absolute_numeric_difference_ug_l": 2.842170943040401e-14,
+        "n_events": 18214,
+        "reported_minus999": 492,
+        "reported_numeric": 2969,
+        "reported_present": 3461,
+        "scope": "all_dbp",
+        "tolerance_ug_l": 1e-09,
+        "total": "HAA9"
+      },
+      {
+        "component_identity_supported": 1520,
+        "identity_matches": 1520,
+        "identity_mismatches": 0,
+        "max_absolute_numeric_difference_ug_l": 2.842170943040401e-14,
+        "n_events": 8084,
+        "reported_minus999": 210,
+        "reported_numeric": 1310,
+        "reported_present": 1520,
+        "scope": "primary_distribution",
+        "tolerance_ug_l": 1e-09,
+        "total": "HAA9"
+      },
+      {
+        "component_identity_supported": 2494,
+        "identity_matches": 2494,
+        "identity_mismatches": 0,
+        "max_absolute_numeric_difference_ug_l": 2.842170943040401e-14,
+        "n_events": 13282,
+        "reported_minus999": 372,
+        "reported_numeric": 2122,
+        "reported_present": 2494,
+        "scope": "all_ds_sensitivity",
+        "tolerance_ug_l": 1e-09,
+        "total": "HAA9"
+      }
+    ],
+    "matched_factorial_cells": [
+      {
+        "cell": "p00",
+        "cluster_bootstrap_ci_high": 0.4147435897435897,
+        "cluster_bootstrap_ci_low": 0.18012820512820513,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M0_uniform_one_period",
+        "n_systems": 26,
+        "panel": "HAA5",
+        "probability": 0.2916666666666667
+      },
+      {
+        "cell": "p10",
+        "cluster_bootstrap_ci_high": 0.7032051282051281,
+        "cluster_bootstrap_ci_low": 0.5275641025641026,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M0_uniform_one_period",
+        "n_systems": 26,
+        "panel": "HAA9",
+        "probability": 0.6153846153846154
+      },
+      {
+        "cell": "p01",
+        "cluster_bootstrap_ci_high": 0.7692307692307693,
+        "cluster_bootstrap_ci_low": 0.38461538461538464,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M1_full_finite_grid",
+        "n_systems": 26,
+        "panel": "HAA5",
+        "probability": 0.5769230769230769
+      },
+      {
+        "cell": "p11",
+        "cluster_bootstrap_ci_high": 1.0,
+        "cluster_bootstrap_ci_low": 1.0,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": true,
+        "monitoring": "M1_full_finite_grid",
+        "n_systems": 26,
+        "panel": "HAA9",
+        "probability": 1.0
+      },
+      {
+        "cell": "p00",
+        "cluster_bootstrap_ci_high": 0.4108974358974358,
+        "cluster_bootstrap_ci_low": 0.18205128205128204,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M0_uniform_one_period",
+        "n_systems": 26,
+        "panel": "HAA5",
+        "probability": 0.2916666666666667
+      },
+      {
+        "cell": "p10",
+        "cluster_bootstrap_ci_high": 0.7019230769230769,
+        "cluster_bootstrap_ci_low": 0.5301282051282051,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M0_uniform_one_period",
+        "n_systems": 26,
+        "panel": "HAA9",
+        "probability": 0.6153846153846154
+      },
+      {
+        "cell": "p01",
+        "cluster_bootstrap_ci_high": 0.7692307692307693,
+        "cluster_bootstrap_ci_low": 0.38461538461538464,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M1_full_finite_grid",
+        "n_systems": 26,
+        "panel": "HAA5",
+        "probability": 0.5769230769230769
+      },
+      {
+        "cell": "p11",
+        "cluster_bootstrap_ci_high": 1.0,
+        "cluster_bootstrap_ci_low": 1.0,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": true,
+        "monitoring": "M1_full_finite_grid",
+        "n_systems": 26,
+        "panel": "HAA9",
+        "probability": 1.0
+      },
+      {
+        "cell": "p00",
+        "cluster_bootstrap_ci_high": 0.6666666666666666,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M0_uniform_one_period",
+        "n_systems": 2,
+        "panel": "HAA5",
+        "probability": 0.3333333333333333
+      },
+      {
+        "cell": "p10",
+        "cluster_bootstrap_ci_high": 0.6666666666666666,
+        "cluster_bootstrap_ci_low": 0.5,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M0_uniform_one_period",
+        "n_systems": 2,
+        "panel": "HAA9",
+        "probability": 0.5833333333333333
+      },
+      {
+        "cell": "p01",
+        "cluster_bootstrap_ci_high": 1.0,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": false,
+        "monitoring": "M1_full_finite_grid",
+        "n_systems": 2,
+        "panel": "HAA5",
+        "probability": 0.5
+      },
+      {
+        "cell": "p11",
+        "cluster_bootstrap_ci_high": 1.0,
+        "cluster_bootstrap_ci_low": 1.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "definitionally_one": true,
+        "monitoring": "M1_full_finite_grid",
+        "n_systems": 2,
+        "panel": "HAA9",
+        "probability": 1.0
+      }
+    ],
+    "matched_factorial_contrasts": [
+      {
+        "cluster_bootstrap_ci_high": 0.40897435897435896,
+        "cluster_bootstrap_ci_low": 0.2403846153846154,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "panel_gain_at_M0",
+        "estimate": 0.3237179487179488,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.40128205128205136,
+        "cluster_bootstrap_ci_low": 0.17564102564102563,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "design_gain_at_HAA5",
+        "estimate": 0.28525641025641024,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.8173076923076923,
+        "cluster_bootstrap_ci_low": 0.5916666666666667,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "combined_gain",
+        "estimate": 0.7083333333333335,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.2544871794871795,
+        "cluster_bootstrap_ci_low": -0.04935897435897436,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "interaction",
+        "estimate": 0.09935897435897437,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.4996794871794871,
+        "cluster_bootstrap_ci_low": 0.24646634615384613,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "symmetric_scope_attribution",
+        "estimate": 0.37339743589743585,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.40193108974358965,
+        "cluster_bootstrap_ci_low": 0.27083333333333337,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "symmetric_design_attribution",
+        "estimate": 0.33493589743589747,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.4076923076923077,
+        "cluster_bootstrap_ci_low": 0.241025641025641,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "panel_gain_at_M0",
+        "estimate": 0.3237179487179488,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.39873397435897423,
+        "cluster_bootstrap_ci_low": 0.1762820512820513,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "design_gain_at_HAA5",
+        "estimate": 0.28525641025641024,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.8173076923076923,
+        "cluster_bootstrap_ci_low": 0.5903846153846154,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "combined_gain",
+        "estimate": 0.7083333333333335,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.25258012820512804,
+        "cluster_bootstrap_ci_low": -0.049999999999999996,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "interaction",
+        "estimate": 0.09935897435897437,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.4996794871794872,
+        "cluster_bootstrap_ci_low": 0.2503205128205128,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "symmetric_scope_attribution",
+        "estimate": 0.37339743589743585,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.4016025641025642,
+        "cluster_bootstrap_ci_low": 0.27051282051282055,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "symmetric_design_attribution",
+        "estimate": 0.33493589743589747,
+        "n_systems": 26
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.5,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "panel_gain_at_M0",
+        "estimate": 0.25,
+        "n_systems": 2
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.33333333333333337,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "design_gain_at_HAA5",
+        "estimate": 0.16666666666666669,
+        "n_systems": 2
+      },
+      {
+        "cluster_bootstrap_ci_high": 1.0,
+        "cluster_bootstrap_ci_low": 0.33333333333333337,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "combined_gain",
+        "estimate": 0.6666666666666667,
+        "n_systems": 2
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.5,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "interaction",
+        "estimate": 0.25,
+        "n_systems": 2
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.75,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "symmetric_scope_attribution",
+        "estimate": 0.375,
+        "n_systems": 2
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.33333333333333337,
+        "cluster_bootstrap_ci_low": 0.25,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "contrast": "symmetric_design_attribution",
+        "estimate": 0.2916666666666667,
+        "n_systems": 2
+      }
+    ],
+    "matched_factorial_repairs": [
+      {
+        "cluster_bootstrap_ci_high": 0.4064102564102564,
+        "cluster_bootstrap_ci_low": 0.18139423076923078,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.2916666666666667,
+        "n_systems": 26,
+        "repair_category": "already_detected"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.31153846153846154,
+        "cluster_bootstrap_ci_low": 0.10576923076923077,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.20512820512820512,
+        "n_systems": 26,
+        "repair_category": "panel_only_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.2519230769230769,
+        "cluster_bootstrap_ci_low": 0.08910256410256409,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.16666666666666666,
+        "n_systems": 26,
+        "repair_category": "design_only_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.18333333333333332,
+        "cluster_bootstrap_ci_low": 0.05961538461538462,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.1185897435897436,
+        "n_systems": 26,
+        "repair_category": "either_change_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.3288461538461538,
+        "cluster_bootstrap_ci_low": 0.11346153846153847,
+        "cohort": "monthly_available_periods",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.21794871794871792,
+        "n_systems": 26,
+        "repair_category": "both_changes_required"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.40963141025641,
+        "cluster_bootstrap_ci_low": 0.18269230769230768,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.2916666666666667,
+        "n_systems": 26,
+        "repair_category": "already_detected"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.308974358974359,
+        "cluster_bootstrap_ci_low": 0.10512820512820513,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.20512820512820512,
+        "n_systems": 26,
+        "repair_category": "panel_only_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.25384615384615383,
+        "cluster_bootstrap_ci_low": 0.08782051282051281,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.16666666666666666,
+        "n_systems": 26,
+        "repair_category": "design_only_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.18333333333333332,
+        "cluster_bootstrap_ci_low": 0.05961538461538462,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.1185897435897436,
+        "n_systems": 26,
+        "repair_category": "either_change_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.33078525641025625,
+        "cluster_bootstrap_ci_low": 0.11730769230769231,
+        "cohort": "quarterly_available_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.21794871794871792,
+        "n_systems": 26,
+        "repair_category": "both_changes_required"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.6666666666666666,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.3333333333333333,
+        "n_systems": 2,
+        "repair_category": "already_detected"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.5,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.25,
+        "n_systems": 2,
+        "repair_category": "panel_only_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.3333333333333333,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.16666666666666666,
+        "n_systems": 2,
+        "repair_category": "design_only_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.0,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.0,
+        "n_systems": 2,
+        "repair_category": "either_change_repair"
+      },
+      {
+        "cluster_bootstrap_ci_high": 0.5,
+        "cluster_bootstrap_ci_low": 0.0,
+        "cohort": "quarterly_complete_six_quarters",
+        "conditioning": "HAA9_M1_reference_positive",
+        "fraction": 0.25,
+        "n_systems": 2,
+        "repair_category": "both_changes_required"
+      }
+    ],
+    "matched_factorial_support": [
+      {
+        "cohort": "monthly_available_periods",
+        "cohort_rule": "at least two observed months with paired nonnegative panels",
+        "eligible_systems": 78,
+        "event_monotonicity_violations_HAA5_gt_HAA9": 0,
+        "max_grid_periods_eligible": 6,
+        "median_grid_periods_eligible": 4.0,
+        "min_grid_periods_eligible": 2,
+        "paired_nonnegative_events_available": 1304,
+        "reference_positive_fraction": 0.3333333333333333,
+        "reference_positive_systems": 26,
+        "systems_with_any_paired_event": 85,
+        "unknown_four_cell_outcomes": 0,
+        "weighting": "equal weight per system; M0 uniform over that system's observed paired grid"
+      },
+      {
+        "cohort": "quarterly_available_quarters",
+        "cohort_rule": "at least two observed quarters with paired nonnegative panels",
+        "eligible_systems": 78,
+        "event_monotonicity_violations_HAA5_gt_HAA9": 0,
+        "max_grid_periods_eligible": 6,
+        "median_grid_periods_eligible": 4.0,
+        "min_grid_periods_eligible": 2,
+        "paired_nonnegative_events_available": 1304,
+        "reference_positive_fraction": 0.3333333333333333,
+        "reference_positive_systems": 26,
+        "systems_with_any_paired_event": 85,
+        "unknown_four_cell_outcomes": 0,
+        "weighting": "equal weight per system; M0 uniform over that system's observed paired grid"
+      },
+      {
+        "cohort": "quarterly_complete_six_quarters",
+        "cohort_rule": "paired nonnegative panels in every ICR quarter 1\u20136",
+        "eligible_systems": 8,
+        "event_monotonicity_violations_HAA5_gt_HAA9": 0,
+        "max_grid_periods_eligible": 6,
+        "median_grid_periods_eligible": 6.0,
+        "min_grid_periods_eligible": 6,
+        "paired_nonnegative_events_available": 1304,
+        "reference_positive_fraction": 0.25,
+        "reference_positive_systems": 2,
+        "systems_with_any_paired_event": 85,
+        "unknown_four_cell_outcomes": 0,
+        "weighting": "equal weight per system; M0 uniform over that system's observed paired grid"
+      }
+    ],
+    "primary_dbp_events": 8084,
+    "primary_event_types": [
+      "AVG",
+      "AVG1",
+      "AVG2",
+      "MAX",
+      "NFC"
+    ],
+    "table_rows": {
+      "TUXDBP": 18214,
+      "TUXDISFRES": 48319,
+      "TUXSAMPLE": 66214,
+      "TUXUTMON": 5324,
+      "TUXWQP": 55872
+    },
+    "temporal_support": [
+      {
+        "analyte": "HAA5",
+        "full_six_quarter_systems": 151,
+        "full_window_positive_systems": 42,
+        "max_supported_grid": 11,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 783,
+        "numeric_analyte_events": 5928,
+        "scope": "primary_distribution",
+        "scoped_dbp_events": 8084,
+        "systems_with_numeric_data": 259,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA5",
+        "full_six_quarter_systems": 151,
+        "full_window_positive_systems": 42,
+        "max_supported_grid": 6,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 783,
+        "numeric_analyte_events": 5928,
+        "scope": "primary_distribution",
+        "scoped_dbp_events": 8084,
+        "systems_with_numeric_data": 259,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA9",
+        "full_six_quarter_systems": 8,
+        "full_window_positive_systems": 2,
+        "max_supported_grid": 6,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 210,
+        "numeric_analyte_events": 1310,
+        "scope": "primary_distribution",
+        "scoped_dbp_events": 8084,
+        "systems_with_numeric_data": 85,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA9",
+        "full_six_quarter_systems": 8,
+        "full_window_positive_systems": 2,
+        "max_supported_grid": 6,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 210,
+        "numeric_analyte_events": 1310,
+        "scope": "primary_distribution",
+        "scoped_dbp_events": 8084,
+        "systems_with_numeric_data": 85,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA5",
+        "full_six_quarter_systems": 166,
+        "full_window_positive_systems": 53,
+        "max_supported_grid": 11,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 1347,
+        "numeric_analyte_events": 9699,
+        "scope": "all_ds_sensitivity",
+        "scoped_dbp_events": 13282,
+        "systems_with_numeric_data": 261,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA5",
+        "full_six_quarter_systems": 166,
+        "full_window_positive_systems": 53,
+        "max_supported_grid": 6,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 1347,
+        "numeric_analyte_events": 9699,
+        "scope": "all_ds_sensitivity",
+        "scoped_dbp_events": 13282,
+        "systems_with_numeric_data": 261,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "quarterly"
+      },
+      {
+        "analyte": "HAA9",
+        "full_six_quarter_systems": 10,
+        "full_window_positive_systems": 3,
+        "max_supported_grid": 6,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 372,
+        "numeric_analyte_events": 2122,
+        "scope": "all_ds_sensitivity",
+        "scoped_dbp_events": 13282,
+        "systems_with_numeric_data": 85,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "monthly"
+      },
+      {
+        "analyte": "HAA9",
+        "full_six_quarter_systems": 10,
+        "full_window_positive_systems": 3,
+        "max_supported_grid": 6,
+        "median_supported_grid": 6.0,
+        "min_supported_grid": 6,
+        "minus999_events": 372,
+        "numeric_analyte_events": 2122,
+        "scope": "all_ds_sensitivity",
+        "scoped_dbp_events": 13282,
+        "systems_with_numeric_data": 85,
+        "threshold_definition": ">60 \u00b5g/L; -999 and null are not numeric support",
+        "time_scale": "quarterly"
+      }
+    ]
+  },
+  "metadata": {
+    "analysis_name": "DBP cross-archive historical validation",
+    "bootstrap_reps": 10000,
+    "bootstrap_unit": "PWSID / ICRPWSID system cluster",
+    "capture_formula": "1 - combination(N-M,k)/combination(N,k), without replacement",
+    "holdout_rule": "20% of SYR4 systems by stable blake2b hash modulo 5",
+    "icr_all_ds_sensitivity_event_types": [
+      "ENT",
+      "DSE",
+      "AVG",
+      "AVG1",
+      "AVG2",
+      "MAX",
+      "SDS",
+      "NFC"
+    ],
+    "icr_factorial_rule": "same EVENT_ID paired nonnegative HAA5/HAA9; M0 uniform exact one-period enumeration; M1 complete finite paired grid; condition on HAA9/M1 >60",
+    "icr_full_window_rule": "numeric support in each SAMP_QTR 1 through 6",
+    "icr_minus999_rule": "below MRL analytical sentinel; never a numeric concentration; excluded from numeric support",
+    "icr_minus999_semantics": {
+      "TUXDBP_HAA5_rule_DBP011000071": "reported total is -999 when all five HAA5 components are below MRL",
+      "TUXDBP_HAA9_rule_DBP011000131": "reported total is -999 when all nine HAA9 components are below MRL",
+      "TUXDBP_components": "-999 denotes a below-MRL component; zero is used only inside the documented total calculation",
+      "TUXWQP_special_average_rules": "for TOC, TOX, and UV-254, -999 is used under the guide's initial/duplicate MRL-substitution averaging convention when the average equals the MRL",
+      "analysis_handling": "never treated as -999 or silently as zero; excluded from numeric summaries and threshold-support denominators unless a documented total is recomputed for identity QA",
+      "general_rule_GR012000140": "-999 is entered for an analytical result below the minimum reporting level"
+    },
+    "icr_primary_event_types": [
+      "AVG",
+      "AVG1",
+      "AVG2",
+      "MAX",
+      "NFC"
+    ],
+    "seed": 20260913,
+    "software": {
+      "duckdb": "1.5.5",
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pyodbc": "5.3.0",
+      "python": "3.12.14"
+    },
+    "syr4_censoring_rule": "non-detect interval [0, positive reported DL]; unknown upper bound if DL missing/zero/negative/unrecognized unit",
+    "syr4_duplicate_rule": "collapse only identical analysis-critical signatures; exclude conflicting keys",
+    "syr4_pair_key": [
+      "PWSID",
+      "SAMPLE_ID"
+    ],
+    "syr4_primary_additional_rule": "same HAA5 and TTHM sample collection date",
+    "threshold_operator": "strictly greater than",
+    "thresholds_ug_l": {
+      "ICR_HAA5": 60.0,
+      "ICR_HAA9_comparison": 60.0,
+      "SYR4_HAA5": 60.0,
+      "SYR4_TTHM": 80.0
+    }
+  },
+  "syr4": {
+    "both_detected_pairs": 436150,
+    "capture_curve_rows": 14,
+    "conflict_resolved_exact_pairs": 527319,
+    "correlations": [
+      {
+        "analysis": "both_detected",
+        "bootstrap_method": "whole-system resampling of fixed global midranks",
+        "bootstrap_reps": 10000,
+        "cluster_bootstrap_ci_high": 0.627846702293163,
+        "cluster_bootstrap_ci_low": 0.6092403406610833,
+        "n_pairs": 436150,
+        "n_systems": 19511,
+        "spearman_rho": 0.618521159754343
+      },
+      {
+        "analysis": "finite_interval_midpoints",
+        "bootstrap_method": "whole-system resampling of fixed global midranks",
+        "bootstrap_reps": 10000,
+        "cluster_bootstrap_ci_high": 0.7224526757201354,
+        "cluster_bootstrap_ci_low": 0.708727837086926,
+        "n_pairs": 510772,
+        "n_systems": 25671,
+        "spearman_rho": 0.7156362701549485
+      },
+      {
+        "analysis": "system_median_detected",
+        "bootstrap_method": "whole-system resampling of system medians",
+        "bootstrap_reps": 10000,
+        "cluster_bootstrap_ci_high": 0.792760578938958,
+        "cluster_bootstrap_ci_low": 0.7811288140450355,
+        "n_pairs": 19511,
+        "n_systems": 19511,
+        "spearman_rho": 0.7869302906317077
+      }
+    ],
+    "holdout": [
+      {
+        "both_detected_n": 346136,
+        "both_detected_systems": 15558,
+        "haa5_above_rate_classifiable": 0.02957096811412047,
+        "jointly_classifiable_n": 406477,
+        "jointly_classifiable_systems": 20465,
+        "n_pairs": 419884,
+        "n_systems": 21167,
+        "spearman_rho_both_detected": 0.6184352226754555,
+        "split": "development",
+        "threshold_agreement": 0.9319248075536869,
+        "tthm_above_rate_classifiable": 0.06798739524228394
+      },
+      {
+        "both_detected_n": 90014,
+        "both_detected_systems": 3953,
+        "haa5_above_rate_classifiable": 0.028586472643722178,
+        "jointly_classifiable_n": 104251,
+        "jointly_classifiable_systems": 5205,
+        "n_pairs": 107412,
+        "n_systems": 5373,
+        "spearman_rho_both_detected": 0.6191366770137279,
+        "split": "holdout",
+        "threshold_agreement": 0.933391526220372,
+        "tthm_above_rate_classifiable": 0.06781370792872632
+      }
+    ],
+    "inputs": [
+      {
+        "analyte": "HAA5",
+        "conflicting_duplicate_keys_excluded": 246,
+        "consistent_duplicate_keys_collapsed": 2,
+        "missing_sample_id_rows": 252528,
+        "nonmissing_sample_keys": 752451,
+        "raw_rows": 1005235,
+        "rows_in_conflicting_keys": 500,
+        "systems": 43577
+      },
+      {
+        "analyte": "TTHM",
+        "conflicting_duplicate_keys_excluded": 215,
+        "consistent_duplicate_keys_collapsed": 0,
+        "missing_sample_id_rows": 314544,
+        "nonmissing_sample_keys": 774767,
+        "raw_rows": 1089557,
+        "rows_in_conflicting_keys": 461,
+        "systems": 46297
+      }
+    ],
+    "jointly_classifiable_pairs": 510728,
+    "primary_systems": 26540,
+    "same_date_primary_pairs": 527296,
+    "threshold_agreement": 0.9322241976159521,
+    "threshold_agreement_ci": [
+      0.9297724220063339,
+      0.9346446612547522
+    ],
+    "water_system_table": {
+      "conflicting_source_or_population_groups": 7,
+      "deduplication_rule": "prefer nonmissing source and population, then larger population",
+      "duplicated_pwsid_groups": 17,
+      "rows": 100542,
+      "unique_pwsids": 100525
+    }
+  }
+}

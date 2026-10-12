@@ -1,0 +1,9 @@
+cohort,n_systems,quantified_relative_envelope,definite,possible_not_definite,not_possible,possible_including_definite
+all_eligible,4904,0.0,279,147,4478,426
+official_discordant,325,0.0,279,46,0,325
+all_eligible,4904,0.05,132,484,4288,616
+official_discordant,325,0.05,132,193,0,325
+all_eligible,4904,0.1,58,725,4121,783
+official_discordant,325,0.1,58,267,0,325
+all_eligible,4904,0.2,18,1077,3809,1095
+official_discordant,325,0.2,18,307,0,325

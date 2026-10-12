@@ -1,0 +1,247 @@
+[
+  {
+    "bytes": 28951,
+    "file": "additional_validation_summary.json",
+    "format": "json",
+    "relative_path": "results/additional/additional_validation_summary.json",
+    "sha256": "a73c5756ec9a3e343349766f7459e9da779bef2a7f6a8816de175226d5eb44ba"
+  },
+  {
+    "bytes": 782,
+    "file": "california_component_qa.csv",
+    "format": "csv",
+    "relative_path": "results/additional/california_component_qa.csv",
+    "sha256": "39941111090bf9ac5c0b9686ac32789e46ee531b18fa32e9fa104e632de10fe0"
+  },
+  {
+    "bytes": 12191,
+    "file": "california_component_qa.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/california_component_qa.parquet",
+    "sha256": "cbd620a06dbea717c4b502bef2bc0cc1aaa9349cc01977de3760cc8d7636fabe"
+  },
+  {
+    "bytes": 5409,
+    "file": "censoring_concentration_summary.csv",
+    "format": "csv",
+    "relative_path": "results/additional/censoring_concentration_summary.csv",
+    "sha256": "132a1e303c86159ef02ac609b9f2966d3bbcf33b4d4765de018462499ba15b76"
+  },
+  {
+    "bytes": 11013,
+    "file": "censoring_concentration_summary.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/censoring_concentration_summary.parquet",
+    "sha256": "3f97084af9161a657083faa2f9204caeb74dbf8401b99debf0b1d082a1606518"
+  },
+  {
+    "bytes": 40808,
+    "file": "FigS7_independent_paired_replication.pdf",
+    "format": "pdf",
+    "relative_path": "results/additional/FigS7_independent_paired_replication.pdf",
+    "sha256": "1ae95cf878b4228e0d8149b195fc0f6a2a4797b4de8b7e22fd7a1acac62382dc"
+  },
+  {
+    "bytes": 529049,
+    "file": "FigS7_independent_paired_replication.png",
+    "format": "png",
+    "relative_path": "results/additional/FigS7_independent_paired_replication.png",
+    "sha256": "a987ba2b9e14b91d8f871056c7d46c21bc9ccd1e94ac5a30e04389707eef7ad9"
+  },
+  {
+    "bytes": 52668,
+    "file": "FigS7_independent_paired_replication.svg",
+    "format": "svg",
+    "relative_path": "results/additional/FigS7_independent_paired_replication.svg",
+    "sha256": "8d8942e5d8e9be8694c02bffc10751bde39209c266399fd1c04a0e78ba326e62"
+  },
+  {
+    "bytes": 1286,
+    "file": "figure_concordance_data.csv",
+    "format": "csv",
+    "relative_path": "results/additional/figure_concordance_data.csv",
+    "sha256": "9095109126bad7ff7ca20bf8e0a629b2cc795e14c56296a28bc1f745ca5e76b8"
+  },
+  {
+    "bytes": 5832,
+    "file": "figure_concordance_data.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/figure_concordance_data.parquet",
+    "sha256": "3f1ebfd5c25ccc132b366876f5088e214677aa979e58d751eab26519cc5ff9fc"
+  },
+  {
+    "bytes": 631,
+    "file": "figure_correlation_data.csv",
+    "format": "csv",
+    "relative_path": "results/additional/figure_correlation_data.csv",
+    "sha256": "d936e0e8626bf2c9b2cce108f5b851bb8881adafeccb3aa95a5a7d46471866c6"
+  },
+  {
+    "bytes": 7499,
+    "file": "figure_correlation_data.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/figure_correlation_data.parquet",
+    "sha256": "874105a28259c1676419f0d450eb741be4ed8b8e70635b1b477a1502810c87fe"
+  },
+  {
+    "bytes": 1517,
+    "file": "figure_signal_rate_data.csv",
+    "format": "csv",
+    "relative_path": "results/additional/figure_signal_rate_data.csv",
+    "sha256": "f75f70a6e7a18defc1b4f3bc241eea74721356498a8adb2d4d2441f54b26a58f"
+  },
+  {
+    "bytes": 9411,
+    "file": "figure_signal_rate_data.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/figure_signal_rate_data.parquet",
+    "sha256": "e88ffee2f50e8fd23e27aa63f539c1beb1bb7c44d797d87ee98f5123edfea6cd"
+  },
+  {
+    "bytes": 227,
+    "file": "figure_support_data.csv",
+    "format": "csv",
+    "relative_path": "results/additional/figure_support_data.csv",
+    "sha256": "447a8f2e5ca79f5cb3b3827332818943ea48b8a9f7cda1739b6a9a77b47bcafc"
+  },
+  {
+    "bytes": 3859,
+    "file": "figure_support_data.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/figure_support_data.parquet",
+    "sha256": "88562568606eb2e6650518483a67a7e3173290ba97e8fdbeb900c1da5ed071a3"
+  },
+  {
+    "bytes": 524,
+    "file": "input_audit.csv",
+    "format": "csv",
+    "relative_path": "results/additional/input_audit.csv",
+    "sha256": "898e94335e889f49ba2efa3b2f013881e8f49b4bf7419d5a695fe2fab62680e6"
+  },
+  {
+    "bytes": 9192,
+    "file": "input_audit.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/input_audit.parquet",
+    "sha256": "7646d394fe586c810177c42c413f2f4d21e57c1a70614ac722bdca3b5cbd1ba5"
+  },
+  {
+    "bytes": 5635,
+    "file": "methods_results.md",
+    "format": "md",
+    "relative_path": "results/additional/methods_results.md",
+    "sha256": "8f26a024595eeb4d1aec17cf69d6a71448db5a7e77dca8fd3d4be4b71aeb7cf9"
+  },
+  {
+    "bytes": 3130,
+    "file": "pairing_and_field_audit.csv",
+    "format": "csv",
+    "relative_path": "results/additional/pairing_and_field_audit.csv",
+    "sha256": "5da35072dc65c8591e50e18fbbcfa7313da4452230c9fe4665e5b740ae619328"
+  },
+  {
+    "bytes": 4801,
+    "file": "pairing_and_field_audit.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/pairing_and_field_audit.parquet",
+    "sha256": "cad864b9d4bfe33cd9d395f0fa624ad405f4d31507572fe8694a24dfa9ecc180"
+  },
+  {
+    "bytes": 2371,
+    "file": "qa_checks.csv",
+    "format": "csv",
+    "relative_path": "results/additional/qa_checks.csv",
+    "sha256": "e40c467215455eb81a4b7378d827aa65a435d1698afd10567cf30213b63b87b3"
+  },
+  {
+    "bytes": 4949,
+    "file": "qa_checks.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/qa_checks.parquet",
+    "sha256": "8dc6b3ad00acee632c6960d3aa192620032a3a1717e7598a5e2fce00ed1afa76"
+  },
+  {
+    "bytes": 4910,
+    "file": "replication_metrics.csv",
+    "format": "csv",
+    "relative_path": "results/additional/replication_metrics.csv",
+    "sha256": "3455def04dc029b743aeea5d77c2a03ea29f57772dbdb05423baa9e77fd78493"
+  },
+  {
+    "bytes": 9341,
+    "file": "replication_metrics.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/replication_metrics.parquet",
+    "sha256": "a120ef9ac5fae8d69d146251e8014c0c40e21e861b01e3d177bccf7fd91451da"
+  },
+  {
+    "bytes": 1543,
+    "file": "source_inventory.csv",
+    "format": "csv",
+    "relative_path": "results/additional/source_inventory.csv",
+    "sha256": "5fc14f66e14f3c776e3d81d6c57c0843c3bab485205ecb8d5c9dfe77a4d8d18d"
+  },
+  {
+    "bytes": 6718,
+    "file": "source_inventory.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/source_inventory.parquet",
+    "sha256": "da4aabbc394fee0f954eb74691bca909bac737c5d0cf6f56e3fba115e699a0da"
+  },
+  {
+    "bytes": 2420,
+    "file": "spearman_correlations.csv",
+    "format": "csv",
+    "relative_path": "results/additional/spearman_correlations.csv",
+    "sha256": "f690c9b3ad9f623b71dba2c4009f62db59fe5c27440b3822b7dd7506c672f52b"
+  },
+  {
+    "bytes": 7842,
+    "file": "spearman_correlations.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/spearman_correlations.parquet",
+    "sha256": "7542676fad1b39ac4feac3475272edec48631e1148ae32e20aba3594903eec13"
+  },
+  {
+    "bytes": 249,
+    "file": "syr3_syr4_system_overlap.csv",
+    "format": "csv",
+    "relative_path": "results/additional/syr3_syr4_system_overlap.csv",
+    "sha256": "61eb5933dfc449b4267f74754c196035070e9d113e44138b63f58e1a3cf196c3"
+  },
+  {
+    "bytes": 3890,
+    "file": "syr3_syr4_system_overlap.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/syr3_syr4_system_overlap.parquet",
+    "sha256": "6e81ca43ba7687b7161f8dd10c797c3dd59c81775f183313c51c00eb2deacbd5"
+  },
+  {
+    "bytes": 1750,
+    "file": "threshold_concordance_cells.csv",
+    "format": "csv",
+    "relative_path": "results/additional/threshold_concordance_cells.csv",
+    "sha256": "deed03e61fef5020eb5de5b70b638f488db173d647240b5418cf85df995d9224"
+  },
+  {
+    "bytes": 5797,
+    "file": "threshold_concordance_cells.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/threshold_concordance_cells.parquet",
+    "sha256": "2698f48b4d344a915b198d0bd9bcd0200f69b0394e75df62aef8e601b62ed7c5"
+  },
+  {
+    "bytes": 2370,
+    "file": "time_stratified_metrics.csv",
+    "format": "csv",
+    "relative_path": "results/additional/time_stratified_metrics.csv",
+    "sha256": "5a2c8d0fe744a9469202f2e2ce07b9657b914cd922c0c9cce7ccda34abf9a6fd"
+  },
+  {
+    "bytes": 9971,
+    "file": "time_stratified_metrics.parquet",
+    "format": "parquet",
+    "relative_path": "results/additional/time_stratified_metrics.parquet",
+    "sha256": "c63a3a28ad49ec8a023af4f3faa3aca32737040bf89a33ed306cd3d82613cdac"
+  }
+]

@@ -1,0 +1,10 @@
+source_panel,source_input_path,category,n_systems,variable,n_observed,q25,median,q75
+c,wr_results/haa9_revision/chemistry_category_summary.csv,HAA9_only,325,HAA5_full_max,325,47.7,54.2,57.49
+c,wr_results/haa9_revision/chemistry_category_summary.csv,HAA9_only,325,HAA9_full_max,325,62.459,65.177,69.794
+c,wr_results/haa9_revision/chemistry_category_summary.csv,HAA9_only,325,Extra4_max_ug_l,325,9.39,13.65,24.793
+c,wr_results/haa9_revision/chemistry_category_summary.csv,both_positive,444,HAA5_full_max,444,65.85000000000001,75.56049999999999,91.15
+c,wr_results/haa9_revision/chemistry_category_summary.csv,both_positive,444,HAA9_full_max,444,74.9675,86.64,104.8885
+c,wr_results/haa9_revision/chemistry_category_summary.csv,both_positive,444,Extra4_max_ug_l,444,7.099999999999999,10.735,16.88725000000001
+c,wr_results/haa9_revision/chemistry_category_summary.csv,neither_positive,4135,HAA5_full_max,4135,4.0825,15.69,29.9945
+c,wr_results/haa9_revision/chemistry_category_summary.csv,neither_positive,4135,HAA9_full_max,4135,6.907500000000001,23.766,39.205
+c,wr_results/haa9_revision/chemistry_category_summary.csv,neither_positive,4135,Extra4_max_ug_l,4135,2.1505,5.6,9.8495

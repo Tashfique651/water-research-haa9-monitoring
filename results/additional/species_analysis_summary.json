@@ -1,0 +1,502 @@
+{
+  "generated_utc": "2026-09-13T21:39:32Z",
+  "analysis": "species-level UCMR4 HAA composition addendum",
+  "species_repository": {
+    "url": "https://github.com/wraseman/haa-cytotoxicity-occurrence",
+    "commit": "e0dd19e8f392ac08aa3a00e6c09622014d074e7c",
+    "license": "MIT",
+    "associated_doi": "10.1002/aws2.1351"
+  },
+  "official_ucmr4_source": {
+    "url": "https://www.epa.gov/system/files/other-files/2024-04/ucmr4-occurrence-data.zip",
+    "path": "data/raw/ucmr4-occurrence-data.zip",
+    "sha256": "932dd46139c1aef050d020054c546fea4178b97bcf12a4e455c050074d17b255"
+  },
+  "species": {
+    "files": [
+      "data/raw/additional/peterson_haa/python/data/UCMR4 FOIA/NCOD_UCMR4_QHS_220103 N to P.xlsx",
+      "data/raw/additional/peterson_haa/python/data/UCMR4 FOIA/NCOD_UCMR4_QHS_220103 R to W.xlsx",
+      "data/raw/additional/peterson_haa/python/data/UCMR4 FOIA/NCOD_UCMR4_QHS_220103_A to F.xlsx",
+      "data/raw/additional/peterson_haa/python/data/UCMR4 FOIA/NCOD_UCMR4_QHS_220103_G to M.xlsx"
+    ],
+    "headers": [
+      "PWSID",
+      "PWSName",
+      "Size",
+      "FacilityID",
+      "FacilityName",
+      "FacilityWaterType",
+      "SamplePointID",
+      "SamplePointName",
+      "SamplePointType",
+      "CollectionDate",
+      "SampleID",
+      "Contaminant",
+      "MRL",
+      "MethodID",
+      "AnalyticalResultsSign",
+      "AnalyticalResultValue(µg/L)",
+      "SampleEventCode",
+      "MonitoringRequirement",
+      "Region",
+      "State"
+    ],
+    "rows_by_file": {
+      "NCOD_UCMR4_QHS_220103 N to P.xlsx": 145379,
+      "NCOD_UCMR4_QHS_220103 R to W.xlsx": 138915,
+      "NCOD_UCMR4_QHS_220103_A to F.xlsx": 147605,
+      "NCOD_UCMR4_QHS_220103_G to M.xlsx": 139315
+    },
+    "rows": 571214,
+    "events": 63495,
+    "systems": 4924,
+    "panel_size_counts": {
+      "9": 63432,
+      "5": 52,
+      "6": 11
+    },
+    "duplicates": 0,
+    "sign_counts": {
+      "=": 326057,
+      "<": 245157
+    },
+    "method_counts": {
+      "EPA 552.3": 569054,
+      "EPA 557": 2160
+    }
+  },
+  "official": {
+    "rows_by_group": {
+      "HAA9": 63432,
+      "HAA6Br": 63443,
+      "HAA5": 63484
+    },
+    "events_union": 63495,
+    "systems_union": 4924,
+    "sign_counts": {
+      "=": 190359
+    }
+  },
+  "cohort": {
+    "complete_species_events": 63432,
+    "analysis_events": 63432,
+    "analysis_systems": 4924,
+    "incomplete_panel_counts": {
+      "5": 52,
+      "6": 11
+    },
+    "complete_events_missing_official_group": {},
+    "date_min": "2018-01-02",
+    "date_max": "2021-12-13"
+  },
+  "censoring": {
+    "primary": "detected value; nondetect = 0 for attribution only",
+    "midpoint": "nondetect = MRL/2",
+    "interval": "nondetect in [0, MRL] with species-specific ratio bounds"
+  },
+  "weighting": {
+    "event": "each complete event equally weighted",
+    "system": "within-PWS means, then each PWS equally weighted"
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20260913,
+    "cluster": "PWSID"
+  },
+  "headline": {
+    "official_composition": [
+      {
+        "target_fraction": "Extra4/HAA9",
+        "scope": "event",
+        "estimator": "official_group_totals",
+        "n": 61520,
+        "represented_systems": 4840,
+        "mean": 0.27296150443653033,
+        "sd": 0.17236721121529852,
+        "p05": 0.021829783985955257,
+        "p25": 0.1336967893776801,
+        "median": 0.2529362049263078,
+        "p75": 0.4002090547478264,
+        "p95": 0.5625
+      },
+      {
+        "target_fraction": "HAA6Br/HAA9",
+        "scope": "event",
+        "estimator": "official_group_totals",
+        "n": 61520,
+        "represented_systems": 4840,
+        "mean": 0.36692673747771865,
+        "sd": 0.26833573990539983,
+        "p05": 0.03916484416939128,
+        "p25": 0.14591368471092553,
+        "median": 0.29940130893946154,
+        "p75": 0.552611791623942,
+        "p95": 0.8973341473713732
+      },
+      {
+        "target_fraction": "Extra4/HAA9",
+        "scope": "system_mean",
+        "estimator": "official_group_totals",
+        "n": 4840,
+        "represented_systems": 4840,
+        "mean": 0.28967122109057586,
+        "sd": 0.1638382661653003,
+        "p05": 0.03921508288426392,
+        "p25": 0.1560605773962263,
+        "median": 0.2866981236417343,
+        "p75": 0.41267361869608365,
+        "p95": 0.5562950383516306
+      },
+      {
+        "target_fraction": "HAA6Br/HAA9",
+        "scope": "system_mean",
+        "estimator": "official_group_totals",
+        "n": 4840,
+        "represented_systems": 4840,
+        "mean": 0.4212826142729854,
+        "sd": 0.2753808058076644,
+        "p05": 0.0652841050353143,
+        "p25": 0.1837776948658395,
+        "median": 0.37146477652501864,
+        "p75": 0.6257968525138558,
+        "p95": 0.9415830596413355
+      }
+    ],
+    "event_mass_contributions": [
+      {
+        "target_group": "Extra4",
+        "species": "bromochloroacetic acid",
+        "abbreviation": "BCAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.46078069025292273,
+        "primary_cluster_bootstrap_ci_low": 0.45451871321665716,
+        "primary_cluster_bootstrap_ci_high": 0.4671258821870726,
+        "reconstructed_nd0_share": 0.4607810554641647,
+        "midpoint_substitution_share": 0.39307507701535865,
+        "censor_interval_share_lower": 0.3410883924939458,
+        "censor_interval_share_upper": 0.4630138114815207,
+        "detected_only_weighted_mass_ug_L": 174407.8399405,
+        "official_group_weighted_mass_ug_L": 378505.0971749,
+        "detected_events": 58186,
+        "systems_with_detection": 4657,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "Extra4",
+        "species": "bromodichloroacetic acid",
+        "abbreviation": "BDCAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.3801236037802059,
+        "primary_cluster_bootstrap_ci_low": 0.37310053647044883,
+        "primary_cluster_bootstrap_ci_high": 0.38713537240761947,
+        "reconstructed_nd0_share": 0.38012390506325955,
+        "midpoint_substitution_share": 0.32974250233643376,
+        "censor_interval_share_lower": 0.28393892059912645,
+        "censor_interval_share_upper": 0.3900775204059771,
+        "detected_only_weighted_mass_ug_L": 143878.7215873,
+        "official_group_weighted_mass_ug_L": 378505.0971749,
+        "detected_events": 51078,
+        "systems_with_detection": 4107,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "Extra4",
+        "species": "chlorodibromoacetic acid",
+        "abbreviation": "CDBAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.12796984772101516,
+        "primary_cluster_bootstrap_ci_low": 0.12431657300823735,
+        "primary_cluster_bootstrap_ci_high": 0.1318812172315534,
+        "reconstructed_nd0_share": 0.12796994914893522,
+        "midpoint_substitution_share": 0.11624566129351971,
+        "censor_interval_share_lower": 0.09569672114838816,
+        "censor_interval_share_upper": 0.14324333878718667,
+        "detected_only_weighted_mass_ug_L": 48437.239647099996,
+        "official_group_weighted_mass_ug_L": 378505.0971749,
+        "detected_events": 40940,
+        "systems_with_detection": 3946,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "Extra4",
+        "species": "tribromoacetic acid",
+        "abbreviation": "TBAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.031125065654152143,
+        "primary_cluster_bootstrap_ci_low": 0.02804703462773204,
+        "primary_cluster_bootstrap_ci_high": 0.03439933344070052,
+        "reconstructed_nd0_share": 0.03112509032364052,
+        "midpoint_substitution_share": 0.16093675935468785,
+        "censor_interval_share_lower": 0.029976845187742962,
+        "censor_interval_share_upper": 0.26420196023456716,
+        "detected_only_weighted_mass_ug_L": 11780.996,
+        "official_group_weighted_mass_ug_L": 378505.0971749,
+        "detected_events": 3483,
+        "systems_with_detection": 781,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "HAA6Br",
+        "species": "bromochloroacetic acid",
+        "abbreviation": "BCAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.3813492632973124,
+        "primary_cluster_bootstrap_ci_low": 0.376323691842093,
+        "primary_cluster_bootstrap_ci_high": 0.3863836483518505,
+        "reconstructed_nd0_share": 0.3813495134478035,
+        "midpoint_substitution_share": 0.32708200151979794,
+        "censor_interval_share_lower": 0.28482133278787986,
+        "censor_interval_share_upper": 0.38347109717358485,
+        "detected_only_weighted_mass_ug_L": 174407.8399405,
+        "official_group_weighted_mass_ug_L": 457344.11136000004,
+        "detected_events": 58186,
+        "systems_with_detection": 4657,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "HAA6Br",
+        "species": "bromodichloroacetic acid",
+        "abbreviation": "BDCAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.3145962045066004,
+        "primary_cluster_bootstrap_ci_low": 0.30677281785186716,
+        "primary_cluster_bootstrap_ci_high": 0.3224237457098125,
+        "reconstructed_nd0_share": 0.31459641086964507,
+        "midpoint_substitution_share": 0.27438228459886116,
+        "censor_interval_share_lower": 0.23674464801918066,
+        "censor_interval_share_upper": 0.3237302790073801,
+        "detected_only_weighted_mass_ug_L": 143878.7215873,
+        "official_group_weighted_mass_ug_L": 457344.11136000004,
+        "detected_events": 51078,
+        "systems_with_detection": 4107,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "HAA6Br",
+        "species": "chlorodibromoacetic acid",
+        "abbreviation": "CDBAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.10590983560073096,
+        "primary_cluster_bootstrap_ci_low": 0.1031552129397431,
+        "primary_cluster_bootstrap_ci_high": 0.10886524251638648,
+        "reconstructed_nd0_share": 0.10590990507352122,
+        "midpoint_substitution_share": 0.09672926569799106,
+        "censor_interval_share_lower": 0.07977575663786857,
+        "censor_interval_share_upper": 0.11890941805060169,
+        "detected_only_weighted_mass_ug_L": 48437.239647099996,
+        "official_group_weighted_mass_ug_L": 457344.11136000004,
+        "detected_events": 40940,
+        "systems_with_detection": 3946,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "HAA6Br",
+        "species": "dibromoacetic acid",
+        "abbreviation": "DBAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.14900263309055495,
+        "primary_cluster_bootstrap_ci_low": 0.1429974436859726,
+        "primary_cluster_bootstrap_ci_high": 0.15509221700076564,
+        "reconstructed_nd0_share": 0.14900273083056767,
+        "midpoint_substitution_share": 0.13425276001651262,
+        "censor_interval_share_lower": 0.11237960532509822,
+        "censor_interval_share_upper": 0.16278443557912317,
+        "detected_only_weighted_mass_ug_L": 68145.47682109999,
+        "official_group_weighted_mass_ug_L": 457344.11136000004,
+        "detected_events": 38337,
+        "systems_with_detection": 3968,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "HAA6Br",
+        "species": "monobromoacetic acid",
+        "abbreviation": "MBAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.02338181928745234,
+        "primary_cluster_bootstrap_ci_low": 0.022279567157948987,
+        "primary_cluster_bootstrap_ci_high": 0.02456463539698246,
+        "reconstructed_nd0_share": 0.023381834625029047,
+        "midpoint_substitution_share": 0.033636478845055176,
+        "censor_interval_share_lower": 0.01784431117675364,
+        "censor_interval_share_upper": 0.053687220884745604,
+        "detected_only_weighted_mass_ug_L": 10693.537364,
+        "official_group_weighted_mass_ug_L": 457344.11136000004,
+        "detected_events": 14611,
+        "systems_with_detection": 2528,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      },
+      {
+        "target_group": "HAA6Br",
+        "species": "tribromoacetic acid",
+        "abbreviation": "TBAA",
+        "weighting": "event_mass_weighted",
+        "events": 63432,
+        "systems": 4924,
+        "primary_detect_only_share_official_denominator": 0.0257595882561316,
+        "primary_cluster_bootstrap_ci_low": 0.02335196321102419,
+        "primary_cluster_bootstrap_ci_high": 0.02824807599253035,
+        "reconstructed_nd0_share": 0.025759605153433555,
+        "midpoint_substitution_share": 0.133917209321782,
+        "censor_interval_share_lower": 0.023847348834339945,
+        "censor_interval_share_upper": 0.22811756426610905,
+        "detected_only_weighted_mass_ug_L": 11780.996,
+        "official_group_weighted_mass_ug_L": 457344.11136000004,
+        "detected_events": 3483,
+        "systems_with_detection": 781,
+        "bootstrap_replicates": 10000,
+        "bootstrap_cluster": "PWSID"
+      }
+    ],
+    "reconciliation": [
+      {
+        "group": "HAA5",
+        "events": 63432,
+        "literal_binary_float_equal_matches": 54551,
+        "matches_within_1e_9_ug_L": 63430,
+        "within_1e_6_ug_L": 63430,
+        "mean_absolute_difference_ug_L": 1.103543952620283e-05,
+        "maximum_absolute_difference_ug_L": 0.4999999999999999,
+        "nonmatching_events_gt_1e_9_ug_L": 2
+      },
+      {
+        "group": "HAA6Br",
+        "events": 63432,
+        "literal_binary_float_equal_matches": 54646,
+        "matches_within_1e_9_ug_L": 63431,
+        "within_1e_6_ug_L": 63431,
+        "mean_absolute_difference_ug_L": 4.72947408263808e-06,
+        "maximum_absolute_difference_ug_L": 0.2999999999999998,
+        "nonmatching_events_gt_1e_9_ug_L": 1
+      },
+      {
+        "group": "HAA9",
+        "events": 63432,
+        "literal_binary_float_equal_matches": 56068,
+        "matches_within_1e_9_ug_L": 63429,
+        "within_1e_6_ug_L": 63429,
+        "mean_absolute_difference_ug_L": 1.5764913608730163e-05,
+        "maximum_absolute_difference_ug_L": 0.5,
+        "nonmatching_events_gt_1e_9_ug_L": 3
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "path": "results/additional/ucmr4_species_event_panel.csv",
+      "bytes": 34916889,
+      "sha256": "2cd3da568638e9c975e574c98a75f16777ad6150a45c6d88ba52aa8ab9712935"
+    },
+    {
+      "path": "results/additional/ucmr4_species_event_panel.parquet",
+      "bytes": 12139454,
+      "sha256": "7e06acf136c3b8870abda798a2b94fd26a55a6db5b70c61e7858cf6ba7f3445c"
+    },
+    {
+      "path": "results/additional/ucmr4_species_system_summary.csv",
+      "bytes": 3453710,
+      "sha256": "4f0cf8561ebd6cea1cf9457d7a83114605c18d933bbb3629522c7234f15967b2"
+    },
+    {
+      "path": "results/additional/ucmr4_species_system_summary.parquet",
+      "bytes": 2089774,
+      "sha256": "0ff27d317a8d8725dc76a06f1f6a152aebd6694f50f203f97c63bd1cb32f9d3f"
+    },
+    {
+      "path": "results/additional/species_coverage_censoring.csv",
+      "bytes": 1097,
+      "sha256": "7b3449d7671df85431138841da5293e380f67d977ac4c341ce1bdbafd5271c98"
+    },
+    {
+      "path": "results/additional/species_coverage_censoring.parquet",
+      "bytes": 8756,
+      "sha256": "65a8f951fdb3556d96923a4c39987e3f19957d1c1c83a039ae84ba253fe65776"
+    },
+    {
+      "path": "results/additional/species_group_contributions.csv",
+      "bytes": 4608,
+      "sha256": "76b16417ced22287aa7cf5413d2d640e90c4b9592f59d05e37f9f2e4333061d3"
+    },
+    {
+      "path": "results/additional/species_group_contributions.parquet",
+      "bytes": 15081,
+      "sha256": "3efec9a0d5d2433e60c6a512001530e7eef977e3c45f79b96bbb0549bb76395d"
+    },
+    {
+      "path": "results/additional/species_composition_distributions.csv",
+      "bytes": 2911,
+      "sha256": "d0e3a11367ea104215c1ef6c6e66f31efa6849168b5d7777f3dd4b476dc48de4"
+    },
+    {
+      "path": "results/additional/species_composition_distributions.parquet",
+      "bytes": 8528,
+      "sha256": "08c38291de1217e7e83a8437042c8529bf5fc94db1d38c095779a11da1f62101"
+    },
+    {
+      "path": "results/additional/species_official_group_reconciliation.csv",
+      "bytes": 344,
+      "sha256": "b7a43f9cfab8511bc7f1c410252d0279eac7cd5b59f846becbc6f7bf4c5e4c85"
+    },
+    {
+      "path": "results/additional/species_official_group_reconciliation.parquet",
+      "bytes": 6238,
+      "sha256": "6a3b08c3b9f35281c1e6ea7968cb91e2ed91ded1b9dde61d5e3df40930146cf2"
+    },
+    {
+      "path": "results/additional/FigS6_source_data.csv",
+      "bytes": 8963814,
+      "sha256": "48e7c981d1ce91ea58c8e1e73369ee3af4503121b09d4e9951e3bb4038c1ffeb"
+    },
+    {
+      "path": "results/additional/FigS6_source_data.parquet",
+      "bytes": 1411405,
+      "sha256": "3c29f73f3d86320e43455a5d7afd4b1124ebcdfc3b038c25eb9fc366b944f0f2"
+    },
+    {
+      "path": "figures/supplementary/FigS6_species_level_HAA_composition.svg",
+      "bytes": 85558,
+      "sha256": "59d1269ce2399be78086671424e071d9b40422d46879c94b76a38662bcc18c83"
+    },
+    {
+      "path": "figures/supplementary/FigS6_species_level_HAA_composition.pdf",
+      "bytes": 52050,
+      "sha256": "0618d4e6289f85e995a9786f48cc2dd5240513e52ec1aff7eee6b025dc20fbc5"
+    },
+    {
+      "path": "figures/supplementary/FigS6_species_level_HAA_composition.png",
+      "bytes": 710640,
+      "sha256": "7816bf67d870ceecf5189e3ee3895d6c2c79009609d5bc9f1cd85a35b938b37a"
+    },
+    {
+      "path": "results/additional/METHODS_RESULTS_SPECIES_ADDENDUM.md",
+      "bytes": 4660,
+      "sha256": "50405401ee4772c292528b170254a4ba40260bef43514b6fa74089b5ea91ebe8"
+    }
+  ]
+}

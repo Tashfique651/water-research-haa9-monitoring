@@ -1,0 +1,13 @@
+metric,estimate,ci95_low,ci95_high,ci_method,haa5_reference_level_ug_l,tthm_reference_level_ug_l
+n_pairs,37894.0,,,Not interval-estimated,60.0,80.0
+n_both_high,216.0,,,Not interval-estimated,60.0,80.0
+n_haa5_only_high,494.0,,,Not interval-estimated,60.0,80.0
+n_tthm_only_high,677.0,,,Not interval-estimated,60.0,80.0
+n_neither_high,36507.0,,,Not interval-estimated,60.0,80.0
+fraction_haa5_high,0.018736475431466722,,,Not interval-estimated,60.0,80.0
+fraction_tthm_high,0.023565736000422232,,,Not interval-estimated,60.0,80.0
+overall_agreement,0.969098010239088,0.9637628169564608,0.9738331269923357,"PWS-cluster percentile bootstrap, 10000 replicates",60.0,80.0
+high_set_jaccard,0.15573179524152847,0.11729995861212665,0.1965751266340523,"PWS-cluster percentile bootstrap, 10000 replicates",60.0,80.0
+phi,0.25566368160733044,0.19601110901084068,0.3160735220762667,"PWS-cluster percentile bootstrap, 10000 replicates",60.0,80.0
+p_tthm_high_given_haa5_high,0.30422535211267604,0.2303661374310078,0.3812823094084996,"PWS-cluster percentile bootstrap, 10000 replicates",60.0,80.0
+p_haa5_high_given_tthm_high,0.24188129899216126,0.1828407052650845,0.30186535162950257,"PWS-cluster percentile bootstrap, 10000 replicates",60.0,80.0

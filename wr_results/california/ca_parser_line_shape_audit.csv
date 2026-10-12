@@ -1,0 +1,17 @@
+record_type,line_number,field_count,apparent_analyte_code,n_rows
+field_count_frequency,,29,,7185440.0
+field_count_frequency,,30,,14.0
+malformed_row_example,740315.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,1032139.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,1697170.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,3233317.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,3618051.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,3698334.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,4106220.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,5266514.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,5358135.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,5806157.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,6150226.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,6869840.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,6891252.0,30,BSK ANALYTICAL LABORATORIES,
+malformed_row_example,6902540.0,30,BSK ANALYTICAL LABORATORIES,

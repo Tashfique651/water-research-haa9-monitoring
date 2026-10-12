@@ -1,0 +1,5 @@
+source_panel,source_input_path,metric,count,denominator,fraction
+b,wr_results/core/round_semantics_summary.csv,multi_date,998.0,15285.0,0.0652927706902191
+b,wr_results/core/round_semantics_summary.csv,multi_facility,2740.0,15285.0,0.1792607131174353
+b,wr_results/core/round_semantics_summary.csv,multi_site,14322.0,15285.0,0.9369970559371932
+b,wr_results/core/round_semantics_summary.csv,crosses_calendar_year,80.0,15285.0,0.0052338894340857

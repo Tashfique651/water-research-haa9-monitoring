@@ -1,0 +1,33 @@
+analysis_version,minus999_handling,binary_helper_is_concentration_imputation,scope,analyte,time_scale,target_probability,minimum_k,descriptive_crossing_k,status,n_systems
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA5,monthly,0.5,2.0,2,reached,42
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA5,monthly,0.9,5.0,5,reached,42
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA5,quarterly,0.5,2.0,2,reached,42
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA5,quarterly,0.9,5.0,5,reached,42
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA9,monthly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,2
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA9,monthly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,2
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA9,quarterly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,2
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,primary_distribution,HAA9,quarterly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,2
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA5,monthly,0.5,2.0,2,reached,53
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA5,monthly,0.9,5.0,5,reached,53
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA5,quarterly,0.5,2.0,2,reached,53
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA5,quarterly,0.9,5.0,5,reached,53
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA9,monthly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,3
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA9,monthly,0.9,,2,insufficient support: fewer than 10 reference-positive systems,3
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA9,quarterly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,3
+original_minus999_excluded,-999 totals excluded from numeric threshold support,False,all_ds_sensitivity,HAA9,quarterly,0.9,,2,insufficient support: fewer than 10 reference-positive systems,3
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA5,monthly,0.5,2.0,2,reached,42
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA5,monthly,0.9,5.0,5,reached,42
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA5,quarterly,0.5,2.0,2,reached,42
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA5,quarterly,0.9,5.0,5,reached,42
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA9,monthly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,3
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA9,monthly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,3
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA9,quarterly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,3
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,primary_distribution,HAA9,quarterly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,3
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA5,monthly,0.5,2.0,2,reached,53
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA5,monthly,0.9,5.0,5,reached,53
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA5,quarterly,0.5,2.0,2,reached,53
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA5,quarterly,0.9,5.0,5,reached,53
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA9,monthly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,4
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA9,monthly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,4
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA9,quarterly,0.5,,1,insufficient support: fewer than 10 reference-positive systems,4
+mrl_bounded_recovery,verified -999 totals classified at or below 60 using component-MRL upper bounds,False,all_ds_sensitivity,HAA9,quarterly,0.9,,3,insufficient support: fewer than 10 reference-positive systems,4

@@ -1,0 +1,13 @@
+cohort_id,cohort_label,scope_role,haa5_status,tthm_status,n_pairs,n_systems,fraction_jointly_classifiable
+SYR3_primary,SYR3 2006 to 2011,primary replication,above,above,5749,1274,0.02630736002050043
+SYR3_primary,SYR3 2006 to 2011,primary replication,above,below,6414,1459,0.029350392619845147
+SYR3_primary,SYR3 2006 to 2011,primary replication,below,above,17392,2505,0.07958559844782458
+SYR3_primary,SYR3 2006 to 2011,primary replication,below,below,188977,15645,0.8647566489118298
+SYR4_reference,SYR4 2012 to 2019,reference,above,above,7846,1980,0.015362384674425526
+SYR4_reference,SYR4 2012 to 2019,reference,above,below,7178,1970,0.014054447768675303
+SYR4_reference,SYR4 2012 to 2019,reference,below,above,27437,4512,0.053721354615372564
+SYR4_reference,SYR4 2012 to 2019,reference,below,below,468267,25602,0.9168618129415266
+CA2025_primary_DS,California 2025 distribution,primary external validation,above,above,38,20,0.00433443595300559
+CA2025_primary_DS,California 2025 distribution,primary external validation,above,below,86,45,0.009809512946275807
+CA2025_primary_DS,California 2025 distribution,primary external validation,below,above,140,83,0.015968974563704802
+CA2025_primary_DS,California 2025 distribution,primary external validation,below,below,8503,1504,0.9698870765370138

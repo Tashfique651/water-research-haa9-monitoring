@@ -1,0 +1,10 @@
+Source,Coverage or version,SHA-256 prefix,Analytical role
+EPA UCMR4 occurrence archive,"2018–2020, March 2024 revision",932dd46139c1,"Primary matched HAA5, HAA6Br, and HAA9 group totals"
+Peterson et al. public repository,Git commite0dd19e8f392(full hash in manifest),565c5ee9d695,Nine-species records and coefficient tables
+EPA SYR4 HAA5 archive,2012–2019,8bc74a7ad488,HAA5 quarter-capture and paired-analyte comparison
+EPA SYR4 TTHM archive,2012–2019,3b2a8a44b27a,TTHM quarter-capture and paired-analyte comparison
+EPA SYR4 treatment and system archive,Fourth Six-Year Review,37300249a7b2,Complete-case population-served sensitivity
+EPA Information Collection Rule auxiliary archive,1997–1998,d91454d34d53,Direct historical HAA5 and HAA9 temporal support
+EPA SYR3 HAA archive,2006–2011,259c8fcf20a3,Historical paired HAA5-TTHM comparison
+EPA SYR3 THM archive,2006–2011,8ba57f6e1309,Historical paired HAA5-TTHM comparison
+California SDWIS4 flat file,Calendar years 2023–2025 analyzed,9aa519a26257,Separate state routine-monitoring comparison

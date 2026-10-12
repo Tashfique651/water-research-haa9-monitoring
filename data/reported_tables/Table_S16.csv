@@ -1,0 +1,18 @@
+Quantity,Estimate,Weighting / support / interval
+Events with HAA9 > 0,"61,520",Complete nine-species events only
+Median event fraction outside HAA5,0.2529,IQR 0.1337–0.4002
+Median across PWS mean event fractions outside HAA5,0.2867,"IQR 0.1561–0.4127; 4,840 PWSs"
+BCAA share of detected Extra4 mass,46.1%,Event-mass weighted
+BDCAA share of detected Extra4 mass,38.0%,Event-mass weighted
+CDBAA share of detected Extra4 mass,12.8%,Event-mass weighted
+TBAA share of detected Extra4 mass,3.1%,Event-mass weighted
+"CHO index, R-support coefficients, nondetect = 0",0.4123,Equal-system mean Extra4 index share; 0.4067–0.4179
+"CHO index, R-support coefficients, nondetect = MRL/2",0.2929,Equal-system mean Extra4 index share; 0.2911–0.2946
+"CHO index, R-support coefficients, nondetect = MRL",0.2808,Equal-system mean Extra4 index share; 0.2796–0.2819
+"CHO index, dimension-table coefficients, nondetect = 0",0.4789,Equal-system mean Extra4 index share; 0.4730–0.4850
+"CHO index, dimension-table coefficients, nondetect = MRL/2",0.1884,Equal-system mean Extra4 index share; 0.1861–0.1908
+"CHO index, dimension-table coefficients, nondetect = MRL",0.1481,Equal-system mean Extra4 index share; 0.1464–0.1496
+Five-species panels enumerated,126,Exact measured-panel sensitivity
+Regulatory HAA5 additive interaction,0.2123,Descending rank 98/126; descriptive percentile 0.2302
+Interaction range across five-species panels,0.0562–0.5735,Species are not exchangeable
+Duplicate-HAA5 nested-null interaction,0.000000,p₀₀ = p₁₀ and p₀₁ = p₁₁ exactly

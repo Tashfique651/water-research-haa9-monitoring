@@ -1,0 +1,9 @@
+source_panel,source_input_path,cohort,nondetect_scenario,indicator,endpoint,n_systems,spearman_rho,p_value_descriptive
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,bromide,HAA5_full_max,3427,-0.2750346096049053,1.560870712190137e-60
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,bromide,HAA9_full_max,3427,-0.1974452099758177,1.8271441185925195e-31
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,bromide,Extra4_max_ug_l,3427,0.135863233626655,1.3750891139070405e-15
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,bromide,Extra4_fraction_median,3347,0.4392869150419473,5.844054998190346e-158
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,toc,HAA5_full_max,3425,0.7011172394837523,0.0
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,toc,HAA9_full_max,3425,0.6996223436650815,0.0
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,toc,Extra4_max_ug_l,3425,0.5802565289229529,1.6987955885199043e-307
+a,wr_results/haa9_revision/chemistry_source_correlations.csv,all_eligible,midpoint,toc,Extra4_fraction_median,3345,-0.1919620235415173,3.9640117893860685e-29

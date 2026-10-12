@@ -1,0 +1,4 @@
+cohort_id,cohort_label,n_pairs,n_systems,both_detected_pairs
+SYR3_primary,SYR3 2006 to 2011,237383,16999,193329
+SYR4_reference,SYR4 2012 to 2019,527296,26540,436150
+CA2025_primary_DS,California 2025 distribution,8767,1526,5885

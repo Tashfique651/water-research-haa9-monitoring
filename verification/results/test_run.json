@@ -1,0 +1,20 @@
+{
+  "tests_passed": 83,
+  "historical_scientific_tests": 64,
+  "current_reconstruction_tests": 19,
+  "command": "python verification/tools/run_checked_tests.py",
+  "python": "3.13.5",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.14.6",
+    "pytest": "9.0.2",
+    "thrift": "0.20.0"
+  },
+  "parquet_IO": "included flat-file validation adapter; compared with five independent CSV mirrors",
+  "fresh_dependency_installation": false,
+  "original_publisher_archives_reacquired": false,
+  "scientific_tests_modified": false
+}

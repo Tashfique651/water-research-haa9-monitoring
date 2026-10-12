@@ -1,0 +1,10 @@
+ANAL_ID,CNCNTCDE,MRL_MSR,ANALNAME,ABBRNAME,AUX1NAME,in_HAA5,in_HAA9
+5,ug/L,2.0,Monochloroacetic Acid,MCAA,MCAA,True,True
+6,ug/L,1.0,Dichloroacetic Acid,DCAA,DCAA,True,True
+7,ug/L,1.0,Trichloroacetic Acid,TCAA,TCAA,True,True
+8,ug/L,1.0,Monobromoacetic Acid,MBAA,MBAA,True,True
+9,ug/L,1.0,Dibromoacetic Acid,DBAA,DBAA,True,True
+10,ug/L,1.0,Bromochloroacetic Acid,BCAA,BCAA,False,True
+74,ug/L,1.0,Bromodichloroacetic Acid,BDCAA,BDCAA,False,True
+75,ug/L,2.0,Chlorodibromoacetic Acid,CDBAA,CDBAA,False,True
+76,ug/L,4.0,Tribromoacetic Acid,TBAA,TBAA,False,True

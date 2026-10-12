@@ -1,0 +1,5 @@
+source_panel,source_input_path,row,column,label,panel,support
+d,"declared paired factorial design; schematic dots, not numerical sample counts",0,0,p00,HAA5,one_group
+d,"declared paired factorial design; schematic dots, not numerical sample counts",0,1,p10,HAA9,one_group
+d,"declared paired factorial design; schematic dots, not numerical sample counts",1,0,p01,HAA5,full_grid
+d,"declared paired factorial design; schematic dots, not numerical sample counts",1,1,p11,HAA9,full_grid

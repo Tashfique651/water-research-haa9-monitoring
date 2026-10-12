@@ -1,0 +1,10 @@
+haa5_threshold_status,tthm_threshold_status,n_pairs,n_systems,fraction_all_pairs
+above,above,7846,1980,0.014879688068940406
+above,below,7178,1970,0.01361284743294089
+above,indeterminate,8,7,1.517174414370676e-05
+below,above,27437,4512,0.0520333930088603
+below,below,468267,25602,0.8880533893676417
+below,indeterminate,1078,582,0.0020443925233644858
+indeterminate,above,44,27,8.344459279038718e-05
+indeterminate,below,9110,2401,0.017276823643646074
+indeterminate,indeterminate,6328,1652,0.012000849617672048

@@ -1,0 +1,9 @@
+analyte,n_available_quarters,target_probability,minimum_k,status,n_system_years,n_systems
+HAA5,3,0.5,2,reached,702,604
+HAA5,3,0.9,3,reached,702,604
+HAA5,4,0.5,2,reached,5392,2306
+HAA5,4,0.9,4,reached,5392,2306
+TTHM,3,0.5,2,reached,1381,1150
+TTHM,3,0.9,3,reached,1381,1150
+TTHM,4,0.5,2,reached,11090,3850
+TTHM,4,0.9,4,reached,11090,3850

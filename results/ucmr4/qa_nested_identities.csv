@@ -1,0 +1,8 @@
+check,check_kind,events_tested,flagged_count,max_positive_violation_ug_l
+nonnegative_HAA5,structural_identity,63432,0,0
+nonnegative_HAA6Br,structural_identity,63432,0,0
+nonnegative_HAA9,structural_identity,63432,0,0
+HAA5_le_HAA9,structural_identity,63432,0,0
+HAA6Br_le_HAA9,structural_identity,63432,0,0
+HAA9_le_HAA5_plus_HAA6Br,structural_identity,63432,0,3.375077995e-14
+HAA9_nonpositive_fraction_denominator,fraction_denominator_status,63432,1912,

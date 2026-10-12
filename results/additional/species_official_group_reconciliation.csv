@@ -1,0 +1,4 @@
+group,events,literal_binary_float_equal_matches,matches_within_1e_9_ug_L,within_1e_6_ug_L,mean_absolute_difference_ug_L,maximum_absolute_difference_ug_L,nonmatching_events_gt_1e_9_ug_L
+HAA5,63432,54551,63430,63430,1.103543953e-05,0.5,2
+HAA6Br,63432,54646,63431,63431,4.729474083e-06,0.3,1
+HAA9,63432,56068,63429,63429,1.576491361e-05,0.5,3

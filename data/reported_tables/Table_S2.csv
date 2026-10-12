@@ -1,0 +1,13 @@
+Record set or check,Events or rows,PWSs,Use or result
+Published HAA5 rows,"63,484","4,924",Retained for source reconciliation
+Published HAA6Br rows,"63,443","4,924",Retained for source reconciliation
+Published HAA9 rows,"63,432","4,924",Retained for source reconciliation
+All HAA-total source rows,"190,359","4,924",Parsed without concentration imputation
+Distinct exact HAA events,"63,495","4,924",Defined by the six-field exact key
+Complete HAA5-HAA6Br-HAA9 events,"63,432","4,924",Same-event composition cohort
+Incomplete HAA-total events,63,20,Systems excluded only from finite-grid replay
+Complete matched events for sampling replay,"63,105","4,904",Primary eligible record
+"HAA9 reference-positive systems, B60",n/a,769,Primary conditional denominator
+HAA5 ≤ HAA9 violations,0,0,No violations
+HAA6Br ≤ HAA9 violations,0,0,No violations
+HAA9 ≤ HAA5 + HAA6Br violations,0,0,No violations

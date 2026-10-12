@@ -1,0 +1,15 @@
+analyte,threshold_ug_l,n_available_quarters,quarters_sampled_k,mean_exact_capture_probability,cluster_bootstrap_ci_low,cluster_bootstrap_ci_high,n_system_years,n_systems,cohort
+HAA5,60.0,3,1,0.4449192782526116,0.4296503489094346,0.46104195481788846,702,604,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+HAA5,60.0,3,2,0.7564102564102564,0.7449823003732,0.768056044600939,702,604,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+HAA5,60.0,3,3,1.0,1.0,1.0,702,604,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+HAA5,60.0,4,1,0.3708271513353116,0.3635350753685462,0.378199390445556,5392,2306,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+HAA5,60.0,4,2,0.6330675074183977,0.6262307447940693,0.6400309002493013,5392,2306,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+HAA5,60.0,4,3,0.8367488872403561,0.8326886278221701,0.8408620014206745,5392,2306,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+HAA5,60.0,4,4,1.0,1.0,1.0,5392,2306,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,3,1,0.4993965725319817,0.48549642813214133,0.513532776558563,1381,1150,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,3,2,0.788317644219165,0.7795541669477377,0.7973528253209708,1381,1150,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,3,3,1.0,1.0,1.0,1381,1150,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,4,1,0.4102119026149684,0.40351581255274493,0.4171420259753663,11090,3850,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,4,2,0.6649383829275624,0.6594684864701706,0.6703828889750924,11090,3850,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,4,3,0.8537195671776375,0.8505212865387456,0.8568298735028984,11090,3850,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter
+TTHM,80.0,4,4,1.0,1.0,1.0,11090,3850,≥3 quarters; every quarter classifiable; ≥1 definitely-above quarter

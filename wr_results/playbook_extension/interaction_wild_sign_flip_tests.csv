@@ -1,0 +1,4 @@
+analysis,observed_additive_interaction,systems,replicates,two_sided_p_value,upper_tailed_p_value,method,assumption
+primary_complete_observed_grid_B60,0.2122886866059818,769,100000,9.99990000099999e-06,9.99990000099999e-06,cluster wild sign-flip test of a zero mean system contribution,Rademacher sign exchangeability of centered system contributions under the null
+late2_condition_early2_evaluation,0.04363207547169811,424,100000,0.00015999840001599985,6.999930000699993e-05,cluster wild sign-flip test of a zero mean system contribution,Rademacher sign exchangeability of centered system contributions under the null
+early2_condition_late2_evaluation,0.04638009049773756,442,100000,1.999980000199998e-05,1.999980000199998e-05,cluster wild sign-flip test of a zero mean system contribution,Rademacher sign exchangeability of centered system contributions under the null

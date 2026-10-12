@@ -1,0 +1,13 @@
+Endpoint,Panel,PWSs with support,Positive PWSs,Positive fraction,Conditional capture,"Panel-positive, HAA5-negative PWSs"
+Full-record individual-sample maximum,HAA5,"4,904",444,0.0905,0.5774,0
+Full-record individual-sample maximum,HAA5 + detected BCAA,"4,904",580,0.1183,0.7542,136
+Full-record individual-sample maximum,HAA6Br,"4,904",23,0.0047,0.0299,9
+Full-record individual-sample maximum,HAA9,"4,904",769,0.1568,1.0000,325
+LRAA-form analog,HAA5,"2,487",48,0.0193,0.3529,0
+LRAA-form analog,HAA5 + detected BCAA,"2,487",73,0.0294,0.5368,25
+LRAA-form analog,HAA6Br,"2,487",2,0.0008,0.0147,1
+LRAA-form analog,HAA9,"2,487",136,0.0547,1.0000,88
+OEL-form analog,HAA5,"2,683",117,0.0436,0.4756,0
+OEL-form analog,HAA5 + detected BCAA,"2,683",146,0.0544,0.5935,29
+OEL-form analog,HAA6Br,"2,683",4,0.0015,0.0163,0
+OEL-form analog,HAA9,"2,683",246,0.0917,1.0000,129

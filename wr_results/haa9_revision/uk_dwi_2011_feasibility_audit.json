@@ -1,0 +1,70 @@
+{
+  "source": "WRc DWI70/2/253; UC8493/WD 0901, May 2011, Tables 6.2-6.5, printed pages 41-44; PDF pages 49-52",
+  "source_url": "https://dwi-production-files.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/10/27111117/DWI70_2_253.pdf",
+  "data_type": "Digitized published sample-level numerical facts, not original analytical-laboratory export",
+  "digitized_csv_sha256": "641b7cf91a3a0a5fb624d89deef207f5cf1913cca27916385abf230d6c87f807",
+  "visual_QA": "All four table page images inspected against extracted CSV on 2026-09-19; anomalous published values retained, not silently corrected.",
+  "geographic_scope": "20 anonymized UK drinking-water sites, A-T, selected to span source/quality/treatment characteristics; not a random national sample",
+  "overlap_with_UCMR4": false,
+  "n_scheduled_site_round_slots": 80,
+  "n_actual_samples": 70,
+  "n_sites": 20,
+  "collection_date_min": "2010-01-20",
+  "collection_date_max": "2011-01-14",
+  "n_within_14_day_holding_screen": 25,
+  "n_sites_within_14_day_screen": 19,
+  "sites_with_at_least_two_visits_within_14_day_screen": [
+    "A",
+    "C",
+    "G",
+    "K",
+    "L",
+    "P"
+  ],
+  "rounds": [
+    {
+      "round": 2,
+      "n_sampled": 18,
+      "n_missing": 2,
+      "hold_day_min_from_table_dates": 7,
+      "hold_day_max_from_table_dates": 15,
+      "n_within_14_day_holding_screen": 14
+    },
+    {
+      "round": 3,
+      "n_sampled": 20,
+      "n_missing": 0,
+      "hold_day_min_from_table_dates": 19,
+      "hold_day_max_from_table_dates": 30,
+      "n_within_14_day_holding_screen": 0
+    },
+    {
+      "round": 4,
+      "n_sampled": 20,
+      "n_missing": 0,
+      "hold_day_min_from_table_dates": 32,
+      "hold_day_max_from_table_dates": 41,
+      "n_within_14_day_holding_screen": 0
+    },
+    {
+      "round": 5,
+      "n_sampled": 12,
+      "n_missing": 8,
+      "hold_day_min_from_table_dates": 1,
+      "hold_day_max_from_table_dates": 15,
+      "n_within_14_day_holding_screen": 11
+    }
+  ],
+  "max_reported_HAA9_ug_L_all_samples": 48.6,
+  "max_reconstructed_HAA9_upper_ug_L_all_samples": 49.9,
+  "max_reconstructed_HAA9_upper_ug_L_within_14_day_screen": 35.5,
+  "n_possible_B60_HAA9_positives_all_samples": 0,
+  "n_possible_B80_HAA9_positives_all_samples": 0,
+  "capture_sensitivity_and_superiority": null,
+  "feasibility_decision": "No reference-positive samples even at the censoring upper bound for B60 or B80; threshold capture and panel advantage cannot be estimated. The 14-day screened subset has insufficient repeat support for a four-visit comparator and still no reference positives. This is a documented unsuccessful validation-source search, not evidence of zero or perfect sensitivity.",
+  "holding_time_boundary": "Report method is based on EPA 557 and itself discusses its 14-day recommendation, but also reports stability tests to 68 days. Screen applies 14 days as a comparability condition, not a declaration of laboratory compliance or invalidity. Cold-chain, autosampler-residence time, UK method validation and potential source date errors are not independently verified.",
+  "date_conflict": "Narrative holding ranges differ from dates printed in Tables 6.3-6.4; calculations use the explicit table dates without correction.",
+  "censoring": "Shared species-wise intervals: censored value contributes [0, published limit]; detected values fixed at published rounded values. Upper bounds are conservative endpoints, not measured concentrations.",
+  "rounding": "Published HAA9 totals retained separately; differences from sums of rounded species are not data corrections.",
+  "license_boundary": "WRc report marked copyright 2011; full report and page images retained only as internal QA, excluded from public repository and release ZIP. Digitized numerical facts are attributed to source."
+}

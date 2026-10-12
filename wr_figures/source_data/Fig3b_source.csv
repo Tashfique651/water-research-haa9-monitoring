@@ -1,0 +1,5 @@
+source_panel,source_input_path,measure,estimate,ci_lower,ci_upper,null
+b,wr_results/playbook_extension/interaction_scale_metrics.csv; wr_results/haa9_revision/oracle_interaction_summary.csv,Additive interaction,0.2122886866059818,0.1833550065019505,0.2406832466406588,0
+b,wr_results/playbook_extension/interaction_scale_metrics.csv; wr_results/haa9_revision/oracle_interaction_summary.csv,Multiplicative ratio,0.862631832763718,0.8296489262465966,0.898213602862203,1
+b,wr_results/playbook_extension/interaction_scale_metrics.csv; wr_results/haa9_revision/oracle_interaction_summary.csv,RERI,1.017133956386293,0.835445582444171,1.234996138340734,0
+b,wr_results/playbook_extension/interaction_scale_metrics.csv; wr_results/haa9_revision/oracle_interaction_summary.csv,Synergy index,1.3666479505895563,1.3096090828016071,1.4318448984444896,1

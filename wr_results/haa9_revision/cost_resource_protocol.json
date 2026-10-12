@@ -1,0 +1,23 @@
+{
+  "status": "exploratory retrospective scenario declared in source before run",
+  "mode_hard": "Conservative worst-case number of distinct dates, min(k,D), guarantees per-system cap under stated additive costs",
+  "mode_expected": "Interpolate between adjacent k using expected distinct dates; NOT a hard per-draw cap",
+  "all_non_assay_components": "Assumed collection-date cost only; shipping, batch and followup costs unmeasured",
+  "r_grid": [
+    1,
+    1.25,
+    1.5,
+    2,
+    2.5,
+    3,
+    3.5,
+    4,
+    4.5,
+    5
+  ],
+  "date_cost_grid": [
+    0,
+    1,
+    4
+  ]
+}

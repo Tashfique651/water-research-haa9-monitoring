@@ -1,0 +1,7 @@
+source_panel,source_input_path,endpoint,panel,reference,common_support_PWS,reference_PWS,positive_in_reference_PWS,capture_or_positive_fraction,ci_lower,ci_upper
+d,wr_results/haa9_revision/common_support_endpoint_summary.csv,maximum,HAA5,fixed_maximum_HAA9_positive,2487,610,365,0.5983606557377049,0.5586316410198809,0.6360781730346947
+d,wr_results/haa9_revision/common_support_endpoint_summary.csv,maximum,HAA9,fixed_maximum_HAA9_positive,2487,610,610,1.0,1.0,1.0
+d,wr_results/haa9_revision/common_support_endpoint_summary.csv,OEL_form,HAA5,fixed_maximum_HAA9_positive,2487,610,109,0.1786885245901639,0.1499979406919275,0.2095269788447824
+d,wr_results/haa9_revision/common_support_endpoint_summary.csv,OEL_form,HAA9,fixed_maximum_HAA9_positive,2487,610,229,0.3754098360655737,0.3371146154650494,0.4148791322314049
+d,wr_results/haa9_revision/common_support_endpoint_summary.csv,LRAA_form,HAA5,fixed_maximum_HAA9_positive,2487,610,48,0.0786885245901639,0.0582347685722956,0.1008267935273282
+d,wr_results/haa9_revision/common_support_endpoint_summary.csv,LRAA_form,HAA9,fixed_maximum_HAA9_positive,2487,610,136,0.2229508196721311,0.1909547738693467,0.2564553669222343

@@ -1,0 +1,5 @@
+source_panel,source_input_path,section,metric,value,detail,label
+d,wr_results/california/ca_data_quality_audit.csv,events,event-analyte keys with multiple source rows,334,,Duplicate keys
+d,wr_results/california/ca_data_quality_audit.csv,events,event-analyte keys with discordant values,323,,Discordant keys
+d,wr_results/california/ca_data_quality_audit.csv,pairing,exact PWS-site-date-time HAA5/TTHM pairs,37894,,Exact-time pairs
+d,wr_results/california/ca_data_quality_audit.csv,pairing,date-only paired keys,39324,Within-date medians; clock time ignored,Date-only pairs

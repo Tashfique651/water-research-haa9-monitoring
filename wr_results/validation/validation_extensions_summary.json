@@ -1,0 +1,233 @@
+{
+  "baseline_validation": {
+    "icr_row_count_matches_frozen": true,
+    "paired_capture_curve_points_match_frozen": true,
+    "paired_capture_curve_rows_match_frozen": true,
+    "same_date_agreement_matches_frozen": true,
+    "same_date_pair_count_matches_frozen": true,
+    "same_date_rho_matches_frozen": true,
+    "ucmr_complete_event_count_matches_frozen": true,
+    "ucmr_event_recomputation_max_cell_error_le_1e-12": true,
+    "ucmr_event_recomputation_systems_match_frozen": true
+  },
+  "cross_program_overlap": {
+    "interpretation": "candidate shared records, not proof of identical provenance",
+    "primary_match_systems": 388,
+    "primary_matches": 1846,
+    "primary_tolerance_ug_l": 0.05,
+    "same_date_candidate_rows": 78602,
+    "same_date_syr4_records": 11939,
+    "same_date_systems": 1000,
+    "same_date_ucmr_events": 11837,
+    "tolerance_results": [
+      {
+        "fraction_of_same_date_ucmr_events": 0.09791332263242375,
+        "matched_syr4_records": 1159,
+        "matched_systems": 253,
+        "matched_ucmr_events": 1159,
+        "one_to_one_matches": 1159,
+        "primary_tolerance": false,
+        "tolerance_ug_l": 0.0
+      },
+      {
+        "fraction_of_same_date_ucmr_events": 0.09934949733885275,
+        "matched_syr4_records": 1176,
+        "matched_systems": 259,
+        "matched_ucmr_events": 1176,
+        "one_to_one_matches": 1176,
+        "primary_tolerance": false,
+        "tolerance_ug_l": 0.001
+      },
+      {
+        "fraction_of_same_date_ucmr_events": 0.11523189997465574,
+        "matched_syr4_records": 1364,
+        "matched_systems": 302,
+        "matched_ucmr_events": 1364,
+        "one_to_one_matches": 1364,
+        "primary_tolerance": false,
+        "tolerance_ug_l": 0.01
+      },
+      {
+        "fraction_of_same_date_ucmr_events": 0.15595167694517192,
+        "matched_syr4_records": 1846,
+        "matched_systems": 388,
+        "matched_ucmr_events": 1846,
+        "one_to_one_matches": 1846,
+        "primary_tolerance": true,
+        "tolerance_ug_l": 0.05
+      },
+      {
+        "fraction_of_same_date_ucmr_events": 0.21745374672636647,
+        "matched_syr4_records": 2574,
+        "matched_systems": 525,
+        "matched_ucmr_events": 2574,
+        "one_to_one_matches": 2574,
+        "primary_tolerance": false,
+        "tolerance_ug_l": 0.1
+      },
+      {
+        "fraction_of_same_date_ucmr_events": 0.420545746388443,
+        "matched_syr4_records": 4978,
+        "matched_systems": 752,
+        "matched_ucmr_events": 4978,
+        "one_to_one_matches": 4978,
+        "primary_tolerance": false,
+        "tolerance_ug_l": 0.5
+      },
+      {
+        "fraction_of_same_date_ucmr_events": 0.538987919236293,
+        "matched_syr4_records": 6380,
+        "matched_systems": 833,
+        "matched_ucmr_events": 6380,
+        "one_to_one_matches": 6380,
+        "primary_tolerance": false,
+        "tolerance_ug_l": 1.0
+      }
+    ]
+  },
+  "icr_minus999_recovery": {
+    "HAA5_mrl_sum_ug_l": 6.0,
+    "HAA5_recovered_events": 1837,
+    "HAA9_mrl_sum_ug_l": 14.0,
+    "HAA9_recovered_events": 492,
+    "all_component_consistency_failures": 0,
+    "coding_rule": "zero helper only for binary <=60 classification; never a concentration imputation",
+    "matched_factorial_complete_six_quarters": {
+      "eligible_systems_original": 8,
+      "eligible_systems_recovered": 11,
+      "reference_positive_systems_original": 2,
+      "reference_positive_systems_recovered": 3
+    },
+    "primary_full_six_quarter_systems": {
+      "HAA5_original": 151,
+      "HAA5_recovered": 167,
+      "HAA9_original": 8,
+      "HAA9_recovered": 11
+    }
+  },
+  "metadata": {
+    "analysis": "Water Research claim-matched validation extensions",
+    "bootstrap_reps": 10000,
+    "primary_overlap_tolerance_ug_l": 0.05,
+    "seed": 20260914,
+    "software": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pyodbc": "5.3.0",
+      "python": "3.12.14"
+    },
+    "threshold_operator": "strictly greater than",
+    "thresholds_ug_l": {
+      "HAA5": 60.0,
+      "ICR_HAA9": 60.0,
+      "TTHM": 80.0
+    }
+  },
+  "syr4_pairing": {
+    "exclude_any_concurrent_systems_agreement": 0.9298624440179143,
+    "exclude_any_concurrent_systems_rho": 0.6317760792171432,
+    "exclude_primary_candidate_systems_agreement": 0.9308613972634386,
+    "exclude_primary_candidate_systems_rho": 0.6260476560234346,
+    "same_date_agreement": 0.9322241976159521,
+    "same_date_pairs": 527296,
+    "same_date_rho": 0.618521159754343,
+    "same_date_systems": 26540,
+    "sampling_point_mismatch_pairs": 124,
+    "sampling_point_mismatch_state_prefixes": {
+      "WA": 124
+    },
+    "sampling_point_mismatch_systems": 87,
+    "strict_site_agreement": 0.9322216455981278,
+    "strict_site_pairs": 527172,
+    "strict_site_plus_sample_type_pairs": 527170,
+    "strict_site_rho": 0.6184737208196471,
+    "strict_site_systems": 26535
+  },
+  "syr4_single_analyte_capture": {
+    "HAA5_systems": 43577,
+    "HAA5_valid_rows": 1005235,
+    "TTHM_systems": 46297,
+    "TTHM_valid_rows": 1089557,
+    "cohorts": [
+      "all_valid_single_analyte_records",
+      "paired_same_date_sensitivity",
+      "paired_strict_site_sensitivity"
+    ],
+    "curve_rows": 42,
+    "full_record_four_quarter_capture": {
+      "HAA5": {
+        "capture_k1": 0.3652957268182247,
+        "capture_k2": 0.6283526711316374,
+        "capture_k3": 0.8339779266106971,
+        "capture_k4": 1.0
+      },
+      "TTHM": {
+        "capture_k1": 0.4020785332614344,
+        "capture_k2": 0.6582021994542602,
+        "capture_k3": 0.8501642237364577,
+        "capture_k4": 1.0
+      }
+    },
+    "target_rows": 24
+  },
+  "ucmr4_overlap_exclusion": {
+    "any_concurrent_date_events": 11837,
+    "any_concurrent_date_systems": 1000,
+    "factorial_headlines": {
+      "exclude_any_concurrent_date_events_recomputed": {
+        "eligible_systems": 4633,
+        "interaction": 0.19077645895153314,
+        "p00": 0.2313303659742829,
+        "p01": 0.5786350148367952,
+        "p10": 0.46191889218595455,
+        "p11": 1.0,
+        "reference_positive_systems": 674
+      },
+      "exclude_any_concurrent_date_systems": {
+        "eligible_systems": 3913,
+        "interaction": 0.20269869513641758,
+        "p00": 0.20581257413997625,
+        "p01": 0.5711743772241993,
+        "p10": 0.4319395017793594,
+        "p11": 1.0,
+        "reference_positive_systems": 562
+      },
+      "exclude_primary_candidate_events_recomputed": {
+        "eligible_systems": 4898,
+        "interaction": 0.2137728459530026,
+        "p00": 0.20778938207136638,
+        "p01": 0.5757180156657964,
+        "p10": 0.4182985204525675,
+        "p11": 1.0,
+        "reference_positive_systems": 766
+      },
+      "exclude_primary_candidate_systems": {
+        "eligible_systems": 4522,
+        "interaction": 0.20316214931050883,
+        "p00": 0.21148359486447932,
+        "p01": 0.5834522111269614,
+        "p10": 0.424869234427009,
+        "p11": 1.0,
+        "reference_positive_systems": 701
+      },
+      "original_complete_grid": {
+        "eligible_systems": 4904,
+        "interaction": 0.2122886866059818,
+        "p00": 0.20871261378413525,
+        "p01": 0.577373211963589,
+        "p10": 0.4190507152145644,
+        "p11": 1.0,
+        "reference_positive_systems": 769
+      }
+    },
+    "factorial_scenarios": [
+      "exclude_any_concurrent_date_events_recomputed",
+      "exclude_any_concurrent_date_systems",
+      "exclude_primary_candidate_events_recomputed",
+      "exclude_primary_candidate_systems",
+      "original_complete_grid"
+    ],
+    "primary_candidate_events": 1846,
+    "primary_candidate_systems": 388
+  }
+}

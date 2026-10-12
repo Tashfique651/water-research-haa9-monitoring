@@ -1,0 +1,13 @@
+cohort_id,cohort_label,scope_role,analysis,spearman_rho,ci_low,ci_high,n_pairs,n_systems,bootstrap_reps,bootstrap_method
+SYR3_primary,SYR3 2006 to 2011,primary replication,both_detected,0.5923100310940376,0.5789330629249815,0.6053690983055463,193329,10893,10000,whole-system resampling of fixed global midranks
+SYR3_primary,SYR3 2006 to 2011,primary replication,finite_interval_midpoints_descriptive,0.6857345795492136,,,218543,15809,0,point estimate only; interval-midpoint sensitivity
+SYR3_primary,SYR3 2006 to 2011,primary replication,system_median_both_detected,0.771403517876529,0.7630015013385245,0.7800337988152364,10893,10893,10000,whole-system resampling of system medians with fixed global midranks
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,both_detected,0.5905837125585525,,,190656,10649,0,whole-system resampling of fixed global midranks
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,finite_interval_midpoints_descriptive,0.6719072487967573,,,212380,15451,0,point estimate only; interval-midpoint sensitivity
+SYR3_RT_only,"SYR3 2006 to 2011, routine only",sensitivity,system_median_both_detected,0.7721363367884015,,,10649,10649,0,whole-system resampling of system medians with fixed global midranks
+CA2025_primary_DS,California 2025 distribution,primary external validation,both_detected,0.6131922144384965,0.5631768885872223,0.6594931356476663,5885,865,10000,whole-system resampling of fixed global midranks
+CA2025_primary_DS,California 2025 distribution,primary external validation,finite_interval_midpoints_descriptive,0.7907413203648074,,,8767,1526,0,point estimate only; interval-midpoint sensitivity
+CA2025_primary_DS,California 2025 distribution,primary external validation,system_median_both_detected,0.6782085850017785,0.6397262655618166,0.7135717833637885,865,865,10000,whole-system resampling of system medians with fixed global midranks
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,both_detected,0.6005181568038178,,,6123,883,0,whole-system resampling of fixed global midranks
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,finite_interval_midpoints_descriptive,0.7870594241830613,,,9190,1573,0,point estimate only; interval-midpoint sensitivity
+CA2025_all_exact,California 2025 all exact pairs,sensitivity,system_median_both_detected,0.6681459847175627,,,883,883,0,whole-system resampling of system medians with fixed global midranks

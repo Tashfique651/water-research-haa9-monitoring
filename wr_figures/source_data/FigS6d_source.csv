@@ -1,0 +1,3 @@
+source_panel,source_input_path,weighting,estimand,estimate,ci_lower,ci_upper,direction_rows,unique_PWS,PWS_with_two_directions,bootstrap_unit
+d,wr_results/haa9_revision/support_direction_weighting.csv,equal_PWS,interaction,0.0326797385620915,0.0225408496732026,0.0431372549019607,1021,765,256,PWS_cluster_preserving_all_direction_rows
+d,wr_results/haa9_revision/support_direction_weighting.csv,equal_direction_row,interaction,0.048971596474045,0.0337571852230674,0.0640044378712142,1021,765,256,PWS_cluster_preserving_all_direction_rows

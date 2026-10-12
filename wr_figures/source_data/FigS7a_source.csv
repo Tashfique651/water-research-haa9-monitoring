@@ -1,0 +1,10 @@
+source_panel,source_input_path,species,abbreviation,mrl_ug_L,events,systems,detected_events,detected_event_fraction,censored_events,systems_with_detection,detected_mean_ug_L,detected_median_ug_L,all_event_mean_nd0_ug_L
+a,results/additional/species_coverage_censoring.csv,monochloroacetic acid,MCAA,2.0,63432,4924,7037,0.1109376971,56395,1621,4.064566577,2.87,0.4509136556
+a,results/additional/species_coverage_censoring.csv,dichloroacetic acid,DCAA,0.2,63432,4924,59461,0.9373975281,3971,4685,9.725726518,7.9,9.116871997
+a,results/additional/species_coverage_censoring.csv,trichloroacetic acid,TCAA,0.5,63432,4924,52732,0.8313154244,10700,3996,9.827129888,7.4,8.169444653
+a,results/additional/species_coverage_censoring.csv,monobromoacetic acid,MBAA,0.3,63432,4924,14611,0.2303411527,48821,2528,0.7318826476,0.52,0.1685826927
+a,results/additional/species_coverage_censoring.csv,dibromoacetic acid,DBAA,0.3,63432,4924,38337,0.604379493,25095,3968,1.777538066,1.0,1.074307555
+a,results/additional/species_coverage_censoring.csv,bromochloroacetic acid,BCAA,0.3,63432,4924,58186,0.9172972632,5246,4657,2.997419309,2.4,2.749524529
+a,results/additional/species_coverage_censoring.csv,bromodichloroacetic acid,BDCAA,0.5,63432,4924,51078,0.8052402573,12354,4107,2.81684329,2.11,2.268235616
+a,results/additional/species_coverage_censoring.csv,chlorodibromoacetic acid,CDBAA,0.3,63432,4924,40940,0.6454155631,22492,3946,1.183127495,0.773,0.7636088985
+a,results/additional/species_coverage_censoring.csv,tribromoacetic acid,TBAA,2.0,63432,4924,3483,0.0549091941,59949,781,3.382427792,2.656,0.1857263842

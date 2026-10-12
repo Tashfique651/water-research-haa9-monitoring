@@ -1,0 +1,10 @@
+{
+  "events": 63105,
+  "systems": 4904,
+  "B60_positive_systems": 769,
+  "strict_date_systems": 2636,
+  "later_positive_systems": 420,
+  "bootstrap_replicates": 10000,
+  "source": "archived paired events; existing concentrations unchanged",
+  "scope": "independent reconstruction, not an original-publisher download"
+}

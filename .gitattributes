@@ -1,0 +1,19 @@
+# Preserve exact bytes because provenance manifests hash text as well as binary
+# outputs. LF and CRLF are both valid; checkout must not rewrite archived assets.
+* -text
+
+*.accdb binary
+*.docx binary
+*.eps binary
+*.gz binary
+*.jpg binary
+*.jpeg binary
+*.mdb binary
+*.parquet binary
+*.pdf binary
+*.png binary
+*.tif binary
+*.tiff binary
+*.wasm binary
+*.xlsx binary
+*.zip binary

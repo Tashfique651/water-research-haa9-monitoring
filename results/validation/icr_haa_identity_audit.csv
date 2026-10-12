@@ -1,0 +1,7 @@
+scope,total,n_events,reported_present,reported_numeric,reported_minus999,component_identity_supported,identity_matches,identity_mismatches,max_absolute_numeric_difference_ug_l,tolerance_ug_l
+all_dbp,HAA5,18214,15207,13370,1837,15207,15207,0,2.842170943040401e-14,1e-09
+primary_distribution,HAA5,8084,6711,5928,783,6711,6711,0,2.842170943040401e-14,1e-09
+all_ds_sensitivity,HAA5,13282,11046,9699,1347,11046,11046,0,2.842170943040401e-14,1e-09
+all_dbp,HAA9,18214,3461,2969,492,3461,3461,0,2.842170943040401e-14,1e-09
+primary_distribution,HAA9,8084,1520,1310,210,1520,1520,0,2.842170943040401e-14,1e-09
+all_ds_sensitivity,HAA9,13282,2494,2122,372,2494,2494,0,2.842170943040401e-14,1e-09

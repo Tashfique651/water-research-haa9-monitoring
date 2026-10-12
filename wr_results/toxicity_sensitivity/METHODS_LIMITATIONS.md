@@ -1,0 +1,5 @@
+# In-vitro cytotoxicity-weighted composition sensitivity
+
+Species concentrations were converted from micrograms per litre to molar concentration and divided by Chinese hamster ovary cell LC50 values. HAA5 and the four additional HAA9 species were summed separately. Nondetects were evaluated at zero, one-half the reported minimum reporting level, and the full reporting level. Two public Peterson supporting-data coefficient tables were analysed independently because several LC50 values differ, particularly for tribromoacetic acid. The R-supporting table is the prespecified coefficient source and the dimension table is a coefficient sensitivity. All intervals resample public water systems and preserve records within systems.
+
+The resulting dimensionless index is used only to test whether mass fraction understates composition under one in-vitro cytotoxicity weighting scheme. It is not an estimate of human dose, toxicity in vivo, health risk, disease burden, regulatory compliance, or benefit from a monitoring change.

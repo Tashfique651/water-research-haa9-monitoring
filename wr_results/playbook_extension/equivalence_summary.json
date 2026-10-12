@@ -1,0 +1,19 @@
+{
+  "reference_positive_systems": 769,
+  "mean_full_record_physical_samples": 18.40182054616385,
+  "median_full_record_physical_samples": 16.0,
+  "full_HAA5_record_capture": 0.577373211963589,
+  "minimum_integer_HAA9_samples_matching_full_HAA5_capture": 4,
+  "HAA9_capture_at_matching_k": 0.5787977391666956,
+  "paired_difference_at_matching_k": 0.0014245272031065959,
+  "HAA9_capture_at_k4": 0.5787977391666956,
+  "HAA9_capture_at_k4_ci_lower": 0.559831170820021,
+  "HAA9_capture_at_k4_ci_upper": 0.5984601244765845,
+  "paired_difference_k4_minus_full_HAA5": 0.0014245272031065959,
+  "paired_difference_k4_ci_lower": -0.030417123837260883,
+  "paired_difference_k4_ci_upper": 0.03555857805468806,
+  "critical_HAA9_to_HAA5_cost_ratio": 3.74,
+  "critical_cost_ratio_ci_lower": 3.39,
+  "critical_cost_ratio_ci_upper": 4.14,
+  "cost_interpretation": "Equal expected analytical budget, using system-specific observed sample counts and fractional randomization between adjacent integer HAA9 sample counts"
+}

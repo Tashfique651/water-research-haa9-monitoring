@@ -1,0 +1,2 @@
+contrast,estimate,ci_lower,ci_upper,systems,status
+HAA9_k4_minus_HAA5_k12,0.0781513497488889,0.05109279170352867,0.1067127910601125,769,exploratory_previously_reported_candidate_outside_32_contrast_family

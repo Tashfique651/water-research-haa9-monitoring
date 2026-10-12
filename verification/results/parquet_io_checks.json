@@ -1,0 +1,32 @@
+[
+  {
+    "file": "data/processed/ucmr4/system_round_panel_maxima.parquet",
+    "rows": 15285,
+    "columns": 9,
+    "mismatched_columns": []
+  },
+  {
+    "file": "data/processed/ucmr4/system_contributions_primary_B60.parquet",
+    "rows": 4904,
+    "columns": 24,
+    "mismatched_columns": []
+  },
+  {
+    "file": "wr_results/haa9_revision/budget_systems.parquet",
+    "rows": 12304,
+    "columns": 15,
+    "mismatched_columns": []
+  },
+  {
+    "file": "wr_results/haa9_revision/forward_out_of_fold_predictions.parquet",
+    "rows": 2636,
+    "columns": 66,
+    "mismatched_columns": []
+  },
+  {
+    "file": "data/processed/ucmr4/indicator_records_clean.parquet",
+    "rows": 49454,
+    "columns": 14,
+    "mismatched_columns": []
+  }
+]

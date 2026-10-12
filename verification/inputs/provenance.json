@@ -1,0 +1,21 @@
+{
+  "source": "data/processed/ucmr4/paired_haa_events.parquet",
+  "source_sha256": "6a8b4c80d509cebe7685f061faf39346070af4d11bb17c2ab165d82300bf649d",
+  "derived": "paired_events.csv.gz",
+  "derived_sha256": "b5dabbea89c77a0665ec122debefc52b3dc691a2b5072466a6cc327b34966bd7",
+  "rows": 63432,
+  "columns": [
+    "PWSID",
+    "FacilityID",
+    "SamplePointID",
+    "CollectionDate",
+    "SampleEventCode",
+    "SampleID",
+    "site_id",
+    "HAA5",
+    "HAA6Br",
+    "HAA9",
+    "finite_grid_system_eligible"
+  ],
+  "operation": "column selection and lossless decimal serialization; source retained unchanged"
+}

@@ -1,0 +1,8 @@
+source_panel,source_input_path,archive,evidence_role,vector_glyph,color
+a,archive-specific evidence roles; glyphs are illustrative,UCMR4,Paired replay,sample,#173B57
+a,archive-specific evidence roles; glyphs are illustrative,SYR4,"Sampling
+context",calendar,#008C95
+a,archive-specific evidence roles; glyphs are illustrative,ICR,"Historical
+check",clock,#E67E22
+a,archive-specific evidence roles; glyphs are illustrative,California,"Routine
+context",water,#B23A73

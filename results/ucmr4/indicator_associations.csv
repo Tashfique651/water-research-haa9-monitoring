@@ -1,0 +1,31 @@
+source_indicator,indicator_censoring_value,distribution_outcome,weighting,n,spearman_rho,two_sided_p_value_descriptive,join_level
+bromide,lower,f_brominated_mean,system_round,9292,0.6426748794,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,lower,f_brominated_mean,system_equal_after_round_mean,3355,0.6540420084,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,midpoint,f_brominated_mean,system_round,9292,0.6427842909,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,midpoint,f_brominated_mean,system_equal_after_round_mean,3355,0.6534132024,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,upper,f_brominated_mean,system_round,9292,0.6423420416,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,upper,f_brominated_mean,system_equal_after_round_mean,3355,0.649864899,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,lower,f_extra_mean,system_round,9292,0.4877396267,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,lower,f_extra_mean,system_equal_after_round_mean,3355,0.4462956943,5.827290399e-164,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,midpoint,f_extra_mean,system_round,9292,0.4878416673,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,midpoint,f_extra_mean,system_equal_after_round_mean,3355,0.4458875359,1.249884006e-163,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,upper,f_extra_mean,system_round,9292,0.487275706,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,upper,f_extra_mean,system_equal_after_round_mean,3355,0.443797758,6.117552932e-162,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,lower,HAA9_max,system_round,9563,-0.1713718515,6.167695125e-64,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,lower,HAA9_max,system_equal_after_round_mean,3435,-0.1539610658,1.143549941e-19,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,midpoint,HAA9_max,system_round,9563,-0.1715474655,4.580003973e-64,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,midpoint,HAA9_max,system_equal_after_round_mean,3435,-0.1506172244,6.995563665e-19,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,upper,HAA9_max,system_round,9563,-0.1729868356,3.946274688e-65,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+bromide,upper,HAA9_max,system_equal_after_round_mean,3435,-0.1432167695,3.333909857e-17,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,lower,HAA9_max,system_round,9571,0.6074599648,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,lower,HAA9_max,system_equal_after_round_mean,3432,0.7067726141,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,midpoint,HAA9_max,system_round,9571,0.6076056284,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,midpoint,HAA9_max,system_equal_after_round_mean,3432,0.7073844729,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,upper,HAA9_max,system_round,9571,0.6067392703,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,upper,HAA9_max,system_equal_after_round_mean,3432,0.7075287502,0,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,lower,f_extra_mean,system_round,9300,-0.1669615783,4.084838708e-59,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,lower,f_extra_mean,system_equal_after_round_mean,3352,-0.2072115946,7.866506209e-34,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,midpoint,f_extra_mean,system_round,9300,-0.1660246239,1.825931113e-58,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,midpoint,f_extra_mean,system_equal_after_round_mean,3352,-0.2070511206,8.843839585e-34,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,upper,f_extra_mean,system_round,9300,-0.1636633736,7.644219021e-57,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired
+total organic carbon,upper,f_extra_mean,system_equal_after_round_mean,3352,-0.207663975,5.651721842e-34,PWSID plus SampleEventCode; source and distribution sites are not asserted to be hydraulically paired

@@ -1,0 +1,21 @@
+Model / score,Metric,Estimate,Fixed-rule 95%,Full-pipeline 95%
+HAA5 maximum,AUROC,0.7878,0.7657 to 0.8078,0.7657 to 0.8078
+HAA5 maximum,Average precision,0.3992,0.3548 to 0.4486,0.3548 to 0.4486
+HAA9 maximum,AUROC,0.8092,0.7876 to 0.8293,0.7876 to 0.8293
+HAA9 maximum,Average precision,0.4300,0.3827 to 0.4810,0.3827 to 0.4810
+HAA5 logistic,AUROC,0.7860,0.7640 to 0.8060,0.7620 to 0.8052
+HAA5 logistic,Average precision,0.3957,0.3502 to 0.4445,0.3474 to 0.4419
+HAA5 logistic,Brier score,0.1146,0.1069 to 0.1231,0.1071 to 0.1230
+HAA5 logistic,Log loss,0.3672,0.3466 to 0.3908,0.3463 to 0.3904
+HAA9 logistic,AUROC,0.8075,0.7857 to 0.8277,0.7837 to 0.8271
+HAA9 logistic,Average precision,0.4271,0.3803 to 0.4775,0.3782 to 0.4761
+HAA9 logistic,Brier score,0.1110,0.1035 to 0.1194,0.1037 to 0.1194
+HAA9 logistic,Log loss,0.3568,0.3360 to 0.3804,0.3360 to 0.3801
+Five-species logistic,AUROC,0.7913,0.7688 to 0.8120,0.7638 to 0.8113
+Five-species logistic,Average precision,0.4100,0.3652 to 0.4613,0.3576 to 0.4593
+Five-species logistic,Brier score,0.1133,0.1055 to 0.1216,0.1058 to 0.1219
+Five-species logistic,Log loss,0.3648,0.3434 to 0.3877,0.3443 to 0.3896
+Nine-species logistic,AUROC,0.8005,0.7785 to 0.8222,0.7709 to 0.8203
+Nine-species logistic,Average precision,0.4354,0.3877 to 0.4901,0.3773 to 0.4848
+Nine-species logistic,Brier score,0.1107,0.1031 to 0.1191,0.1037 to 0.1198
+Nine-species logistic,Log loss,0.3584,0.3371 to 0.3820,0.3391 to 0.3842

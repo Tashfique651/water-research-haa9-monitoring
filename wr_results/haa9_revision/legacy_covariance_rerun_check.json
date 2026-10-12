@@ -1,0 +1,11 @@
+{
+  "rows": 30,
+  "maximum_absolute_differences": {
+    "coefficient_log_odds": 4.690692279041286e-15,
+    "robust_standard_error": 3.83026943495679e-14,
+    "adjusted_odds_ratio": 1.4210854715202004e-14,
+    "odds_ratio_ci_lower": 8.126832540256146e-14,
+    "odds_ratio_ci_upper": 3.680611371237319e-12
+  },
+  "tolerance": 1e-09
+}

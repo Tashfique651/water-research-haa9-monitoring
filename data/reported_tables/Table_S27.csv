@@ -1,0 +1,4 @@
+Rule,Comparator,n,"Difference, points (95% interval)"
+Highest early HAA9 site,Highest early HAA5 site,420,−0.52 (−2.14 to +1.07)
+Highest early HAA9 site,Random early common site,420,+11.49 (+7.50 to +15.50)
+Highest early HAA5 site,Random early common site,420,+12.00 (+8.03 to +15.97)

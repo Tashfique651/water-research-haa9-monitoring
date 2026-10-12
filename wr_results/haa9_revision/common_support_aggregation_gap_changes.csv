@@ -1,0 +1,5 @@
+strategy,metric,estimate,ci_lower,ci_upper,reference
+OEL_form_gap_minus_maximum_gap,change_in_panel_gap,-0.05026135906714918,-0.06473663047848813,-0.0365902694008846,all_common_support_PWS
+LRAA_form_gap_minus_maximum_gap,change_in_panel_gap,-0.06312826698833937,-0.07679935665460394,-0.04985926819461198,all_common_support_PWS
+OEL_form_gap_minus_maximum_gap,change_in_panel_gap,-0.20491803278688525,-0.260731421602452,-0.1519072275200766,fixed_maximum_HAA9_positive
+LRAA_form_gap_minus_maximum_gap,change_in_panel_gap,-0.2573770491803279,-0.3110758233803836,-0.2057311810816631,fixed_maximum_HAA9_positive

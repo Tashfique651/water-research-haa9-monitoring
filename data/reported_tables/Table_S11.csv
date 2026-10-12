@@ -1,0 +1,15 @@
+Quantity,Estimate,95% interval / support
+Full observed HAA5 record capture,0.5774,769 reference-positive PWSs
+HAA9: up to 1 physical sample,0.2187,0.2068–0.2308
+HAA9: up to 2 physical samples,0.3731,0.3563–0.3898
+HAA9: up to 4 physical samples,0.5788,0.5598–0.5985
+HAA9: up to 8 physical samples,0.7980,0.7807–0.8145
+HAA9: up to 12 physical samples,0.8971,0.8843–0.9092
+Up to four HAA9 samples minus complete HAA5 record,0.0014,-0.0304–0.0356
+"Full-record samples per positive system, mean",18.40,Median 16; 95th percentile 32; maximum 80
+"Samples per uniformly selected round, mean",4.80,Median 4; 95th percentile 9; maximum 20
+"Full-record collection dates, mean",4.13,Median 4; 95th percentile 6; maximum 13
+Largest tested total assay-cost ratio,3.74 HAA9/HAA5,3.39–4.14
+Equal-budget HAA9 capture at ratio 3.0,0.6488,Difference from full HAA5 = +0.0714
+Equal-budget HAA9 capture at ratio 4.0,0.5579,Difference from full HAA5 = -0.0195
+Equal-budget HAA9 capture at ratio 5.0,0.4870,Difference from full HAA5 = -0.0904

@@ -1,0 +1,12 @@
+Audit or sampling unit,Support,p₀₀,p₁₀,p₀₁,"Interaction, percentage points"
+Multi-date event-code groups,"998/15,285 (6.53%)",n/a,n/a,n/a,n/a
+Span greater than 7 days,"626/15,285 (4.10%)",n/a,n/a,n/a,n/a
+Span greater than 30 days,"341/15,285 (2.23%)",n/a,n/a,n/a,n/a
+Cross-calendar-year groups,"80/15,285 (0.52%)",n/a,n/a,n/a,n/a
+Multi-facility groups,"2,740/15,285 (17.93%)",n/a,n/a,n/a,n/a
+Multi-site groups,"14,322/15,285 (93.70%)",n/a,n/a,n/a,n/a
+"Administrative round, primary",769 PWSs,0.2087,0.4191,0.5774,21.23
+Event-code-year,769 PWSs,0.2080,0.4173,0.5774,21.33
+Exact collection date,769 PWSs,0.1992,0.4017,0.5774,22.02
+Facility-event-code-year,769 PWSs,0.1869,0.3687,0.5774,24.08
+Physical sample,769 PWSs,0.1066,0.2187,0.5774,31.05

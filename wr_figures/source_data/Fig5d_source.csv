@@ -1,0 +1,5 @@
+source_panel,source_input_path,cohort,n_systems,quantified_relative_envelope,definite,possible_not_definite,not_possible,possible_including_definite
+d,wr_results/haa9_revision/chemistry_discordance_summary.csv,official_discordant,325,0.0,279,46,0,325
+d,wr_results/haa9_revision/chemistry_discordance_summary.csv,official_discordant,325,0.05,132,193,0,325
+d,wr_results/haa9_revision/chemistry_discordance_summary.csv,official_discordant,325,0.1,58,267,0,325
+d,wr_results/haa9_revision/chemistry_discordance_summary.csv,official_discordant,325,0.2,18,307,0,325

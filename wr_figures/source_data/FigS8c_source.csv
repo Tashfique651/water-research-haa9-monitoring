@@ -1,0 +1,7 @@
+source_panel,source_input_path,scope,analyte,component_count,documented_component_mrl_sum_ug_l,threshold_ug_l,reported_minus999_events,component_verified_minus999_events,inconsistent_minus999_events,recovered_definitely_below_events,recovery_rule
+c,wr_results/validation/icr_minus999_recovery_audit.csv,all_dbp,HAA5,5,6.0,60.0,1837,1837,0,1837,total and every named component are -999; sum of component MRLs is below 60 ug/L
+c,wr_results/validation/icr_minus999_recovery_audit.csv,primary_distribution,HAA5,5,6.0,60.0,783,783,0,783,total and every named component are -999; sum of component MRLs is below 60 ug/L
+c,wr_results/validation/icr_minus999_recovery_audit.csv,all_ds_sensitivity,HAA5,5,6.0,60.0,1347,1347,0,1347,total and every named component are -999; sum of component MRLs is below 60 ug/L
+c,wr_results/validation/icr_minus999_recovery_audit.csv,all_dbp,HAA9,9,14.0,60.0,492,492,0,492,total and every named component are -999; sum of component MRLs is below 60 ug/L
+c,wr_results/validation/icr_minus999_recovery_audit.csv,primary_distribution,HAA9,9,14.0,60.0,210,210,0,210,total and every named component are -999; sum of component MRLs is below 60 ug/L
+c,wr_results/validation/icr_minus999_recovery_audit.csv,all_ds_sensitivity,HAA9,9,14.0,60.0,372,372,0,372,total and every named component are -999; sum of component MRLs is below 60 ug/L

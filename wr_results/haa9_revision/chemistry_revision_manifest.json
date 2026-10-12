@@ -1,0 +1,12 @@
+{
+  "protocol": "config/haa9_chemistry_revision_protocol.md",
+  "primary_totals_unchanged": true,
+  "measurement_precision_observed": false,
+  "n_eligible_systems": 4904,
+  "n_events": 63105,
+  "data_files": {
+    "data\\processed\\ucmr4\\paired_haa_events.parquet": "6a8b4c80d509cebe7685f061faf39346070af4d11bb17c2ab165d82300bf649d",
+    "data\\processed\\ucmr4\\indicator_system_round_summary.parquet": "438a6f46485d4e28f784cde240903a419a4508efb9a484d4195f6b60261e8134",
+    "results\\additional\\ucmr4_species_event_panel.parquet": "7e06acf136c3b8870abda798a2b94fd26a55a6db5b70c61e7858cf6ba7f3445c"
+  }
+}

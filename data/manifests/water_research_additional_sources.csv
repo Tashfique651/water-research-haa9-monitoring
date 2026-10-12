@@ -1,0 +1,2 @@
+dataset,source_url,analysis_coverage,retrieved_utc_date,terms_note,archive_filename,bytes,sha256
+California SDWIS4 water-quality archive,https://www.waterboards.ca.gov/drinking_water/certlic/drinkingwater/documents/edtlibrary/SDWIS4.zip,"routine distribution-system HAA5 and TTHM records, calendar years 2023-2025",2026-09-14,California State Water Resources Control Board public monitoring archive; verify current publisher terms before redistribution,SDWIS4.zip,406219861,a4d8543490ff9d42ca180fcb5851c8d1e44793647531188350ee9e6fff2e1766

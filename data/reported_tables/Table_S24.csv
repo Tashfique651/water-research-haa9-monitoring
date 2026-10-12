@@ -1,0 +1,8 @@
+Stratum,n,Full HAA5 (%),Four-sample HAA9 (%),"Paired difference, points (95% interval)"
+All reference-positive,769,57.74,57.88,+0.14 (-3.20 to +3.51)
+One positive round,474,46.41,45.29,-1.12 (-5.74 to +3.40)
+At least two positive rounds,295,75.93,78.11,+2.17 (-2.39 to +6.96)
+Margin ≤5 µg/L,168,5.36,36.77,+31.41 (+26.56 to +35.98)
+Margin >5 µg/L,601,72.38,63.78,-8.60 (-12.20 to -4.84)
+Margin >10 µg/L,470,83.62,68.43,-15.18 (-18.95 to -11.32)
+Margin >20 µg/L,306,92.48,73.70,-18.79 (-22.68 to -14.59)

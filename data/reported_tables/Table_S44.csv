@@ -1,0 +1,7 @@
+Denominator,HAA9 rule,Baseline restricted days,Advancement (simultaneous 95%),Augmented restricted days
+420 positives,"Uniform, one per later round",32.16,"14.23 (10.58, 17.89)",17.93
+420 positives,Earlier HAA5-ranked site,32.16,"17.82 (14.16, 21.47)",14.35
+420 positives,Earlier HAA9-ranked site,32.16,"17.98 (14.33, 21.64)",14.18
+"All 2,636","Uniform, one per later round",5.12,"2.27 (1.63, 2.91)",2.86
+"All 2,636",Earlier HAA5-ranked site,5.12,"2.84 (2.20, 3.48)",2.29
+"All 2,636",Earlier HAA9-ranked site,5.12,"2.87 (2.22, 3.51)",2.26

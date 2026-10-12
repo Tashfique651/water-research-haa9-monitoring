@@ -1,0 +1,13 @@
+{
+  "reference_positive_systems": 769,
+  "systems_with_valid_50_state_or_DC_code": 709,
+  "valid_state_code_coverage_fraction": 0.9219765929778934,
+  "excluded_state_or_regional_codes": {
+    "PR": 55,
+    "01": 2,
+    "08": 1,
+    "09": 1,
+    "VI": 1
+  },
+  "mapping_rule": "Only USPS codes for the 50 states and District of Columbia were retained. Numeric EPA regional or tribal codes and territories were not reassigned without a verified crosswalk."
+}

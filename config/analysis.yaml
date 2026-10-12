@@ -1,0 +1,41 @@
+project:
+  title: "Chemical scope and sampling design jointly constrain disinfection byproduct monitoring"
+  target_journal: "Water Research"
+  article_type: "Research Paper"
+  analysis_version: "2.0.0"
+  frozen_on: "2026-09-14"
+
+estimand:
+  unit: "public water system"
+  reference_panel: "HAA9"
+  restricted_panel: "HAA5"
+  primary_benchmark_ug_l: 60
+  benchmark_grid_ug_l: [20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
+  reference_rule: "At least one observed HAA9 result exceeds the benchmark within the finite observed grid"
+  restricted_rule: "At least one observed HAA5 result exceeds the same benchmark"
+  sampling_rule: "One outcome-blind monitoring round per system compared with all observed rounds"
+  weighting: "Equal weight per public water system"
+
+uncertainty:
+  bootstrap_replicates: 10000
+  bootstrap_unit: "public water system"
+  interval: "percentile 95 percent confidence interval"
+  random_seed: 20260914
+
+validation:
+  holdout_fraction: 0.20
+  holdout_assignment: "SHA-256 hash of PWSID with fixed study salt"
+  icr_primary_locations: ["AVG", "AVG1", "AVG2", "MAX", "NFC"]
+  icr_sensitivity_locations: ["AVG", "AVG1", "AVG2", "MAX", "NFC", "DSE", "SDS"]
+
+reporting:
+  figure_font: "Arial Narrow"
+  raster_dpi: 600
+  vector_formats: ["svg", "pdf"]
+  main_figures: 9
+  manuscript_references: [60, 80]
+  manuscript_abstract_max_words: 250
+  manuscript_total_max_words_including_references: 8000
+  supplementary_figures: 10
+  highlights_bullets: [3, 5]
+  highlights_max_characters: 85

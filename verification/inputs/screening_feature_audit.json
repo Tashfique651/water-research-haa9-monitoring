@@ -1,0 +1,30 @@
+{
+  "six_field_linkage": [
+    "PWSID",
+    "FacilityID",
+    "SamplePointID",
+    "CollectionDate",
+    "SampleEventCode",
+    "SampleID"
+  ],
+  "source_sha256": "7e06acf136c3b8870abda798a2b94fd26a55a6db5b70c61e7858cf6ba7f3445c",
+  "eligible_systems": 2636,
+  "early_matched_samples": 24211,
+  "later_positive_systems": 420,
+  "maximum_absolute_column_errors_against_released_features": {
+    "early_HAA5": 0.0,
+    "early_HAA9": 0.0,
+    "outcome": 0.0,
+    "early_samples": 0.0,
+    "early_MCAA": 0.0,
+    "early_DCAA": 0.0,
+    "early_TCAA": 0.0,
+    "early_MBAA": 0.0,
+    "early_DBAA": 0.0,
+    "early_BCAA": 0.0,
+    "early_BDCAA": 0.0,
+    "early_CDBAA": 0.0,
+    "early_TBAA": 0.0
+  },
+  "result": "matched"
+}

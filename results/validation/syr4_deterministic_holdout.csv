@@ -1,0 +1,3 @@
+split,n_pairs,n_systems,both_detected_n,both_detected_systems,spearman_rho_both_detected,jointly_classifiable_n,jointly_classifiable_systems,threshold_agreement,haa5_above_rate_classifiable,tthm_above_rate_classifiable
+development,419884,21167,346136,15558,0.6184352226754555,406477,20465,0.9319248075536869,0.02957096811412047,0.06798739524228394
+holdout,107412,5373,90014,3953,0.6191366770137279,104251,5205,0.933391526220372,0.028586472643722178,0.06781370792872632
